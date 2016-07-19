@@ -65,13 +65,13 @@ gulp.task('browser-sync', function() {
         /*
         I like to use a vhost, WAMP guide: https://www.kristengrote.com/blog/articles/how-to-set-up-virtual-hosts-using-wamp, XAMP guide: http://sawmac.com/xampp/virtualhosts/
         */
-        proxy: 'your_dev_site.url'
+        // proxy: 'your_dev_site.url'
         /* For a static server you would use this: */
-        /*
+        
         server: {
             baseDir: './'
         }
-        */
+        
     });
 });
 
