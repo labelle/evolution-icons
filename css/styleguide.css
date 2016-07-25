@@ -1,0 +1,705 @@
+/*******************************************************************************
+*
+* styleguide.css
+*
+* This is a styleguide framework
+* It uses the Elements framework as a skeleton foundation 
+* 
+* _styleguide.scss is importing only one file that is needed to work properly,
+* that file is _variables.scss. If variable name would change in _variables.scss they
+* would have to be changed in _styleguide.scss and its relevant elements scss file.
+*
+*******************************************************************************/
+/* ================================================================================ */
+/* ----------------------------------- ICONS -------------------------------------- */
+/* ================================================================================ */
+/* Icon Sizes */
+.evo-icon-0 {
+  width: 0.3rem;
+  height: 0.3rem; }
+
+.evo-icon-1 {
+  width: 0.39rem;
+  height: 0.39rem; }
+
+.evo-icon-2 {
+  width: 0.48rem;
+  height: 0.48rem; }
+
+.evo-icon-3 {
+  width: 0.57rem;
+  height: 0.57rem; }
+
+.evo-icon-4, .evo-icon-header-smallest, .evo-icon-header-inverse-smallest {
+  width: 0.66rem;
+  height: 0.66rem; }
+
+.evo-icon-5, .evo-icon-smallest, .evo-icon-inverse-smallest {
+  width: 0.75rem;
+  height: 0.75rem; }
+
+.evo-icon-6, .evo-icon-smaller, .evo-icon-inverse-smaller {
+  width: 0.84rem;
+  height: 0.84rem; }
+
+.evo-icon-7, .evo-icon-small, .evo-icon-inverse-small {
+  width: 0.93rem;
+  height: 0.93rem; }
+
+.evo-icon-8, .evo-icon-header-smaller, .evo-icon, .evo-icon-header-inverse-smaller, .evo-icon-inverse {
+  width: 1.02rem;
+  height: 1.02rem; }
+
+.evo-icon-9, .evo-icon-big, .evo-icon-inverse-big {
+  width: 1.11rem;
+  height: 1.11rem; }
+
+.evo-icon-10, .evo-icon-bigger, .evo-icon-inverse-bigger {
+  width: 1.2rem;
+  height: 1.2rem; }
+
+.evo-icon-11, .evo-icon-header-small, .evo-icon-biggest, .evo-icon-header-inverse-small, .evo-icon-inverse-biggest {
+  width: 1.29rem;
+  height: 1.29rem; }
+
+.evo-icon-12 {
+  width: 1.38rem;
+  height: 1.38rem; }
+
+.evo-icon-13, .evo-icon-header, .evo-icon-header-inverse {
+  width: 1.47rem;
+  height: 1.47rem; }
+
+.evo-icon-14 {
+  width: 1.56rem;
+  height: 1.56rem; }
+
+.evo-icon-15 {
+  width: 1.65rem;
+  height: 1.65rem; }
+
+.evo-icon-16 {
+  width: 1.74rem;
+  height: 1.74rem; }
+
+.evo-icon-17 {
+  width: 1.83rem;
+  height: 1.83rem; }
+
+.evo-icon-18, .evo-icon-header-big, .evo-icon-header-inverse-big {
+  width: 1.92rem;
+  height: 1.92rem; }
+
+.evo-icon-19 {
+  width: 2.01rem;
+  height: 2.01rem; }
+
+.evo-icon-20 {
+  width: 2.1rem;
+  height: 2.1rem; }
+
+.evo-icon-21 {
+  width: 2.19rem;
+  height: 2.19rem; }
+
+.evo-icon-22, .evo-icon-header-bigger, .evo-icon-header-inverse-bigger {
+  width: 2.28rem;
+  height: 2.28rem; }
+
+.evo-icon-23 {
+  width: 2.37rem;
+  height: 2.37rem; }
+
+.evo-icon-24 {
+  width: 2.46rem;
+  height: 2.46rem; }
+
+.evo-icon-25 {
+  width: 2.55rem;
+  height: 2.55rem; }
+
+.evo-icon-26 {
+  width: 2.64rem;
+  height: 2.64rem; }
+
+.evo-icon-27 {
+  width: 2.73rem;
+  height: 2.73rem; }
+
+.evo-icon-28 {
+  width: 2.82rem;
+  height: 2.82rem; }
+
+.evo-icon-29 {
+  width: 2.91rem;
+  height: 2.91rem; }
+
+.evo-icon-30, .evo-icon-header-biggest, .evo-icon-header-inverse-biggest {
+  width: 3rem;
+  height: 3rem; }
+
+body, html {
+  font-size: 87.5% !important; }
+
+/* ================================================================================ */
+/* ------------------------------ STYLEGUIDE COLORS ------------------------------- */
+/* ================================================================================ */
+/* BRAND COLORS */
+.brand-color-1 {
+  color: #00a651; }
+
+.brand-color-1-bg {
+  background-color: #00a651; }
+
+.brand-color-2 {
+  color: #2e3192; }
+
+.brand-color-2-bg {
+  background-color: #2e3192; }
+
+.brand-color-3 {
+  color: #00aeef; }
+
+.brand-color-3-bg {
+  background-color: #00aeef; }
+
+.brand-color-4 {
+  color: #ec008c; }
+
+.brand-color-4-bg {
+  background-color: #ec008c; }
+
+/* NEUTRAL COLORS */
+.evo-black, .evo-icon-base, .evo-icon-header-biggest, .evo-icon-header-bigger, .evo-icon-header-big, .evo-icon-header, .evo-icon-header-small, .evo-icon-header-smaller, .evo-icon-header-smallest, .evo-icon-biggest, .evo-icon-bigger, .evo-icon-big, .evo-icon, .evo-icon-small, .evo-icon-smaller, .evo-icon-smallest {
+  color: #000000; }
+
+.evo-black-bg, .evo-form-inverse-base input, .evo-form-text-inverse-biggest input, .evo-form-text-inverse-bigger input, .evo-form-text-inverse-big input, .evo-form-text-inverse input, .evo-form-text-inverse-small input, .evo-form-text-inverse-smaller input, .evo-form-text-inverse-smallest input, .evo-form-dropdown-inverse-biggest input, .evo-form-dropdown-inverse-bigger input, .evo-form-dropdown-inverse-big input, .evo-form-dropdown-inverse input, .evo-form-dropdown-inverse-small input, .evo-form-dropdown-inverse-smaller input, .evo-form-dropdown-inverse-smallest input, .evo-form-checkbox-inverse-biggest input, .evo-form-checkbox-inverse-bigger input, .evo-form-checkbox-inverse-big input, .evo-form-checkbox-inverse input, .evo-form-checkbox-inverse-small input, .evo-form-checkbox-inverse-smaller input, .evo-form-checkbox-inverse-smallest input, .evo-form-radio-inverse-biggest input, .evo-form-radio-inverse-bigger input, .evo-form-radio-inverse-big input, .evo-form-radio-inverse input, .evo-form-radio-inverse-small input, .evo-form-radio-inverse-smaller input, .evo-form-radio-inverse-smallest input,
+.evo-form-inverse-base textarea, .evo-form-text-inverse-biggest textarea, .evo-form-text-inverse-bigger textarea, .evo-form-text-inverse-big textarea, .evo-form-text-inverse textarea, .evo-form-text-inverse-small textarea, .evo-form-text-inverse-smaller textarea, .evo-form-text-inverse-smallest textarea, .evo-form-dropdown-inverse-biggest textarea, .evo-form-dropdown-inverse-bigger textarea, .evo-form-dropdown-inverse-big textarea, .evo-form-dropdown-inverse textarea, .evo-form-dropdown-inverse-small textarea, .evo-form-dropdown-inverse-smaller textarea, .evo-form-dropdown-inverse-smallest textarea, .evo-form-checkbox-inverse-biggest textarea, .evo-form-checkbox-inverse-bigger textarea, .evo-form-checkbox-inverse-big textarea, .evo-form-checkbox-inverse textarea, .evo-form-checkbox-inverse-small textarea, .evo-form-checkbox-inverse-smaller textarea, .evo-form-checkbox-inverse-smallest textarea, .evo-form-radio-inverse-biggest textarea, .evo-form-radio-inverse-bigger textarea, .evo-form-radio-inverse-big textarea, .evo-form-radio-inverse textarea, .evo-form-radio-inverse-small textarea, .evo-form-radio-inverse-smaller textarea, .evo-form-radio-inverse-smallest textarea,
+.evo-form-inverse-base select, .evo-form-text-inverse-biggest select, .evo-form-text-inverse-bigger select, .evo-form-text-inverse-big select, .evo-form-text-inverse select, .evo-form-text-inverse-small select, .evo-form-text-inverse-smaller select, .evo-form-text-inverse-smallest select, .evo-form-dropdown-inverse-biggest select, .evo-form-dropdown-inverse-bigger select, .evo-form-dropdown-inverse-big select, .evo-form-dropdown-inverse select, .evo-form-dropdown-inverse-small select, .evo-form-dropdown-inverse-smaller select, .evo-form-dropdown-inverse-smallest select, .evo-form-checkbox-inverse-biggest select, .evo-form-checkbox-inverse-bigger select, .evo-form-checkbox-inverse-big select, .evo-form-checkbox-inverse select, .evo-form-checkbox-inverse-small select, .evo-form-checkbox-inverse-smaller select, .evo-form-checkbox-inverse-smallest select, .evo-form-radio-inverse-biggest select, .evo-form-radio-inverse-bigger select, .evo-form-radio-inverse-big select, .evo-form-radio-inverse select, .evo-form-radio-inverse-small select, .evo-form-radio-inverse-smaller select, .evo-form-radio-inverse-smallest select {
+  background-color: #000000; }
+
+.evo-white, .evo-header-inverse-base, .evo-header-inverse-jumbo, .evo-header-inverse-biggest, .evo-header-inverse-bigger, .evo-header-inverse-big, .evo-header-inverse, .evo-header-inverse-small, .evo-header-inverse-smaller, .evo-header-inverse-smallest, .evo-subheader-inverse-base, .evo-subheader-inverse-caps, .evo-subheader-inverse-biggest, .evo-subheader-inverse-bigger, .evo-subheader-inverse-big, .evo-subheader-inverse, .evo-subheader-inverse-small, .evo-subheader-inverse-smaller, .evo-subheader-inverse-smallest, .evo-text-inverse-base, .evo-text-inverse-intro, .evo-text-inverse-biggest, .evo-text-inverse-bigger, .evo-text-inverse-big, .evo-text-inverse, .evo-text-inverse-small, .evo-text-inverse-smaller, .evo-text-inverse-smallest, .evo-list-bullets-inverse-base, .evo-list-bullets-inverse-biggest, ul.evo-list-bullets-inverse-biggest, .evo-list-bullets-inverse-bigger, ul.evo-list-bullets-inverse-bigger, .evo-list-bullets-inverse-big, ul.evo-list-bullets-inverse-big, .evo-list-bullets-inverse, ul.evo-list-bullets-inverse, .evo-list-bullets-inverse-small, ul.evo-list-bullets-inverse-small, .evo-list-bullets-inverse-smaller, ul.evo-list-bullets-inverse-smaller, .evo-list-bullets-inverse-smallest, ul.evo-list-bullets-inverse-smallest, .evo-list-lines-inverse-base, .evo-list-lines-inverse-biggest, .evo-list-lines-inverse-bigger, .evo-list-lines-inverse-big, .evo-list-lines-inverse, .evo-list-lines-inverse-small, .evo-list-lines-inverse-smaller, .evo-list-lines-inverse-smallest, .evo-line-inverse-base, .evo-line-inverse-heaviest, .evo-line-inverse-heavier, .evo-line-inverse-heavy, .evo-line-inverse, .evo-line-inverse-thin, .evo-line-inverse-thinner, .evo-line-inverse-thinnest, .evo-top-border-inverse-base, .evo-top-border-inverse-heaviest, .evo-top-border-inverse-heavier, .evo-top-border-inverse-heavy, .evo-top-border-inverse, .evo-top-border-inverse-thin, .evo-top-border-inverse-thinner, .evo-top-border-inverse-thinnest, .evo-box-inverse-base, .evo-box-inverse-heaviest, .evo-box-inverse-heavier, .evo-box-inverse-heavy, .evo-box-inverse, .evo-box-inverse-thin, .evo-box-inverse-thinner, .evo-box-inverse-thinnest, .evo-form-inverse-base, .evo-form-text-inverse-biggest, .evo-form-text-inverse-bigger, .evo-form-text-inverse-big, .evo-form-text-inverse, .evo-form-text-inverse-small, .evo-form-text-inverse-smaller, .evo-form-text-inverse-smallest, .evo-form-dropdown-inverse-biggest, .evo-form-dropdown-inverse-bigger, .evo-form-dropdown-inverse-big, .evo-form-dropdown-inverse, .evo-form-dropdown-inverse-small, .evo-form-dropdown-inverse-smaller, .evo-form-dropdown-inverse-smallest, .evo-form-checkbox-inverse-biggest, .evo-form-checkbox-inverse-bigger, .evo-form-checkbox-inverse-big, .evo-form-checkbox-inverse, .evo-form-checkbox-inverse-small, .evo-form-checkbox-inverse-smaller, .evo-form-checkbox-inverse-smallest, .evo-form-radio-inverse-biggest, .evo-form-radio-inverse-bigger, .evo-form-radio-inverse-big, .evo-form-radio-inverse, .evo-form-radio-inverse-small, .evo-form-radio-inverse-smaller, .evo-form-radio-inverse-smallest, .evo-icon-inverse-base, .evo-icon-header-inverse-biggest, .evo-icon-header-inverse-bigger, .evo-icon-header-inverse-big, .evo-icon-header-inverse, .evo-icon-header-inverse-small, .evo-icon-header-inverse-smaller, .evo-icon-header-inverse-smallest, .evo-icon-inverse-biggest, .evo-icon-inverse-bigger, .evo-icon-inverse-big, .evo-icon-inverse, .evo-icon-inverse-small, .evo-icon-inverse-smaller, .evo-icon-inverse-smallest {
+  color: #FFFFFF; }
+
+.evo-white-bg {
+  background-color: #FFFFFF; }
+
+.evo-list-bullets-inverse-biggest, ul.evo-list-bullets-inverse-biggest {
+  line-height: 2.19091rem;
+  font-size: 1.74rem;
+  letter-spacing: 0.05rem-calc(0.08rem*rem); }
+
+ul.evo-list-bullets-inverse-biggest {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse-biggest li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.54792rem;
+  background-size: 0.48rem;
+  padding-left: 1.088rem;
+  margin-top: 1.02rem;
+  line-height: 1.60909rem; }
+
+.evo-list-bullets-inverse-bigger, ul.evo-list-bullets-inverse-bigger {
+  line-height: 1.95455rem;
+  font-size: 1.56rem;
+  letter-spacing: 0.05rem-calc(0.07rem*rem); }
+
+ul.evo-list-bullets-inverse-bigger {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse-bigger li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.46964rem;
+  background-size: 0.4575rem;
+  padding-left: 1.052rem;
+  margin-top: 0.93rem;
+  line-height: 1.44545rem; }
+
+.evo-list-bullets-inverse-big, ul.evo-list-bullets-inverse-big {
+  line-height: 1.71818rem;
+  font-size: 1.38rem;
+  letter-spacing: 0.05rem-calc(0.06rem*rem); }
+
+ul.evo-list-bullets-inverse-big {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse-big li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.43833rem;
+  background-size: 0.435rem;
+  padding-left: 1.016rem;
+  margin-top: 0.84rem;
+  line-height: 1.28182rem; }
+
+.evo-list-bullets-inverse, ul.evo-list-bullets-inverse {
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem-calc(0.05rem*rem); }
+
+ul.evo-list-bullets-inverse {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.41667rem;
+  background-size: 0.4125rem;
+  padding-left: 0.81667rem;
+  margin-top: 0.75rem;
+  line-height: 1.2rem; }
+
+.evo-list-bullets-inverse-small, ul.evo-list-bullets-inverse-small {
+  line-height: 1.34rem;
+  font-size: 1.02rem;
+  letter-spacing: 0.05rem-calc(0.04rem*rem); }
+
+ul.evo-list-bullets-inverse-small {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse-small li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.31111rem;
+  background-size: 0.39rem;
+  padding-left: 0.78667rem;
+  margin-top: 0.66rem;
+  line-height: 1.02rem; }
+
+.evo-list-bullets-inverse-smaller, ul.evo-list-bullets-inverse-smaller {
+  line-height: 1.08rem;
+  font-size: 0.84rem;
+  letter-spacing: 0.05rem-calc(0.03rem*rem); }
+
+ul.evo-list-bullets-inverse-smaller {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse-smaller li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.29118rem;
+  background-size: 0.30625rem;
+  padding-left: 0.60533rem;
+  margin-top: 0.57rem;
+  line-height: 0.84rem; }
+
+.evo-list-bullets-inverse-smallest, ul.evo-list-bullets-inverse-smallest {
+  line-height: 0.82rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.05rem-calc(0.02rem*rem); }
+
+ul.evo-list-bullets-inverse-smallest {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 0;
+  padding-left: 0; }
+
+ul.evo-list-bullets-inverse-smallest li {
+  margin-left: 0;
+  padding-left: 0;
+  background: url("../icons-inverse/book-inverse/circle-solid-book-inverse.svg") no-repeat left center;
+  background-position: 0px 0.22632rem;
+  background-size: 0.2875rem;
+  padding-left: 0.58133rem;
+  margin-top: 0.48rem;
+  line-height: 0.66rem; }
+
+a {
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in; }
+
+a:link {
+  color: #000000;
+  text-decoration: none; }
+
+a:visited {
+  color: #000000;
+  text-decoration: none; }
+
+a:hover {
+  color: #00a651;
+  text-decoration: none;
+  transition: color 0s ease-out; }
+
+a:active {
+  color: #00a651;
+  text-decoration: none; }
+
+.evo-active {
+  font-weight: bold; }
+
+a.evo-link-inverse:link {
+  color: #FFFFFF !important;
+  text-decoration: none !important; }
+
+a.evo-link-inverse:visited {
+  color: #FFFFFF !important;
+  text-decoration: none !important; }
+
+a.evo-link-inverse:hover {
+  color: #00a651 !important;
+  text-decoration: none !important; }
+
+a.evo-link-inverse:active {
+  color: #00a651 !important;
+  text-decoration: none !important; }
+
+a.brand-color-1 {
+  color: #000000; }
+
+a.brand-color-1:hover {
+  color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-1:active {
+  color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-2 {
+  color: #000000; }
+
+a.brand-color-2:hover {
+  color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-2:active {
+  color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-3 {
+  color: #000000; }
+
+a.brand-color-3:hover {
+  color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-3:active {
+  color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-4 {
+  color: #000000; }
+
+a.brand-color-4:hover {
+  color: #ec008c;
+  text-decoration: none; }
+
+a.brand-color-4:active {
+  color: #ec008c;
+  text-decoration: none; }
+
+a.evo-inverse:link {
+  color: #FFFFFF;
+  text-decoration: none; }
+
+a.evo-inverse:visited {
+  color: #FFFFFF;
+  text-decoration: none; }
+
+a.evo-inverse:hover {
+  color: #00a651;
+  text-decoration: none; }
+
+a.evo-inverse:active {
+  color: #00a651;
+  text-decoration: none; }
+
+.evo-inverse-active {
+  color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-inverse-1 {
+  color: #FFFFFF; }
+
+a.brand-color-inverse-1:hover {
+  color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-inverse-1:active {
+  color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-inverse-2 {
+  color: #FFFFFF; }
+
+a.brand-color-inverse-2:hover {
+  color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-inverse-2:active {
+  color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-inverse-3 {
+  color: #FFFFFF; }
+
+a.brand-color-inverse-3:hover {
+  color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-inverse-3:active {
+  color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-inverse-4 {
+  color: #FFFFFF; }
+
+a.brand-color-inverse-4:hover {
+  color: #ec008c;
+  text-decoration: none; }
+
+a.brand-color-inverse-4:active {
+  color: #ec008c;
+  text-decoration: none; }
+
+/* ================================================================================ */
+/* -------------------------- STYLEGUIDE TEXT HIGHLIGHTS -------------------------- */
+/* ================================================================================ */
+p.highlight,
+::-moz-selection {
+  background: #00a651;
+  color: #FFFFFF; }
+
+p.highlight,
+::selection {
+  background: #00a651;
+  color: #FFFFFF; }
+
+p.highlight-1,
+.brand-color-1-highlight::-moz-selection {
+  background: #00a651;
+  color: #FFFFFF; }
+
+p.highlight-1,
+.brand-color-1-highlight::selection {
+  background: #00a651;
+  color: #FFFFFF; }
+
+p.highlight-2,
+.brand-color-2-highlight::-moz-selection {
+  background: #2e3192;
+  color: #FFFFFF; }
+
+p.highlight-2,
+.brand-color-2-highlight::selection {
+  background: #2e3192;
+  color: #FFFFFF; }
+
+p.highlight-3,
+.brand-color-3-highlight::-moz-selection {
+  background: #00aeef;
+  color: #FFFFFF; }
+
+p.highlight-3,
+.brand-color-3-highlight::selection {
+  background: #00aeef;
+  color: #FFFFFF; }
+
+p.highlight-4,
+.brand-color-4-highlight::-moz-selection {
+  background: #ec008c;
+  color: #FFFFFF; }
+
+p.highlight-4,
+.brand-color-4-highlight::selection {
+  background: #ec008c;
+  color: #FFFFFF; }
+
+/* ================================================================================ */
+/* ------------------------------ STYLEGUIDE IMAGES ------------------------------- */
+/* ================================================================================ */
+.evo-image-style-base, .evo-image-widest, .evo-image-wider, .evo-image-wide, .evo-image, .evo-image-tall, .evo-image-taller, .evo-image-tallest {
+  border-radius: 0px; }
+
+/* ================================================================================ */
+/* ------------------------------ STYLEGUIDE BUTTONS ------------------------------ */
+/* ================================================================================ */
+.evo-button-inverse-base, .evo-button-inverse-biggest, .evo-button-inverse-bigger, .evo-button-inverse-big, .evo-button-inverse, .evo-button-inverse-small, .evo-button-inverse-smaller, .evo-button-inverse-smallest, .brand-color-inverse-1-button,
+.brand-color-inverse-2-button,
+.brand-color-inverse-3-button,
+.brand-color-inverse-4-button {
+  color: #FFFFFF;
+  border-radius: 0px;
+  display: inline-block; }
+
+/* ================================================================================ */
+/* ------------------------------- STYLEGUIDE FORMS ------------------------------- */
+/* ================================================================================ */
+.evo-form-base, .evo-form-text-biggest, .evo-form-text-bigger, .evo-form-text-big, .evo-form-text, .evo-form-text-small, .evo-form-text-smaller, .evo-form-text-smallest, .evo-form-dropdown-biggest, .evo-form-dropdown-bigger, .evo-form-dropdown-big, .evo-form-dropdown, .evo-form-dropdown-small, .evo-form-dropdown-smaller, .evo-form-dropdown-smallest, .evo-form-checkbox-biggest, .evo-form-checkbox-bigger, .evo-form-checkbox-big, .evo-form-checkbox, .evo-form-checkbox-small, .evo-form-checkbox-smaller, .evo-form-checkbox-smallest, .evo-form-radio-biggest, .evo-form-radio-bigger, .evo-form-radio-big, .evo-form-radio, .evo-form-radio-small, .evo-form-radio-smaller, .evo-form-radio-smallest {
+  display: block;
+  overflow: auto; }
+
+.evo-form-inverse-base, .evo-form-text-inverse-biggest, .evo-form-text-inverse-bigger, .evo-form-text-inverse-big, .evo-form-text-inverse, .evo-form-text-inverse-small, .evo-form-text-inverse-smaller, .evo-form-text-inverse-smallest, .evo-form-dropdown-inverse-biggest, .evo-form-dropdown-inverse-bigger, .evo-form-dropdown-inverse-big, .evo-form-dropdown-inverse, .evo-form-dropdown-inverse-small, .evo-form-dropdown-inverse-smaller, .evo-form-dropdown-inverse-smallest, .evo-form-checkbox-inverse-biggest, .evo-form-checkbox-inverse-bigger, .evo-form-checkbox-inverse-big, .evo-form-checkbox-inverse, .evo-form-checkbox-inverse-small, .evo-form-checkbox-inverse-smaller, .evo-form-checkbox-inverse-smallest, .evo-form-radio-inverse-biggest, .evo-form-radio-inverse-bigger, .evo-form-radio-inverse-big, .evo-form-radio-inverse, .evo-form-radio-inverse-small, .evo-form-radio-inverse-smaller, .evo-form-radio-inverse-smallest {
+  display: block;
+  overflow: auto;
+  border-radius: 5px; }
+  .evo-form-inverse-base textarea, .evo-form-text-inverse-biggest textarea, .evo-form-text-inverse-bigger textarea, .evo-form-text-inverse-big textarea, .evo-form-text-inverse textarea, .evo-form-text-inverse-small textarea, .evo-form-text-inverse-smaller textarea, .evo-form-text-inverse-smallest textarea, .evo-form-dropdown-inverse-biggest textarea, .evo-form-dropdown-inverse-bigger textarea, .evo-form-dropdown-inverse-big textarea, .evo-form-dropdown-inverse textarea, .evo-form-dropdown-inverse-small textarea, .evo-form-dropdown-inverse-smaller textarea, .evo-form-dropdown-inverse-smallest textarea, .evo-form-checkbox-inverse-biggest textarea, .evo-form-checkbox-inverse-bigger textarea, .evo-form-checkbox-inverse-big textarea, .evo-form-checkbox-inverse textarea, .evo-form-checkbox-inverse-small textarea, .evo-form-checkbox-inverse-smaller textarea, .evo-form-checkbox-inverse-smallest textarea, .evo-form-radio-inverse-biggest textarea, .evo-form-radio-inverse-bigger textarea, .evo-form-radio-inverse-big textarea, .evo-form-radio-inverse textarea, .evo-form-radio-inverse-small textarea, .evo-form-radio-inverse-smaller textarea, .evo-form-radio-inverse-smallest textarea {
+    resize: vertical; }
+
+/* Icon Sizes */
+/* This is duplication of _icons.scss located in scss/icons/_icons.scss */
+.brand-color-button-link {
+  color: #000000;
+  border-color: #000000; }
+
+.brand-color-button-visited {
+  color: #000000;
+  border-color: #000000; }
+
+.brand-color-button-hover {
+  color: #000000;
+  border-color: #000000; }
+
+.brand-color-button-active {
+  color: #000000;
+  border-color: #000000; }
+
+.brand-color-1-button:hover {
+  color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-2-button:hover {
+  color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-3-button:hover {
+  color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-4-button:hover {
+  color: #ec008c;
+  border-color: #ec008c; }
+
+.brand-color-1-button-hover {
+  color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-2-button-hover {
+  color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-3-button-hover {
+  color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-4-button-hover {
+  color: #ec008c;
+  border-color: #ec008c; }
+
+.brand-color-1-button-active {
+  color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-2-button-active {
+  color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-3-button-active {
+  color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-4-button-active {
+  color: #ec008c;
+  border-color: #ec008c; }
+
+/* Inverse */
+.brand-color-inverse-button-link {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-button-visited {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-button-hover {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-button-active {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-1-button:hover, .evo-button-inverse-biggest:hover,
+.evo-button-inverse-bigger:hover,
+.evo-button-inverse-big:hover,
+.evo-button-inverse:hover,
+.evo-button-inverse-small:hover,
+.evo-button-inverse-smaller:hover,
+.evo-button-inverse-smallest:hover {
+  color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-inverse-2-button:hover {
+  color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-inverse-3-button:hover {
+  color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-inverse-4-button:hover {
+  color: #ec008c;
+  border-color: #ec008c; }
+
+.brand-color-inverse-1-button-hover {
+  color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-inverse-2-button-hover {
+  color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-inverse-3-button-hover {
+  color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-inverse-4-button-hover {
+  color: #ec008c;
+  border-color: #ec008c; }
+
+.brand-color-inverse-1-button-active {
+  color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-inverse-2-button-active {
+  color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-inverse-3-button-active {
+  color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-inverse-4-button-active {
+  color: #ec008c;
+  border-color: #ec008c; }
+
+/*# sourceMappingURL=styleguide.css.map */
