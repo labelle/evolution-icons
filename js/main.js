@@ -22,6 +22,12 @@
               if(val == 3) {
                 weight = "bold";
               }
+              if(val == 4) {
+                weight = "black";
+              }
+              if(val == 5) {
+                weight = "ultra";
+              }
               // console.log(weight);
 
               $('.col-xs-6 img').each(function() {
@@ -55,6 +61,12 @@
               }
               if(val == 3) {
                 prevWeight = "bold";
+              }
+              if(val == 4) {
+                prevWeight = "black";
+              }
+              if(val == 5) {
+                prevWeight = "ultra";
               }
               // console.log(removeClassName);
               // console.log(addClassName)
