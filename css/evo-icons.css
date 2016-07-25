@@ -134,38 +134,42 @@
 
 /* Icon Rotation */
 .evo-icon-transform-90, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
-.evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
-.evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
-.evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
-.evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
-.evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-triangle-solid-down-thin, .evo-icon-triangle-solid-down-light, .evo-icon-triangle-solid-down,
-.evo-icon-triangle-solid-down-book, .evo-icon-triangle-solid-down-bold, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
-.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold {
+.evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-down-black, .evo-icon-arrow-down-ultra, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
+.evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-arrow-corner-down-right-black, .evo-icon-arrow-corner-down-right-ultra, .evo-icon-arrow-corner-full-down-right-thin, .evo-icon-arrow-corner-full-down-right-light, .evo-icon-arrow-corner-full-down-right,
+.evo-icon-arrow-corner-full-down-right-book, .evo-icon-arrow-corner-full-down-right-bold, .evo-icon-arrow-corner-full-down-right-black, .evo-icon-arrow-corner-full-down-right-ultra, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
+.evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-circle-chevron-down-black, .evo-icon-circle-chevron-down-ultra, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
+.evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-chevron-down-black, .evo-icon-chevron-down-ultra, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
+.evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-double-chevron-down-black, .evo-icon-double-chevron-down-ultra, .evo-icon-triangle-solid-down-thin, .evo-icon-triangle-solid-down-light, .evo-icon-triangle-solid-down,
+.evo-icon-triangle-solid-down-book, .evo-icon-triangle-solid-down-bold, .evo-icon-triangle-solid-down-black, .evo-icon-triangle-solid-down-ultra, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
+.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-triangle-down-black, .evo-icon-triangle-down-ultra {
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 .evo-icon-transform-180, .evo-icon-arrow-left-thin, .evo-icon-arrow-left-light, .evo-icon-arrow-left,
-.evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
-.evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
-.evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
-.evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
-.evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-triangle-solid-left-thin, .evo-icon-triangle-solid-left-light, .evo-icon-triangle-solid-left,
-.evo-icon-triangle-solid-left-book, .evo-icon-triangle-solid-left-bold, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
-.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold {
+.evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-left-black, .evo-icon-arrow-left-ultra, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
+.evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-arrow-corner-down-left-black, .evo-icon-arrow-corner-down-left-ultra, .evo-icon-arrow-corner-full-down-left-thin, .evo-icon-arrow-corner-full-down-left-light, .evo-icon-arrow-corner-full-down-left,
+.evo-icon-arrow-corner-full-down-left-book, .evo-icon-arrow-corner-full-down-left-bold, .evo-icon-arrow-corner-full-down-left-black, .evo-icon-arrow-corner-full-down-left-ultra, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
+.evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-circle-chevron-left-black, .evo-icon-circle-chevron-left-ultra, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
+.evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-chevron-left-black, .evo-icon-chevron-left-ultra, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
+.evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-double-chevron-left-black, .evo-icon-double-chevron-left-ultra, .evo-icon-triangle-solid-left-thin, .evo-icon-triangle-solid-left-light, .evo-icon-triangle-solid-left,
+.evo-icon-triangle-solid-left-book, .evo-icon-triangle-solid-left-bold, .evo-icon-triangle-solid-left-black, .evo-icon-triangle-solid-left-ultra, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
+.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-left-black, .evo-icon-triangle-left-ultra {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 .evo-icon-transform-270, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
-.evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
+.evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-up-black, .evo-icon-arrow-up-ultra, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
 .evo-icon-arrow-corner-up-left,
-.evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
-.evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
-.evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
-.evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-triangle-solid-up-thin, .evo-icon-triangle-solid-up-light, .evo-icon-triangle-solid-up,
-.evo-icon-triangle-solid-up-book, .evo-icon-triangle-solid-up-bold, .evo-icon-triangle-up-thin, .evo-icon-triangle-up-light, .evo-icon-triangle-up,
-.evo-icon-triangle-up-book, .evo-icon-triangle-up-bold {
+.evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-arrow-corner-up-left-black, .evo-icon-arrow-corner-up-left-ultra, .evo-icon-arrow-corner-full-up-left-thin, .evo-icon-arrow-corner-full-up-left-light, .evo-icon-arrow-corner-full,
+.evo-icon-arrow-corner-full-up-left,
+.evo-icon-arrow-corner-full-up-left-book, .evo-icon-arrow-corner-full-up-left-bold, .evo-icon-arrow-corner-full-up-left-black, .evo-icon-arrow-corner-full-up-left-ultra, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
+.evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-circle-chevron-up-black, .evo-icon-circle-chevron-up-ultra, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
+.evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-chevron-up-black, .evo-icon-chevron-up-ultra, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
+.evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-double-chevron-up-black, .evo-icon-double-chevron-up-ultra, .evo-icon-triangle-solid-up-thin, .evo-icon-triangle-solid-up-light, .evo-icon-triangle-solid-up,
+.evo-icon-triangle-solid-up-book, .evo-icon-triangle-solid-up-bold, .evo-icon-triangle-solid-up-black, .evo-icon-triangle-solid-up-ultra, .evo-icon-triangle-up-thin, .evo-icon-triangle-up-light, .evo-icon-triangle-up,
+.evo-icon-triangle-up-book, .evo-icon-triangle-up-bold, .evo-icon-triangle-up-black, .evo-icon-triangle-up-ultra {
   -ms-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg); }
@@ -177,65 +181,69 @@
 
 /* --- Icon structure and SVG sources --- */
 .evo-icon-base, .evo-icon-arrow-left-thin, .evo-icon-arrow-left-light, .evo-icon-arrow-left,
-.evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
-.evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-right-thin, .evo-icon-arrow-right-light, .evo-icon-arrow,
+.evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-left-black, .evo-icon-arrow-left-ultra, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
+.evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-up-black, .evo-icon-arrow-up-ultra, .evo-icon-arrow-right-thin, .evo-icon-arrow-right-light, .evo-icon-arrow,
 .evo-icon-arrow-right,
-.evo-icon-arrow-right-book, .evo-icon-arrow-right-bold, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
-.evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
-.evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
+.evo-icon-arrow-right-book, .evo-icon-arrow-right-bold, .evo-icon-arrow-right-black, .evo-icon-arrow-right-ultra, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
+.evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-down-black, .evo-icon-arrow-down-ultra, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
+.evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-arrow-corner-down-left-black, .evo-icon-arrow-corner-down-left-ultra, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
 .evo-icon-arrow-corner-up-left,
-.evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-arrow-corner-up-right-thin, .evo-icon-arrow-corner-up-right-light, .evo-icon-arrow-corner-up-right,
-.evo-icon-arrow-corner-up-right-book, .evo-icon-arrow-corner-up-right-bold, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
-.evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
-.evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
-.evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-circle-chevron-right-thin, .evo-icon-circle-chevron-right-light, .evo-icon-circle-chevron,
+.evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-arrow-corner-up-left-black, .evo-icon-arrow-corner-up-left-ultra, .evo-icon-arrow-corner-up-right-thin, .evo-icon-arrow-corner-up-right-light, .evo-icon-arrow-corner-up-right,
+.evo-icon-arrow-corner-up-right-book, .evo-icon-arrow-corner-up-right-bold, .evo-icon-arrow-corner-up-right-black, .evo-icon-arrow-corner-up-right-ultra, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
+.evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-arrow-corner-down-right-black, .evo-icon-arrow-corner-down-right-ultra, .evo-icon-arrow-corner-full-down-left-thin, .evo-icon-arrow-corner-full-down-left-light, .evo-icon-arrow-corner-full-down-left,
+.evo-icon-arrow-corner-full-down-left-book, .evo-icon-arrow-corner-full-down-left-bold, .evo-icon-arrow-corner-full-down-left-black, .evo-icon-arrow-corner-full-down-left-ultra, .evo-icon-arrow-corner-full-up-left-thin, .evo-icon-arrow-corner-full-up-left-light, .evo-icon-arrow-corner-full,
+.evo-icon-arrow-corner-full-up-left,
+.evo-icon-arrow-corner-full-up-left-book, .evo-icon-arrow-corner-full-up-left-bold, .evo-icon-arrow-corner-full-up-left-black, .evo-icon-arrow-corner-full-up-left-ultra, .evo-icon-arrow-corner-full-up-right-thin, .evo-icon-arrow-corner-full-up-right-light, .evo-icon-arrow-corner-full-up-right,
+.evo-icon-arrow-corner-full-up-right-book, .evo-icon-arrow-corner-full-up-right-bold, .evo-icon-arrow-corner-full-up-right-black, .evo-icon-arrow-corner-full-up-right-ultra, .evo-icon-arrow-corner-full-down-right-thin, .evo-icon-arrow-corner-full-down-right-light, .evo-icon-arrow-corner-full-down-right,
+.evo-icon-arrow-corner-full-down-right-book, .evo-icon-arrow-corner-full-down-right-bold, .evo-icon-arrow-corner-full-down-right-black, .evo-icon-arrow-corner-full-down-right-ultra, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
+.evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-circle-chevron-left-black, .evo-icon-circle-chevron-left-ultra, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
+.evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-circle-chevron-up-black, .evo-icon-circle-chevron-up-ultra, .evo-icon-circle-chevron-right-thin, .evo-icon-circle-chevron-right-light, .evo-icon-circle-chevron,
 .evo-icon-circle-chevron-right,
-.evo-icon-circle-chevron-right-book, .evo-icon-circle-chevron-right-bold, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
-.evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
-.evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
-.evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-chevron-right-thin, .evo-icon-chevron-right-light, .evo-icon-chevron,
+.evo-icon-circle-chevron-right-book, .evo-icon-circle-chevron-right-bold, .evo-icon-circle-chevron-right-black, .evo-icon-circle-chevron-right-ultra, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
+.evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-circle-chevron-down-black, .evo-icon-circle-chevron-down-ultra, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
+.evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-chevron-left-black, .evo-icon-chevron-left-ultra, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
+.evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-chevron-up-black, .evo-icon-chevron-up-ultra, .evo-icon-chevron-right-thin, .evo-icon-chevron-right-light, .evo-icon-chevron,
 .evo-icon-chevron-right,
-.evo-icon-chevron-right-book, .evo-icon-chevron-right-bold, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
-.evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
-.evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
-.evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-double-chevron-right-thin, .evo-icon-double-chevron-right-light, .evo-icon-double-chevron,
+.evo-icon-chevron-right-book, .evo-icon-chevron-right-bold, .evo-icon-chevron-right-black, .evo-icon-chevron-right-ultra, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
+.evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-chevron-down-black, .evo-icon-chevron-down-ultra, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
+.evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-double-chevron-left-black, .evo-icon-double-chevron-left-ultra, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
+.evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-double-chevron-up-black, .evo-icon-double-chevron-up-ultra, .evo-icon-double-chevron-right-thin, .evo-icon-double-chevron-right-light, .evo-icon-double-chevron,
 .evo-icon-double-chevron-right,
-.evo-icon-double-chevron-right-book, .evo-icon-double-chevron-right-bold, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
-.evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-triangle-solid-left-thin, .evo-icon-triangle-solid-left-light, .evo-icon-triangle-solid-left,
-.evo-icon-triangle-solid-left-book, .evo-icon-triangle-solid-left-bold, .evo-icon-triangle-solid-up-thin, .evo-icon-triangle-solid-up-light, .evo-icon-triangle-solid-up,
-.evo-icon-triangle-solid-up-book, .evo-icon-triangle-solid-up-bold, .evo-icon-triangle-solid-right-thin, .evo-icon-triangle-solid-right-light, .evo-icon-triangle-solid,
+.evo-icon-double-chevron-right-book, .evo-icon-double-chevron-right-bold, .evo-icon-double-chevron-right-black, .evo-icon-double-chevron-right-ultra, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
+.evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-double-chevron-down-black, .evo-icon-double-chevron-down-ultra, .evo-icon-triangle-solid-left-thin, .evo-icon-triangle-solid-left-light, .evo-icon-triangle-solid-left,
+.evo-icon-triangle-solid-left-book, .evo-icon-triangle-solid-left-bold, .evo-icon-triangle-solid-left-black, .evo-icon-triangle-solid-left-ultra, .evo-icon-triangle-solid-up-thin, .evo-icon-triangle-solid-up-light, .evo-icon-triangle-solid-up,
+.evo-icon-triangle-solid-up-book, .evo-icon-triangle-solid-up-bold, .evo-icon-triangle-solid-up-black, .evo-icon-triangle-solid-up-ultra, .evo-icon-triangle-solid-right-thin, .evo-icon-triangle-solid-right-light, .evo-icon-triangle-solid,
 .evo-icon-triangle-solid-right,
-.evo-icon-triangle-solid-right-book, .evo-icon-triangle-solid-right-bold, .evo-icon-triangle-solid-down-thin, .evo-icon-triangle-solid-down-light, .evo-icon-triangle-solid-down,
-.evo-icon-triangle-solid-down-book, .evo-icon-triangle-solid-down-bold, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
-.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-up-thin, .evo-icon-triangle-up-light, .evo-icon-triangle-up,
-.evo-icon-triangle-up-book, .evo-icon-triangle-up-bold, .evo-icon-triangle-right-thin, .evo-icon-triangle-right-light, .evo-icon-triangle,
+.evo-icon-triangle-solid-right-book, .evo-icon-triangle-solid-right-bold, .evo-icon-triangle-solid-right-black, .evo-icon-triangle-solid-right-ultra, .evo-icon-triangle-solid-down-thin, .evo-icon-triangle-solid-down-light, .evo-icon-triangle-solid-down,
+.evo-icon-triangle-solid-down-book, .evo-icon-triangle-solid-down-bold, .evo-icon-triangle-solid-down-black, .evo-icon-triangle-solid-down-ultra, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
+.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-left-black, .evo-icon-triangle-left-ultra, .evo-icon-triangle-up-thin, .evo-icon-triangle-up-light, .evo-icon-triangle-up,
+.evo-icon-triangle-up-book, .evo-icon-triangle-up-bold, .evo-icon-triangle-up-black, .evo-icon-triangle-up-ultra, .evo-icon-triangle-right-thin, .evo-icon-triangle-right-light, .evo-icon-triangle,
 .evo-icon-triangle-right,
-.evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
-.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-circle-thin, .evo-icon-circle-light, .evo-icon-circle,
-.evo-icon-circle-book, .evo-icon-circle-bold, .evo-icon-circle-solid-thin, .evo-icon-circle-solid-light, .evo-icon-circle-solid,
-.evo-icon-circle-solid-book, .evo-icon-circle-solid-bold, .evo-icon-square-thin, .evo-icon-square-light, .evo-icon-square,
-.evo-icon-square-book, .evo-icon-square-bold, .evo-icon-square-solid-thin, .evo-icon-square-solid-light, .evo-icon-square-solid,
-.evo-icon-square-solid-book, .evo-icon-square-solid-bold, .evo-icon-slash-thin, .evo-icon-slash-light, .evo-icon-slash,
-.evo-icon-slash-book, .evo-icon-slash-bold, .evo-icon-menu-thin, .evo-icon-menu-light, .evo-icon-menu,
-.evo-icon-menu-book, .evo-icon-menu-bold, .evo-icon-close-thin, .evo-icon-close-light, .evo-icon-close,
-.evo-icon-close-book, .evo-icon-close-bold, .evo-icon-plus-thin, .evo-icon-plus-light, .evo-icon-plus,
-.evo-icon-plus-book, .evo-icon-plus-bold, .evo-icon-minus-thin, .evo-icon-minus-light, .evo-icon-minus,
-.evo-icon-minus-book, .evo-icon-minus-bold, .evo-icon-circle-minus-thin, .evo-icon-circle-minus-light, .evo-icon-circle-minus,
-.evo-icon-circle-minus-book, .evo-icon-circle-minus-bold, .evo-icon-circle-plus-thin, .evo-icon-circle-plus-light, .evo-icon-circle-plus,
-.evo-icon-circle-plus-book, .evo-icon-circle-plus-bold, .evo-icon-share-thin, .evo-icon-share-light, .evo-icon-share,
-.evo-icon-share-book, .evo-icon-share-bold, .evo-icon-link-thin, .evo-icon-link-light, .evo-icon-link,
-.evo-icon-link-book, .evo-icon-link-bold, .evo-icon-mail-thin, .evo-icon-mail-light, .evo-icon-mail,
-.evo-icon-mail-book, .evo-icon-mail-bold, .evo-icon-search-thin, .evo-icon-search-light, .evo-icon-search,
-.evo-icon-search-book, .evo-icon-search-bold, .evo-icon-check-thin, .evo-icon-check-light, .evo-icon-check,
-.evo-icon-check-book, .evo-icon-check-bold, .evo-icon-circle-slash-thin, .evo-icon-circle-slash-light, .evo-icon-circle-slash,
-.evo-icon-circle-slash-book, .evo-icon-circle-slash-bold, .evo-icon-eye-thin, .evo-icon-eye-light, .evo-icon-eye,
-.evo-icon-eye-book, .evo-icon-eye-bold, .evo-icon-eye-slash-thin, .evo-icon-eye-slash-light, .evo-icon-eye-slash,
-.evo-icon-eye-slash-book, .evo-icon-eye-slash-bold, .evo-icon-graph-thin, .evo-icon-graph-light, .evo-icon-graph,
-.evo-icon-graph-book, .evo-icon-graph-bold, .evo-icon-papers-thin, .evo-icon-papers-light, .evo-icon-papers,
-.evo-icon-papers-book, .evo-icon-papers-bold, .evo-icon-pencil-thin, .evo-icon-pencil-light, .evo-icon-pencil,
-.evo-icon-pencil-book, .evo-icon-pencil-bold, .evo-icon-trashcan-thin, .evo-icon-trashcan-light, .evo-icon-trashcan,
-.evo-icon-trashcan-book, .evo-icon-trashcan-bold, .evo-icon-star-thin, .evo-icon-star-light, .evo-icon-star,
-.evo-icon-star-book, .evo-icon-star-bold, .evo-icon-star-solid {
+.evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-right-black, .evo-icon-triangle-right-ultra, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
+.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-triangle-down-black, .evo-icon-triangle-down-ultra, .evo-icon-circle-thin, .evo-icon-circle-light, .evo-icon-circle,
+.evo-icon-circle-book, .evo-icon-circle-bold, .evo-icon-circle-black, .evo-icon-circle-ultra, .evo-icon-circle-solid-thin, .evo-icon-circle-solid-light, .evo-icon-circle-solid,
+.evo-icon-circle-solid-book, .evo-icon-circle-solid-bold, .evo-icon-circle-solid-black, .evo-icon-circle-solid-ultra, .evo-icon-square-thin, .evo-icon-square-light, .evo-icon-square,
+.evo-icon-square-book, .evo-icon-square-bold, .evo-icon-square-black, .evo-icon-square-ultra, .evo-icon-square-solid-thin, .evo-icon-square-solid-light, .evo-icon-square-solid,
+.evo-icon-square-solid-book, .evo-icon-square-solid-bold, .evo-icon-square-solid-black, .evo-icon-square-solid-ultra, .evo-icon-slash-thin, .evo-icon-slash-light, .evo-icon-slash,
+.evo-icon-slash-book, .evo-icon-slash-bold, .evo-icon-slash-black, .evo-icon-slash-ultra, .evo-icon-menu-thin, .evo-icon-menu-light, .evo-icon-menu,
+.evo-icon-menu-book, .evo-icon-menu-bold, .evo-icon-menu-black, .evo-icon-menu-ultra, .evo-icon-close-thin, .evo-icon-close-light, .evo-icon-close,
+.evo-icon-close-book, .evo-icon-close-bold, .evo-icon-close-black, .evo-icon-close-ultra, .evo-icon-plus-thin, .evo-icon-plus-light, .evo-icon-plus,
+.evo-icon-plus-book, .evo-icon-plus-bold, .evo-icon-plus-black, .evo-icon-plus-ultra, .evo-icon-minus-thin, .evo-icon-minus-light, .evo-icon-minus,
+.evo-icon-minus-book, .evo-icon-minus-bold, .evo-icon-minus-black, .evo-icon-minus-ultra, .evo-icon-circle-minus-thin, .evo-icon-circle-minus-light, .evo-icon-circle-minus,
+.evo-icon-circle-minus-book, .evo-icon-circle-minus-bold, .evo-icon-circle-minus-black, .evo-icon-circle-minus-ultra, .evo-icon-circle-plus-thin, .evo-icon-circle-plus-light, .evo-icon-circle-plus,
+.evo-icon-circle-plus-book, .evo-icon-circle-plus-bold, .evo-icon-circle-plus-black, .evo-icon-circle-plus-ultra, .evo-icon-share-thin, .evo-icon-share-light, .evo-icon-share,
+.evo-icon-share-book, .evo-icon-share-bold, .evo-icon-share-black, .evo-icon-share-ultra, .evo-icon-link-thin, .evo-icon-link-light, .evo-icon-link,
+.evo-icon-link-book, .evo-icon-link-bold, .evo-icon-link-black, .evo-icon-link-ultra, .evo-icon-mail-thin, .evo-icon-mail-light, .evo-icon-mail,
+.evo-icon-mail-book, .evo-icon-mail-bold, .evo-icon-mail-black, .evo-icon-mail-ultra, .evo-icon-search-thin, .evo-icon-search-light, .evo-icon-search,
+.evo-icon-search-book, .evo-icon-search-bold, .evo-icon-search-black, .evo-icon-search-ultra, .evo-icon-check-thin, .evo-icon-check-light, .evo-icon-check,
+.evo-icon-check-book, .evo-icon-check-bold, .evo-icon-check-black, .evo-icon-check-ultra, .evo-icon-circle-slash-thin, .evo-icon-circle-slash-light, .evo-icon-circle-slash,
+.evo-icon-circle-slash-book, .evo-icon-circle-slash-bold, .evo-icon-circle-slash-black, .evo-icon-circle-slash-ultra, .evo-icon-eye-thin, .evo-icon-eye-light, .evo-icon-eye,
+.evo-icon-eye-book, .evo-icon-eye-bold, .evo-icon-eye-black, .evo-icon-eye-ultra, .evo-icon-eye-slash-thin, .evo-icon-eye-slash-light, .evo-icon-eye-slash,
+.evo-icon-eye-slash-book, .evo-icon-eye-slash-bold, .evo-icon-eye-slash-black, .evo-icon-eye-slash-ultra, .evo-icon-graph-thin, .evo-icon-graph-light, .evo-icon-graph,
+.evo-icon-graph-book, .evo-icon-graph-bold, .evo-icon-graph-black, .evo-icon-graph-ultra, .evo-icon-papers-thin, .evo-icon-papers-light, .evo-icon-papers,
+.evo-icon-papers-book, .evo-icon-papers-bold, .evo-icon-papers-black, .evo-icon-papers-ultra, .evo-icon-pencil-thin, .evo-icon-pencil-light, .evo-icon-pencil,
+.evo-icon-pencil-book, .evo-icon-pencil-bold, .evo-icon-pencil-black, .evo-icon-pencil-ultra, .evo-icon-trashcan-thin, .evo-icon-trashcan-light, .evo-icon-trashcan,
+.evo-icon-trashcan-book, .evo-icon-trashcan-bold, .evo-icon-trashcan-black, .evo-icon-trashcan-ultra {
   display: inline-block;
   line-height: 0;
   background-repeat: no-repeat;
@@ -255,6 +263,12 @@
 .evo-icon-arrow-left-bold {
   background-image: url(../img/icons/bold/arrow-bold.svg); }
 
+.evo-icon-arrow-left-black {
+  background-image: url(../img/icons/black/arrow-black.svg); }
+
+.evo-icon-arrow-left-ultra {
+  background-image: url(../img/icons/ultra/arrow-ultra.svg); }
+
 .evo-icon-arrow-up-thin {
   background-image: url(../img/icons/thin/arrow-thin.svg); }
 
@@ -267,6 +281,12 @@
 
 .evo-icon-arrow-up-bold {
   background-image: url(../img/icons/bold/arrow-bold.svg); }
+
+.evo-icon-arrow-up-black {
+  background-image: url(../img/icons/black/arrow-black.svg); }
+
+.evo-icon-arrow-up-ultra {
+  background-image: url(../img/icons/ultra/arrow-ultra.svg); }
 
 .evo-icon-arrow-right-thin {
   background-image: url(../img/icons/thin/arrow-thin.svg); }
@@ -282,6 +302,12 @@
 .evo-icon-arrow-right-bold {
   background-image: url(../img/icons/bold/arrow-bold.svg); }
 
+.evo-icon-arrow-right-black {
+  background-image: url(../img/icons/black/arrow-black.svg); }
+
+.evo-icon-arrow-right-ultra {
+  background-image: url(../img/icons/ultra/arrow-ultra.svg); }
+
 .evo-icon-arrow-down-thin {
   background-image: url(../img/icons/thin/arrow-thin.svg); }
 
@@ -294,6 +320,12 @@
 
 .evo-icon-arrow-down-bold {
   background-image: url(../img/icons/bold/arrow-bold.svg); }
+
+.evo-icon-arrow-down-black {
+  background-image: url(../img/icons/black/arrow-black.svg); }
+
+.evo-icon-arrow-down-ultra {
+  background-image: url(../img/icons/ultra/arrow-ultra.svg); }
 
 /* evo-icon-arrow-corner */
 .evo-icon-arrow-corner-down-left-thin {
@@ -309,6 +341,12 @@
 .evo-icon-arrow-corner-down-left-bold {
   background-image: url(../img/icons/bold/arrow-corner-bold.svg); }
 
+.evo-icon-arrow-corner-down-left-black {
+  background-image: url(../img/icons/black/arrow-corner-black.svg); }
+
+.evo-icon-arrow-corner-down-left-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-ultra.svg); }
+
 .evo-icon-arrow-corner-up-left-thin {
   background-image: url(../img/icons/thin/arrow-corner-thin.svg); }
 
@@ -323,6 +361,12 @@
 .evo-icon-arrow-corner-up-left-bold {
   background-image: url(../img/icons/bold/arrow-corner-bold.svg); }
 
+.evo-icon-arrow-corner-up-left-black {
+  background-image: url(../img/icons/black/arrow-corner-black.svg); }
+
+.evo-icon-arrow-corner-up-left-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-ultra.svg); }
+
 .evo-icon-arrow-corner-up-right-thin {
   background-image: url(../img/icons/thin/arrow-corner-thin.svg); }
 
@@ -336,6 +380,12 @@
 .evo-icon-arrow-corner-up-right-bold {
   background-image: url(../img/icons/bold/arrow-corner-bold.svg); }
 
+.evo-icon-arrow-corner-up-right-black {
+  background-image: url(../img/icons/black/arrow-corner-black.svg); }
+
+.evo-icon-arrow-corner-up-right-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-ultra.svg); }
+
 .evo-icon-arrow-corner-down-right-thin {
   background-image: url(../img/icons/thin/arrow-corner-thin.svg); }
 
@@ -348,6 +398,90 @@
 
 .evo-icon-arrow-corner-down-right-bold {
   background-image: url(../img/icons/bold/arrow-corner-bold.svg); }
+
+.evo-icon-arrow-corner-down-right-black {
+  background-image: url(../img/icons/black/arrow-corner-black.svg); }
+
+.evo-icon-arrow-corner-down-right-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-ultra.svg); }
+
+/* evo-icon-arrow-corner-full */
+.evo-icon-arrow-corner-full-down-left-thin {
+  background-image: url(../img/icons/thin/arrow-corner-full-thin.svg); }
+
+.evo-icon-arrow-corner-full-down-left-light {
+  background-image: url(../img/icons/light/arrow-corner-full-light.svg); }
+
+.evo-icon-arrow-corner-full-down-left,
+.evo-icon-arrow-corner-full-down-left-book {
+  background-image: url(../img/icons/book/arrow-corner-full-book.svg); }
+
+.evo-icon-arrow-corner-full-down-left-bold {
+  background-image: url(../img/icons/bold/arrow-corner-full-bold.svg); }
+
+.evo-icon-arrow-corner-full-down-left-black {
+  background-image: url(../img/icons/black/arrow-corner-full-black.svg); }
+
+.evo-icon-arrow-corner-full-down-left-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-full-ultra.svg); }
+
+.evo-icon-arrow-corner-full-up-left-thin {
+  background-image: url(../img/icons/thin/arrow-corner-full-thin.svg); }
+
+.evo-icon-arrow-corner-full-up-left-light {
+  background-image: url(../img/icons/light/arrow-corner-full-light.svg); }
+
+.evo-icon-arrow-corner-full,
+.evo-icon-arrow-corner-full-up-left,
+.evo-icon-arrow-corner-full-up-left-book {
+  background-image: url(../img/icons/book/arrow-corner-full-book.svg); }
+
+.evo-icon-arrow-corner-full-up-left-bold {
+  background-image: url(../img/icons/bold/arrow-corner-full-bold.svg); }
+
+.evo-icon-arrow-corner-full-up-left-black {
+  background-image: url(../img/icons/black/arrow-corner-full-black.svg); }
+
+.evo-icon-arrow-corner-full-up-left-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-full-ultra.svg); }
+
+.evo-icon-arrow-corner-full-up-right-thin {
+  background-image: url(../img/icons/thin/arrow-corner-full-thin.svg); }
+
+.evo-icon-arrow-corner-full-up-right-light {
+  background-image: url(../img/icons/light/arrow-corner-full-light.svg); }
+
+.evo-icon-arrow-corner-full-up-right,
+.evo-icon-arrow-corner-full-up-right-book {
+  background-image: url(../img/icons/book/arrow-corner-full-book.svg); }
+
+.evo-icon-arrow-corner-full-up-right-bold {
+  background-image: url(../img/icons/bold/arrow-corner-full-bold.svg); }
+
+.evo-icon-arrow-corner-full-up-right-black {
+  background-image: url(../img/icons/black/arrow-corner-full-black.svg); }
+
+.evo-icon-arrow-corner-full-up-right-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-full-ultra.svg); }
+
+.evo-icon-arrow-corner-full-down-right-thin {
+  background-image: url(../img/icons/thin/arrow-corner-full-thin.svg); }
+
+.evo-icon-arrow-corner-full-down-right-light {
+  background-image: url(../img/icons/light/arrow-corner-full-light.svg); }
+
+.evo-icon-arrow-corner-full-down-right,
+.evo-icon-arrow-corner-full-down-right-book {
+  background-image: url(../img/icons/book/arrow-corner-full-book.svg); }
+
+.evo-icon-arrow-corner-full-down-right-bold {
+  background-image: url(../img/icons/bold/arrow-corner-full-bold.svg); }
+
+.evo-icon-arrow-corner-full-down-right-black {
+  background-image: url(../img/icons/black/arrow-corner-full-black.svg); }
+
+.evo-icon-arrow-corner-full-down-right-ultra {
+  background-image: url(../img/icons/ultra/arrow-corner-full-ultra.svg); }
 
 /* evo-icon-circle-chevron */
 .evo-icon-circle-chevron-left-thin {
@@ -363,6 +497,12 @@
 .evo-icon-circle-chevron-left-bold {
   background-image: url(../img/icons/bold/circle-chevron-bold.svg); }
 
+.evo-icon-circle-chevron-left-black {
+  background-image: url(../img/icons/black/circle-chevron-black.svg); }
+
+.evo-icon-circle-chevron-left-ultra {
+  background-image: url(../img/icons/ultra/circle-chevron-ultra.svg); }
+
 .evo-icon-circle-chevron-up-thin {
   background-image: url(../img/icons/thin/circle-chevron-thin.svg); }
 
@@ -375,6 +515,12 @@
 
 .evo-icon-circle-chevron-up-bold {
   background-image: url(../img/icons/bold/circle-chevron-bold.svg); }
+
+.evo-icon-circle-chevron-up-black {
+  background-image: url(../img/icons/black/circle-chevron-black.svg); }
+
+.evo-icon-circle-chevron-up-ultra {
+  background-image: url(../img/icons/ultra/circle-chevron-ultra.svg); }
 
 .evo-icon-circle-chevron-right-thin {
   background-image: url(../img/icons/thin/circle-chevron-thin.svg); }
@@ -390,6 +536,12 @@
 .evo-icon-circle-chevron-right-bold {
   background-image: url(../img/icons/bold/circle-chevron-bold.svg); }
 
+.evo-icon-circle-chevron-right-black {
+  background-image: url(../img/icons/black/circle-chevron-black.svg); }
+
+.evo-icon-circle-chevron-right-ultra {
+  background-image: url(../img/icons/ultra/circle-chevron-ultra.svg); }
+
 .evo-icon-circle-chevron-down-thin {
   background-image: url(../img/icons/thin/circle-chevron-thin.svg); }
 
@@ -402,6 +554,12 @@
 
 .evo-icon-circle-chevron-down-bold {
   background-image: url(../img/icons/bold/circle-chevron-bold.svg); }
+
+.evo-icon-circle-chevron-down-black {
+  background-image: url(../img/icons/black/circle-chevron-black.svg); }
+
+.evo-icon-circle-chevron-down-ultra {
+  background-image: url(../img/icons/ultra/circle-chevron-ultra.svg); }
 
 /* evo-icon-chevron */
 .evo-icon-chevron-left-thin {
@@ -417,6 +575,12 @@
 .evo-icon-chevron-left-bold {
   background-image: url(../img/icons/bold/chevron-bold.svg); }
 
+.evo-icon-chevron-left-black {
+  background-image: url(../img/icons/black/chevron-black.svg); }
+
+.evo-icon-chevron-left-ultra {
+  background-image: url(../img/icons/ultra/chevron-ultra.svg); }
+
 .evo-icon-chevron-up-thin {
   background-image: url(../img/icons/thin/chevron-thin.svg); }
 
@@ -429,6 +593,12 @@
 
 .evo-icon-chevron-up-bold {
   background-image: url(../img/icons/bold/chevron-bold.svg); }
+
+.evo-icon-chevron-up-black {
+  background-image: url(../img/icons/black/chevron-black.svg); }
+
+.evo-icon-chevron-up-ultra {
+  background-image: url(../img/icons/ultra/chevron-ultra.svg); }
 
 .evo-icon-chevron-right-thin {
   background-image: url(../img/icons/thin/chevron-thin.svg); }
@@ -444,6 +614,12 @@
 .evo-icon-chevron-right-bold {
   background-image: url(../img/icons/bold/chevron-bold.svg); }
 
+.evo-icon-chevron-right-black {
+  background-image: url(../img/icons/black/chevron-black.svg); }
+
+.evo-icon-chevron-right-ultra {
+  background-image: url(../img/icons/ultra/chevron-ultra.svg); }
+
 .evo-icon-chevron-down-thin {
   background-image: url(../img/icons/thin/chevron-thin.svg); }
 
@@ -456,6 +632,12 @@
 
 .evo-icon-chevron-down-bold {
   background-image: url(../img/icons/bold/chevron-bold.svg); }
+
+.evo-icon-chevron-down-black {
+  background-image: url(../img/icons/black/chevron-black.svg); }
+
+.evo-icon-chevron-down-ultra {
+  background-image: url(../img/icons/ultra/chevron-ultra.svg); }
 
 /* evo-icon-double-chevron */
 .evo-icon-double-chevron-left-thin {
@@ -471,6 +653,12 @@
 .evo-icon-double-chevron-left-bold {
   background-image: url(../img/icons/bold/double-chevron-bold.svg); }
 
+.evo-icon-double-chevron-left-black {
+  background-image: url(../img/icons/black/double-chevron-black.svg); }
+
+.evo-icon-double-chevron-left-ultra {
+  background-image: url(../img/icons/ultra/double-chevron-ultra.svg); }
+
 .evo-icon-double-chevron-up-thin {
   background-image: url(../img/icons/thin/double-chevron-thin.svg); }
 
@@ -483,6 +671,12 @@
 
 .evo-icon-double-chevron-up-bold {
   background-image: url(../img/icons/bold/double-chevron-bold.svg); }
+
+.evo-icon-double-chevron-up-black {
+  background-image: url(../img/icons/black/double-chevron-black.svg); }
+
+.evo-icon-double-chevron-up-ultra {
+  background-image: url(../img/icons/ultra/double-chevron-ultra.svg); }
 
 .evo-icon-double-chevron-right-thin {
   background-image: url(../img/icons/thin/double-chevron-thin.svg); }
@@ -498,6 +692,12 @@
 .evo-icon-double-chevron-right-bold {
   background-image: url(../img/icons/bold/double-chevron-bold.svg); }
 
+.evo-icon-double-chevron-right-black {
+  background-image: url(../img/icons/black/double-chevron-black.svg); }
+
+.evo-icon-double-chevron-right-ultra {
+  background-image: url(../img/icons/ultra/double-chevron-ultra.svg); }
+
 .evo-icon-double-chevron-down-thin {
   background-image: url(../img/icons/thin/double-chevron-thin.svg); }
 
@@ -510,6 +710,12 @@
 
 .evo-icon-double-chevron-down-bold {
   background-image: url(../img/icons/bold/double-chevron-bold.svg); }
+
+.evo-icon-double-chevron-down-black {
+  background-image: url(../img/icons/black/double-chevron-black.svg); }
+
+.evo-icon-double-chevron-down-ultra {
+  background-image: url(../img/icons/ultra/double-chevron-ultra.svg); }
 
 /* evo-icon-triangle-solid */
 .evo-icon-triangle-solid-left-thin {
@@ -525,6 +731,12 @@
 .evo-icon-triangle-solid-left-bold {
   background-image: url(../img/icons/bold/triangle-solid-bold.svg); }
 
+.evo-icon-triangle-solid-left-black {
+  background-image: url(../img/icons/black/triangle-solid-black.svg); }
+
+.evo-icon-triangle-solid-left-ultra {
+  background-image: url(../img/icons/ultra/triangle-solid-ultra.svg); }
+
 .evo-icon-triangle-solid-up-thin {
   background-image: url(../img/icons/thin/triangle-solid-thin.svg); }
 
@@ -537,6 +749,12 @@
 
 .evo-icon-triangle-solid-up-bold {
   background-image: url(../img/icons/bold/triangle-solid-bold.svg); }
+
+.evo-icon-triangle-solid-up-black {
+  background-image: url(../img/icons/black/triangle-solid-black.svg); }
+
+.evo-icon-triangle-solid-up-ultra {
+  background-image: url(../img/icons/ultra/triangle-solid-ultra.svg); }
 
 .evo-icon-triangle-solid-right-thin {
   background-image: url(../img/icons/thin/triangle-solid-thin.svg); }
@@ -552,6 +770,12 @@
 .evo-icon-triangle-solid-right-bold {
   background-image: url(../img/icons/bold/triangle-solid-bold.svg); }
 
+.evo-icon-triangle-solid-right-black {
+  background-image: url(../img/icons/black/triangle-solid-black.svg); }
+
+.evo-icon-triangle-solid-right-ultra {
+  background-image: url(../img/icons/ultra/triangle-solid-ultra.svg); }
+
 .evo-icon-triangle-solid-down-thin {
   background-image: url(../img/icons/thin/triangle-solid-thin.svg); }
 
@@ -564,6 +788,12 @@
 
 .evo-icon-triangle-solid-down-bold {
   background-image: url(../img/icons/bold/triangle-solid-bold.svg); }
+
+.evo-icon-triangle-solid-down-black {
+  background-image: url(../img/icons/black/triangle-solid-black.svg); }
+
+.evo-icon-triangle-solid-down-ultra {
+  background-image: url(../img/icons/ultra/triangle-solid-ultra.svg); }
 
 /* evo-icon-triangle */
 .evo-icon-triangle-left-thin {
@@ -579,6 +809,12 @@
 .evo-icon-triangle-left-bold {
   background-image: url(../img/icons/bold/triangle-bold.svg); }
 
+.evo-icon-triangle-left-black {
+  background-image: url(../img/icons/black/triangle-black.svg); }
+
+.evo-icon-triangle-left-ultra {
+  background-image: url(../img/icons/ultra/triangle-ultra.svg); }
+
 .evo-icon-triangle-up-thin {
   background-image: url(../img/icons/thin/triangle-thin.svg); }
 
@@ -591,6 +827,12 @@
 
 .evo-icon-triangle-up-bold {
   background-image: url(../img/icons/bold/triangle-bold.svg); }
+
+.evo-icon-triangle-up-black {
+  background-image: url(../img/icons/black/triangle-black.svg); }
+
+.evo-icon-triangle-up-ultra {
+  background-image: url(../img/icons/ultra/triangle-ultra.svg); }
 
 .evo-icon-triangle-right-thin {
   background-image: url(../img/icons/thin/triangle-thin.svg); }
@@ -606,6 +848,12 @@
 .evo-icon-triangle-right-bold {
   background-image: url(../img/icons/bold/triangle-bold.svg); }
 
+.evo-icon-triangle-right-black {
+  background-image: url(../img/icons/black/triangle-black.svg); }
+
+.evo-icon-triangle-right-ultra {
+  background-image: url(../img/icons/ultra/triangle-ultra.svg); }
+
 .evo-icon-triangle-down-thin {
   background-image: url(../img/icons/thin/triangle-thin.svg); }
 
@@ -618,6 +866,12 @@
 
 .evo-icon-triangle-down-bold {
   background-image: url(../img/icons/bold/triangle-bold.svg); }
+
+.evo-icon-triangle-down-black {
+  background-image: url(../img/icons/black/triangle-black.svg); }
+
+.evo-icon-triangle-down-ultra {
+  background-image: url(../img/icons/ultra/triangle-ultra.svg); }
 
 /* evo-icon-circle */
 .evo-icon-circle-thin {
@@ -633,6 +887,12 @@
 .evo-icon-circle-bold {
   background-image: url(../img/icons/bold/circle-bold.svg); }
 
+.evo-icon-circle-black {
+  background-image: url(../img/icons/black/circle-black.svg); }
+
+.evo-icon-circle-ultra {
+  background-image: url(../img/icons/ultra/circle-ultra.svg); }
+
 /* evo-icon-circle */
 .evo-icon-circle-solid-thin {
   background-image: url(../img/icons/thin/circle-solid-thin.svg); }
@@ -646,6 +906,12 @@
 
 .evo-icon-circle-solid-bold {
   background-image: url(../img/icons/bold/circle-solid-bold.svg); }
+
+.evo-icon-circle-solid-black {
+  background-image: url(../img/icons/black/circle-solid-black.svg); }
+
+.evo-icon-circle-solid-ultra {
+  background-image: url(../img/icons/ultra/circle-solid-ultra.svg); }
 
 /* evo-icon-square */
 .evo-icon-square-thin {
@@ -661,6 +927,12 @@
 .evo-icon-square-bold {
   background-image: url(../img/icons/bold/square-bold.svg); }
 
+.evo-icon-square-black {
+  background-image: url(../img/icons/black/square-black.svg); }
+
+.evo-icon-square-ultra {
+  background-image: url(../img/icons/ultra/square-ultra.svg); }
+
 /* evo-icon-square */
 .evo-icon-square-solid-thin {
   background-image: url(../img/icons/thin/square-solid-thin.svg); }
@@ -674,6 +946,12 @@
 
 .evo-icon-square-solid-bold {
   background-image: url(../img/icons/bold/square-solid-bold.svg); }
+
+.evo-icon-square-solid-black {
+  background-image: url(../img/icons/black/square-solid-black.svg); }
+
+.evo-icon-square-solid-ultra {
+  background-image: url(../img/icons/ultra/square-solid-ultra.svg); }
 
 /* evo-icon-slash */
 .evo-icon-slash-thin {
@@ -689,6 +967,12 @@
 .evo-icon-slash-bold {
   background-image: url(../img/icons/bold/slash-bold.svg); }
 
+.evo-icon-slash-black {
+  background-image: url(../img/icons/black/slash-black.svg); }
+
+.evo-icon-slash-ultra {
+  background-image: url(../img/icons/ultra/slash-ultra.svg); }
+
 /* evo-icon-menu */
 .evo-icon-menu-thin {
   background-image: url(../img/icons/thin/menu-thin.svg); }
@@ -702,6 +986,12 @@
 
 .evo-icon-menu-bold {
   background-image: url(../img/icons/bold/menu-bold.svg); }
+
+.evo-icon-menu-black {
+  background-image: url(../img/icons/black/menu-black.svg); }
+
+.evo-icon-menu-ultra {
+  background-image: url(../img/icons/ultra/menu-ultra.svg); }
 
 /* evo-icon-close */
 .evo-icon-close-thin {
@@ -717,6 +1007,12 @@
 .evo-icon-close-bold {
   background-image: url(../img/icons/bold/close-bold.svg); }
 
+.evo-icon-close-black {
+  background-image: url(../img/icons/black/close-black.svg); }
+
+.evo-icon-close-ultra {
+  background-image: url(../img/icons/ultra/close-ultra.svg); }
+
 /* evo-icon-plus */
 .evo-icon-plus-thin {
   background-image: url(../img/icons/thin/plus-thin.svg); }
@@ -730,6 +1026,12 @@
 
 .evo-icon-plus-bold {
   background-image: url(../img/icons/bold/plus-bold.svg); }
+
+.evo-icon-plus-black {
+  background-image: url(../img/icons/black/plus-black.svg); }
+
+.evo-icon-plus-ultra {
+  background-image: url(../img/icons/ultra/plus-ultra.svg); }
 
 /* evo-icon-minus */
 .evo-icon-minus-thin {
@@ -745,6 +1047,12 @@
 .evo-icon-minus-bold {
   background-image: url(../img/icons/bold/minus-bold.svg); }
 
+.evo-icon-minus-black {
+  background-image: url(../img/icons/black/minus-black.svg); }
+
+.evo-icon-minus-ultra {
+  background-image: url(../img/icons/ultra/minus-ultra.svg); }
+
 /* evo-icon-circle-minus */
 .evo-icon-circle-minus-thin {
   background-image: url(../img/icons/thin/circle-minus-thin.svg); }
@@ -758,6 +1066,12 @@
 
 .evo-icon-circle-minus-bold {
   background-image: url(../img/icons/bold/circle-minus-bold.svg); }
+
+.evo-icon-circle-minus-black {
+  background-image: url(../img/icons/black/circle-minus-black.svg); }
+
+.evo-icon-circle-minus-ultra {
+  background-image: url(../img/icons/ultra/circle-minus-ultra.svg); }
 
 /* evo-icon-circle-plus */
 .evo-icon-circle-plus-thin {
@@ -773,6 +1087,12 @@
 .evo-icon-circle-plus-bold {
   background-image: url(../img/icons/bold/circle-plus-bold.svg); }
 
+.evo-icon-circle-plus-black {
+  background-image: url(../img/icons/black/circle-plus-black.svg); }
+
+.evo-icon-circle-plus-ultra {
+  background-image: url(../img/icons/ultra/circle-plus-ultra.svg); }
+
 /* evo-icon-share */
 .evo-icon-share-thin {
   background-image: url(../img/icons/thin/share-thin.svg); }
@@ -786,6 +1106,12 @@
 
 .evo-icon-share-bold {
   background-image: url(../img/icons/bold/share-bold.svg); }
+
+.evo-icon-share-black {
+  background-image: url(../img/icons/black/share-black.svg); }
+
+.evo-icon-share-ultra {
+  background-image: url(../img/icons/ultra/share-ultra.svg); }
 
 /* evo-icon-link */
 .evo-icon-link-thin {
@@ -801,6 +1127,12 @@
 .evo-icon-link-bold {
   background-image: url(../img/icons/bold/link-bold.svg); }
 
+.evo-icon-link-black {
+  background-image: url(../img/icons/black/link-black.svg); }
+
+.evo-icon-link-ultra {
+  background-image: url(../img/icons/ultra/link-ultra.svg); }
+
 /* evo-icon-mail */
 .evo-icon-mail-thin {
   background-image: url(../img/icons/thin/mail-thin.svg); }
@@ -814,6 +1146,12 @@
 
 .evo-icon-mail-bold {
   background-image: url(../img/icons/bold/mail-bold.svg); }
+
+.evo-icon-mail-black {
+  background-image: url(../img/icons/black/mail-black.svg); }
+
+.evo-icon-mail-ultra {
+  background-image: url(../img/icons/ultra/mail-ultra.svg); }
 
 /* evo-icon-search */
 .evo-icon-search-thin {
@@ -829,6 +1167,12 @@
 .evo-icon-search-bold {
   background-image: url(../img/icons/bold/search-bold.svg); }
 
+.evo-icon-search-black {
+  background-image: url(../img/icons/black/search-black.svg); }
+
+.evo-icon-search-ultra {
+  background-image: url(../img/icons/ultra/search-ultra.svg); }
+
 /* evo-icon-check */
 .evo-icon-check-thin {
   background-image: url(../img/icons/thin/check-thin.svg); }
@@ -842,6 +1186,12 @@
 
 .evo-icon-check-bold {
   background-image: url(../img/icons/bold/check-bold.svg); }
+
+.evo-icon-check-black {
+  background-image: url(../img/icons/black/check-black.svg); }
+
+.evo-icon-check-ultra {
+  background-image: url(../img/icons/ultra/check-ultra.svg); }
 
 /* evo-icon-circle-slash */
 .evo-icon-circle-slash-thin {
@@ -857,6 +1207,12 @@
 .evo-icon-circle-slash-bold {
   background-image: url(../img/icons/bold/circle-slash-bold.svg); }
 
+.evo-icon-circle-slash-black {
+  background-image: url(../img/icons/black/circle-slash-black.svg); }
+
+.evo-icon-circle-slash-ultra {
+  background-image: url(../img/icons/ultra/circle-slash-ultra.svg); }
+
 /* evo-icon-eye */
 .evo-icon-eye-thin {
   background-image: url(../img/icons/thin/eye-thin.svg); }
@@ -870,6 +1226,12 @@
 
 .evo-icon-eye-bold {
   background-image: url(../img/icons/bold/eye-bold.svg); }
+
+.evo-icon-eye-black {
+  background-image: url(../img/icons/black/eye-black.svg); }
+
+.evo-icon-eye-ultra {
+  background-image: url(../img/icons/ultra/eye-ultra.svg); }
 
 /* evo-icon-eye-slash */
 .evo-icon-eye-slash-thin {
@@ -885,6 +1247,12 @@
 .evo-icon-eye-slash-bold {
   background-image: url(../img/icons/bold/eye-slash-bold.svg); }
 
+.evo-icon-eye-slash-black {
+  background-image: url(../img/icons/black/eye-slash-black.svg); }
+
+.evo-icon-eye-slash-ultra {
+  background-image: url(../img/icons/ultra/eye-slash-ultra.svg); }
+
 /* evo-icon-graph */
 .evo-icon-graph-thin {
   background-image: url(../img/icons/thin/graph-thin.svg); }
@@ -898,6 +1266,12 @@
 
 .evo-icon-graph-bold {
   background-image: url(../img/icons/bold/graph-bold.svg); }
+
+.evo-icon-graph-black {
+  background-image: url(../img/icons/black/graph-black.svg); }
+
+.evo-icon-graph-ultra {
+  background-image: url(../img/icons/ultra/graph-ultra.svg); }
 
 /* evo-icon-papers */
 .evo-icon-papers-thin {
@@ -913,6 +1287,12 @@
 .evo-icon-papers-bold {
   background-image: url(../img/icons/bold/papers-bold.svg); }
 
+.evo-icon-papers-black {
+  background-image: url(../img/icons/black/papers-black.svg); }
+
+.evo-icon-papers-ultra {
+  background-image: url(../img/icons/ultra/papers-ultra.svg); }
+
 /* evo-icon-pencil */
 .evo-icon-pencil-thin {
   background-image: url(../img/icons/thin/pencil-thin.svg); }
@@ -926,6 +1306,12 @@
 
 .evo-icon-pencil-bold {
   background-image: url(../img/icons/bold/pencil-bold.svg); }
+
+.evo-icon-pencil-black {
+  background-image: url(../img/icons/black/pencil-black.svg); }
+
+.evo-icon-pencil-ultra {
+  background-image: url(../img/icons/ultra/pencil-ultra.svg); }
 
 /* evo-icon-trashcan */
 .evo-icon-trashcan-thin {
@@ -941,20 +1327,8 @@
 .evo-icon-trashcan-bold {
   background-image: url(../img/icons/bold/trashcan-bold.svg); }
 
-/* evo-icon-star */
-.evo-icon-star-thin {
-  background-image: url(../img/icons/thin/star-light-thin.svg); }
+.evo-icon-trashcan-black {
+  background-image: url(../img/icons/black/trashcan-black.svg); }
 
-.evo-icon-star-light {
-  background-image: url(../img/icons/light/star-light-gray.svg); }
-
-.evo-icon-star,
-.evo-icon-star-book {
-  background-image: url(../img/icons/book/star-book.svg); }
-
-.evo-icon-star-bold {
-  background-image: url(../img/icons/bold/star-bold.svg); }
-
-/* evo-icon-star-solid */
-.evo-icon-star-solid {
-  background-image: url(../img/icons/icons/star-solid.svg); }
+.evo-icon-trashcan-ultra {
+  background-image: url(../img/icons/ultra/trashcan-ultra.svg); }

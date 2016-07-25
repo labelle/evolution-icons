@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>share-thin</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <polyline id="path-1" points="60 32 60 60 4 60 4 4 4 4 32 4"></polyline>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="56" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
     <g id="evo-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="share-thin" stroke="#000000">
-            <path d="M29,29.5 L44,14" id="line"></path>
-            <polyline id="chevron" points="34 14 44 14 44 24.5"></polyline>
-            <polyline id="path" points="44 30.5 44 44 14 44 14 14 28 14"></polyline>
+            <use id="path" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+            <path d="M31.5,32.5 L59.5,4.5" id="line"></path>
+            <polyline id="chevron" points="45 4.5 59.5 4.5 59.5 19"></polyline>
         </g>
     </g>
 </svg>
