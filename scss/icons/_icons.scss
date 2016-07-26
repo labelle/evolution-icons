@@ -185,53 +185,6 @@ $arrow_corner_ultra:    url(../img/icons/ultra/arrow-corner-ultra.svg);
 .evo-icon-arrow-corner-down-right-ultra { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
 
 
-/* evo-icon-arrow-corner-full */
-
-//fixed
-
-
-$arrow_corner_full_thin:     url(../img/icons/thin/arrow-corner-full-thin.svg);
-$arrow_corner_full_light:    url(../img/icons/light/arrow-corner-full-light.svg);
-$arrow_corner_full_book:     url(../img/icons/book/arrow-corner-full-book.svg);
-$arrow_corner_full_bold:     url(../img/icons/bold/arrow-corner-full-bold.svg);
-$arrow_corner_full_black:    url(../img/icons/black/arrow-corner-full-black.svg);
-$arrow_corner_full_ultra:    url(../img/icons/ultra/arrow-corner-full-ultra.svg);
-
-
-.evo-icon-arrow-corner-full-down-left-thin   { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_full_thin; }
-.evo-icon-arrow-corner-full-down-left-light  { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_full_light; }
-.evo-icon-arrow-corner-full-down-left,
-.evo-icon-arrow-corner-full-down-left-book   { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_full_book; }
-.evo-icon-arrow-corner-full-down-left-bold   { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_full_bold; }
-.evo-icon-arrow-corner-full-down-left-black  { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_full_black; }
-.evo-icon-arrow-corner-full-down-left-ultra  { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_full_ultra; }
-
-.evo-icon-arrow-corner-full-up-left-thin     { @extend .evo-icon-transform-270; @extend .evo-icon-base;  background-image: $arrow_corner_full_thin; }
-.evo-icon-arrow-corner-full-up-left-light    { @extend .evo-icon-transform-270; @extend .evo-icon-base;  background-image: $arrow_corner_full_light; }
-.evo-icon-arrow-corner-full,
-.evo-icon-arrow-corner-full-up-left,
-.evo-icon-arrow-corner-full-up-left-book     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_full_book; }
-.evo-icon-arrow-corner-full-up-left-bold     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_full_bold; }
-.evo-icon-arrow-corner-full-up-left-black    { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_full_black; }
-.evo-icon-arrow-corner-full-up-left-ultra    { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_full_ultra; }
-
-.evo-icon-arrow-corner-full-up-right-thin    { @extend .evo-icon-base; background-image: $arrow_corner_full_thin; }
-.evo-icon-arrow-corner-full-up-right-light   { @extend .evo-icon-base; background-image: $arrow_corner_full_light; }
-.evo-icon-arrow-corner-full-up-right,
-.evo-icon-arrow-corner-full-up-right-book    { @extend .evo-icon-base; background-image: $arrow_corner_full_book; }
-.evo-icon-arrow-corner-full-up-right-bold    { @extend .evo-icon-base; background-image: $arrow_corner_full_bold; }
-.evo-icon-arrow-corner-full-up-right-black   { @extend .evo-icon-base; background-image: $arrow_corner_full_black; }
-.evo-icon-arrow-corner-full-up-right-ultra   { @extend .evo-icon-base; background-image: $arrow_corner_full_ultra; }
-
-.evo-icon-arrow-corner-full-down-right-thin  { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_full_thin; }
-.evo-icon-arrow-corner-full-down-right-light { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_full_light; }
-.evo-icon-arrow-corner-full-down-right,
-.evo-icon-arrow-corner-full-down-right-book  { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_full_book; }
-.evo-icon-arrow-corner-full-down-right-bold  { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_full_bold; }
-.evo-icon-arrow-corner-full-down-right-black { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_full_black; }
-.evo-icon-arrow-corner-full-down-right-ultra { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_full_ultra; }
-
-
 
 /* evo-icon-circle-chevron */
 
@@ -385,38 +338,38 @@ $triangle_solid_black:     url(../img/icons/black/triangle-solid-black.svg);
 $triangle_solid_ultra:     url(../img/icons/ultra/triangle-solid-ultra.svg);
 
 
-.evo-icon-triangle-solid-left-thin      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_thin; }
-.evo-icon-triangle-solid-left-light     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_light; }
+.evo-icon-triangle-solid-left-thin      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_thin; }
+.evo-icon-triangle-solid-left-light     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_light; }
 .evo-icon-triangle-solid-left,
-.evo-icon-triangle-solid-left-book      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_book; }
-.evo-icon-triangle-solid-left-bold      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_bold; }
-.evo-icon-triangle-solid-left-black     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_black; }
-.evo-icon-triangle-solid-left-ultra     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
+.evo-icon-triangle-solid-left-book      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_book; }
+.evo-icon-triangle-solid-left-bold      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_bold; }
+.evo-icon-triangle-solid-left-black     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_black; }
+.evo-icon-triangle-solid-left-ultra     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
 
-.evo-icon-triangle-solid-up-thin        { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_thin; }
-.evo-icon-triangle-solid-up-light       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_light; }
+.evo-icon-triangle-solid-up-thin        { @extend .evo-icon-base; background-image: $triangle_solid_thin; }
+.evo-icon-triangle-solid-up-light       { @extend .evo-icon-base; background-image: $triangle_solid_light; }
 .evo-icon-triangle-solid-up,
-.evo-icon-triangle-solid-up-book        { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_book; }
-.evo-icon-triangle-solid-up-bold        { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_bold; }
-.evo-icon-triangle-solid-up-black       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_black; }
-.evo-icon-triangle-solid-up-ultra       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
+.evo-icon-triangle-solid-up-book        { @extend .evo-icon-base; background-image: $triangle_solid_book; }
+.evo-icon-triangle-solid-up-bold        { @extend .evo-icon-base; background-image: $triangle_solid_bold; }
+.evo-icon-triangle-solid-up-black       { @extend .evo-icon-base; background-image: $triangle_solid_black; }
+.evo-icon-triangle-solid-up-ultra       { @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
 
 .evo-icon-triangle-solid-right-thin     { @extend .evo-icon-base; background-image: $triangle_solid_thin; }
 .evo-icon-triangle-solid-right-light    { @extend .evo-icon-base; background-image: $triangle_solid_light; }
 .evo-icon-triangle-solid,
 .evo-icon-triangle-solid-right,
-.evo-icon-triangle-solid-right-book     { @extend .evo-icon-base; background-image: $triangle_solid_book; }
-.evo-icon-triangle-solid-right-bold     { @extend .evo-icon-base; background-image: $triangle_solid_bold; }
-.evo-icon-triangle-solid-right-black    { @extend .evo-icon-base; background-image: $triangle_solid_black; }
-.evo-icon-triangle-solid-right-ultra    { @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
+.evo-icon-triangle-solid-right-book     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_book; }
+.evo-icon-triangle-solid-right-bold     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_bold; }
+.evo-icon-triangle-solid-right-black    { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_black; }
+.evo-icon-triangle-solid-right-ultra    { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
 
-.evo-icon-triangle-solid-down-thin      { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_thin; }
-.evo-icon-triangle-solid-down-light     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_light; }
+.evo-icon-triangle-solid-down-thin      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_thin; }
+.evo-icon-triangle-solid-down-light     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_light; }
 .evo-icon-triangle-solid-down,
-.evo-icon-triangle-solid-down-book      { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_book; }
-.evo-icon-triangle-solid-down-bold      { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_bold; }
-.evo-icon-triangle-solid-down-black     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_black; }
-.evo-icon-triangle-solid-down-ultra     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
+.evo-icon-triangle-solid-down-book      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_book; }
+.evo-icon-triangle-solid-down-bold      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_bold; }
+.evo-icon-triangle-solid-down-black     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_black; }
+.evo-icon-triangle-solid-down-ultra     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid_ultra; }
 
 
 
@@ -432,38 +385,38 @@ $triangle_black:    url(../img/icons/black/triangle-black.svg);
 $triangle_ultra:    url(../img/icons/ultra/triangle-ultra.svg);
 
 
-.evo-icon-triangle-left-thin            { @extend.evo-icon-transform-180; @extend.evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-left-light           { @extend.evo-icon-transform-180; @extend.evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-left-thin            { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-left-light           { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle-left,
-.evo-icon-triangle-left-book            { @extend.evo-icon-transform-180; @extend.evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-left-bold            { @extend.evo-icon-transform-180; @extend.evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-left-black           { @extend.evo-icon-transform-180; @extend.evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-left-ultra           { @extend.evo-icon-transform-180; @extend.evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-left-book            { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-left-bold            { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-left-black           { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-left-ultra           { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_ultra; }
 
-.evo-icon-triangle-up-thin              { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-up-light             { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-up-thin              { @extend .evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-up-light             { @extend .evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle-up,
-.evo-icon-triangle-up-book              { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-up-bold              { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-up-black             { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-up-ultra             { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-up-book              { @extend .evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-up-bold              { @extend .evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-up-black             { @extend .evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-up-ultra             { @extend .evo-icon-base; background-image: $triangle_ultra; }
 
-.evo-icon-triangle-right-thin           { @extend .evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-right-light          { @extend .evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-right-thin           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-right-light          { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle,
 .evo-icon-triangle-right,
-.evo-icon-triangle-right-book           { @extend .evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-right-bold           { @extend .evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-right-black          { @extend .evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-right-ultra          { @extend .evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-right-book           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-right-bold           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-right-black          { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-right-ultra          { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_ultra; }
 
-.evo-icon-triangle-down-thin            { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-down-light           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-down-thin            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-down-light           { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle-down,
-.evo-icon-triangle-down-book            { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-down-bold            { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-down-black           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-down-ultra           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-down-book            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-down-bold            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-down-black           { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-down-ultra           { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_ultra; }
 
 
 /* evo-icon-circle */
