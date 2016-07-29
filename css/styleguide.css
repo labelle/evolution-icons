@@ -543,6 +543,10 @@ p.highlight-4,
 /* ================================================================================ */
 /* ------------------------------ STYLEGUIDE BUTTONS ------------------------------ */
 /* ================================================================================ */
+.evo-button-base, .evo-button-biggest, .evo-button-bigger, .evo-button-big, .evo-button, .evo-button-small, .evo-button-smaller, .evo-button-smallest {
+  border-radius: 0px;
+  display: inline-block; }
+
 .evo-button-inverse-base, .evo-button-inverse-biggest, .evo-button-inverse-bigger, .evo-button-inverse-big, .evo-button-inverse, .evo-button-inverse-small, .evo-button-inverse-smaller, .evo-button-inverse-smallest, .brand-color-inverse-1-button,
 .brand-color-inverse-2-button,
 .brand-color-inverse-3-button,
