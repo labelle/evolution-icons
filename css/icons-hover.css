@@ -1,0 +1,62 @@
+a.evo-icon-circle-chevron-right-book,
+a.evo-icon-circle-chevron-right-book-inverse,
+a.evo-icon-double-chevron-right-book,
+a.evo-icon-double-chevron-right-book-inverse,
+a.evo-icon-double-chevron-down-book-inverse,
+a.evo-icon-mail-book, 
+a.evo-icon-mail-book-inverse,
+a.evo-icon-close,
+a.hamburger {
+   transition: all 0.2s ease-in;
+}
+
+a.evo-icon-circle-chevron-right-book:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/circle-chevron-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+a.evo-icon-circle-chevron-right-book-inverse:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/circle-chevron-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+
+a.evo-icon-double-chevron-right-book:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+a.evo-icon-double-chevron-right-book-inverse:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+a.evo-icon-double-chevron-down-book-inverse:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+
+/* evo-icon-mail */
+a.evo-icon-mail-book:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/mail-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+a.evo-icon-mail-book-inverse:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/mail-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+a.evo-icon-close:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/close-book-cmy-green.svg);
+   transition: all 0s ease-out;
+   cursor: pointer;
+}
+
+a.hamburger:hover, a.hamburger-inverse:hover {
+   background-image: url(../icons-cmy-green/book-cmy-green/menu-book-cmy-green.svg);
+   transition: all 0s ease-out;
+}
+
+

@@ -1,0 +1,1200 @@
+/* Icon Rotation */
+.evo-icon-transform-90, .evo-icon-arrow-down-thin-cmy-green, .evo-icon-arrow-down-light-cmy-green, .evo-icon-arrow-down-cmy-green,
+.evo-icon-arrow-down-book-cmy-green, .evo-icon-arrow-down-bold-cmy-green, .evo-icon-arrow-down-black-cmy-green, .evo-icon-arrow-down-ultra-cmy-green, .evo-icon-arrow-corner-down-right-thin-cmy-green, .evo-icon-arrow-corner-down-right-light-cmy-green, .evo-icon-arrow-corner-down-right-cmy-green,
+.evo-icon-arrow-corner-down-right-book-cmy-green, .evo-icon-arrow-corner-down-right-bold-cmy-green, .evo-icon-arrow-corner-down-right-black-cmy-green, .evo-icon-arrow-corner-down-right-ultra-cmy-green, .evo-icon-arrow-corner-full-down-right-thin-cmy-green, .evo-icon-arrow-corner-full-down-right-light-cmy-green, .evo-icon-arrow-corner-full-down-right-cmy-green,
+.evo-icon-arrow-corner-full-down-right-book-cmy-green, .evo-icon-arrow-corner-full-down-right-bold-cmy-green, .evo-icon-arrow-corner-full-down-right-black-cmy-green, .evo-icon-arrow-corner-full-down-right-ultra-cmy-green, .evo-icon-circle-chevron-down-thin-cmy-green, .evo-icon-circle-chevron-down-light-cmy-green, .evo-icon-circle-chevron-down-cmy-green,
+.evo-icon-circle-chevron-down-book-cmy-green, .evo-icon-circle-chevron-down-bold-cmy-green, .evo-icon-circle-chevron-down-black-cmy-green, .evo-icon-circle-chevron-down-ultra-cmy-green, .evo-icon-chevron-down-thin-cmy-green, .evo-icon-chevron-down-light-cmy-green, .evo-icon-chevron-down-cmy-green,
+.evo-icon-chevron-down-book-cmy-green, .evo-icon-chevron-down-bold-cmy-green, .evo-icon-chevron-down-black-cmy-green, .evo-icon-chevron-down-ultra-cmy-green, .evo-icon-double-chevron-down-thin-cmy-green, .evo-icon-double-chevron-down-light-cmy-green, .evo-icon-double-chevron-down-cmy-green,
+.evo-icon-double-chevron-down-book-cmy-green, .evo-icon-double-chevron-down-bold-cmy-green, .evo-icon-double-chevron-down-black-cmy-green, .evo-icon-double-chevron-down-ultra-cmy-green, .evo-icon-triangle-solid-down-thin-cmy-green, .evo-icon-triangle-solid-down-light-cmy-green, .evo-icon-triangle-solid-down-cmy-green,
+.evo-icon-triangle-solid-down-book-cmy-green, .evo-icon-triangle-solid-down-bold-cmy-green, .evo-icon-triangle-solid-down-black-cmy-green, .evo-icon-triangle-solid-down-ultra-cmy-green, .evo-icon-triangle-down-thin-cmy-green, .evo-icon-triangle-down-light-cmy-green, .evo-icon-triangle-down-cmy-green,
+.evo-icon-triangle-down-book-cmy-green, .evo-icon-triangle-down-bold-cmy-green, .evo-icon-triangle-down-black-cmy-green, .evo-icon-triangle-down-ultra-cmy-green {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.evo-icon-transform-180, .evo-icon-arrow-left-thin-cmy-green, .evo-icon-arrow-left-light-cmy-green, .evo-icon-arrow-left-cmy-green,
+.evo-icon-arrow-left-book-cmy-green, .evo-icon-arrow-left-bold-cmy-green, .evo-icon-arrow-left-black-cmy-green, .evo-icon-arrow-left-ultra-cmy-green, .evo-icon-arrow-corner-down-left-thin-cmy-green, .evo-icon-arrow-corner-down-left-light-cmy-green, .evo-icon-arrow-corner-down-left-cmy-green,
+.evo-icon-arrow-corner-down-left-book-cmy-green, .evo-icon-arrow-corner-down-left-bold-cmy-green, .evo-icon-arrow-corner-down-left-black-cmy-green, .evo-icon-arrow-corner-down-left-ultra-cmy-green, .evo-icon-arrow-corner-full-down-left-thin-cmy-green, .evo-icon-arrow-corner-full-down-left-light-cmy-green, .evo-icon-arrow-corner-full-down-left-cmy-green,
+.evo-icon-arrow-corner-full-down-left-book-cmy-green, .evo-icon-arrow-corner-full-down-left-bold-cmy-green, .evo-icon-arrow-corner-full-down-left-black-cmy-green, .evo-icon-arrow-corner-full-down-left-ultra-cmy-green, .evo-icon-circle-chevron-left-thin-cmy-green, .evo-icon-circle-chevron-left-light-cmy-green, .evo-icon-circle-chevron-left-cmy-green,
+.evo-icon-circle-chevron-left-book-cmy-green, .evo-icon-circle-chevron-left-bold-cmy-green, .evo-icon-circle-chevron-left-black-cmy-green, .evo-icon-circle-chevron-left-ultra-cmy-green, .evo-icon-chevron-left-thin-cmy-green, .evo-icon-chevron-left-light-cmy-green, .evo-icon-chevron-left-cmy-green,
+.evo-icon-chevron-left-book-cmy-green, .evo-icon-chevron-left-bold-cmy-green, .evo-icon-chevron-left-black-cmy-green, .evo-icon-chevron-left-ultra-cmy-green, .evo-icon-double-chevron-left-thin-cmy-green, .evo-icon-double-chevron-left-light-cmy-green, .evo-icon-double-chevron-left-cmy-green,
+.evo-icon-double-chevron-left-book-cmy-green, .evo-icon-double-chevron-left-bold-cmy-green, .evo-icon-double-chevron-left-black-cmy-green, .evo-icon-double-chevron-left-ultra-cmy-green, .evo-icon-triangle-solid-left-thin-cmy-green, .evo-icon-triangle-solid-left-light-cmy-green, .evo-icon-triangle-solid-left-cmy-green,
+.evo-icon-triangle-solid-left-book-cmy-green, .evo-icon-triangle-solid-left-bold-cmy-green, .evo-icon-triangle-solid-left-black-cmy-green, .evo-icon-triangle-solid-left-ultra-cmy-green, .evo-icon-triangle-left-thin-cmy-green, .evo-icon-triangle-left-light-cmy-green, .evo-icon-triangle-left-cmy-green,
+.evo-icon-triangle-left-book-cmy-green, .evo-icon-triangle-left-bold-cmy-green, .evo-icon-triangle-left-black-cmy-green, .evo-icon-triangle-left-ultra-cmy-green {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.evo-icon-transform-270, .evo-icon-arrow-up-thin-cmy-green, .evo-icon-arrow-up-light-cmy-green, .evo-icon-arrow-up-cmy-green,
+.evo-icon-arrow-up-book-cmy-green, .evo-icon-arrow-up-bold-cmy-green, .evo-icon-arrow-up-black-cmy-green, .evo-icon-arrow-up-ultra-cmy-green, .evo-icon-arrow-corner-up-left-thin-cmy-green, .evo-icon-arrow-corner-up-left-light-cmy-green, .evo-icon-arrow-corner-cmy-green,
+.evo-icon-arrow-corner-up-left-cmy-green,
+.evo-icon-arrow-corner-up-left-book-cmy-green, .evo-icon-arrow-corner-up-left-bold-cmy-green, .evo-icon-arrow-corner-up-left-black-cmy-green, .evo-icon-arrow-corner-up-left-ultra-cmy-green, .evo-icon-arrow-corner-full-up-left-thin-cmy-green, .evo-icon-arrow-corner-full-up-left-light-cmy-green, .evo-icon-arrow-corner-full-cmy-green,
+.evo-icon-arrow-corner-full-up-left-cmy-green,
+.evo-icon-arrow-corner-full-up-left-book-cmy-green, .evo-icon-arrow-corner-full-up-left-bold-cmy-green, .evo-icon-arrow-corner-full-up-left-black-cmy-green, .evo-icon-arrow-corner-full-up-left-ultra-cmy-green, .evo-icon-circle-chevron-up-thin-cmy-green, .evo-icon-circle-chevron-up-light-cmy-green, .evo-icon-circle-chevron-up-cmy-green,
+.evo-icon-circle-chevron-up-book-cmy-green, .evo-icon-circle-chevron-up-bold-cmy-green, .evo-icon-circle-chevron-up-black-cmy-green, .evo-icon-circle-chevron-up-ultra-cmy-green, .evo-icon-chevron-up-thin-cmy-green, .evo-icon-chevron-up-light-cmy-green, .evo-icon-chevron-up-cmy-green,
+.evo-icon-chevron-up-book-cmy-green, .evo-icon-chevron-up-bold-cmy-green, .evo-icon-chevron-up-black-cmy-green, .evo-icon-chevron-up-ultra-cmy-green, .evo-icon-double-chevron-up-thin-cmy-green, .evo-icon-double-chevron-up-light-cmy-green, .evo-icon-double-chevron-up-cmy-green,
+.evo-icon-double-chevron-up-book-cmy-green, .evo-icon-double-chevron-up-bold-cmy-green, .evo-icon-double-chevron-up-black-cmy-green, .evo-icon-double-chevron-up-ultra-cmy-green, .evo-icon-triangle-solid-up-thin-cmy-green, .evo-icon-triangle-solid-up-light-cmy-green, .evo-icon-triangle-solid-up-cmy-green,
+.evo-icon-triangle-solid-up-book-cmy-green, .evo-icon-triangle-solid-up-bold-cmy-green, .evo-icon-triangle-solid-up-black-cmy-green, .evo-icon-triangle-solid-up-ultra-cmy-green, .evo-icon-triangle-up-thin-cmy-green, .evo-icon-triangle-up-light-cmy-green, .evo-icon-triangle-up-cmy-green,
+.evo-icon-triangle-up-book-cmy-green, .evo-icon-triangle-up-bold-cmy-green, .evo-icon-triangle-up-black-cmy-green, .evo-icon-triangle-up-ultra-cmy-green {
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.evo-icon-transform-360 {
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); }
+
+/* --- Icon structure and SVG sources --- */
+.evo-icon-base, .evo-icon-arrow-left-thin-cmy-green, .evo-icon-arrow-left-light-cmy-green, .evo-icon-arrow-left-cmy-green,
+.evo-icon-arrow-left-book-cmy-green, .evo-icon-arrow-left-bold-cmy-green, .evo-icon-arrow-left-black-cmy-green, .evo-icon-arrow-left-ultra-cmy-green, .evo-icon-arrow-up-thin-cmy-green, .evo-icon-arrow-up-light-cmy-green, .evo-icon-arrow-up-cmy-green,
+.evo-icon-arrow-up-book-cmy-green, .evo-icon-arrow-up-bold-cmy-green, .evo-icon-arrow-up-black-cmy-green, .evo-icon-arrow-up-ultra-cmy-green, .evo-icon-arrow-right-thin-cmy-green, .evo-icon-arrow-right-light-cmy-green, .evo-icon-arrow-cmy-green,
+.evo-icon-arrow-right-cmy-green,
+.evo-icon-arrow-right-book-cmy-green, .evo-icon-arrow-right-bold-cmy-green, .evo-icon-arrow-right-black-cmy-green, .evo-icon-arrow-right-ultra-cmy-green, .evo-icon-arrow-down-thin-cmy-green, .evo-icon-arrow-down-light-cmy-green, .evo-icon-arrow-down-cmy-green,
+.evo-icon-arrow-down-book-cmy-green, .evo-icon-arrow-down-bold-cmy-green, .evo-icon-arrow-down-black-cmy-green, .evo-icon-arrow-down-ultra-cmy-green, .evo-icon-arrow-corner-down-left-thin-cmy-green, .evo-icon-arrow-corner-down-left-light-cmy-green, .evo-icon-arrow-corner-down-left-cmy-green,
+.evo-icon-arrow-corner-down-left-book-cmy-green, .evo-icon-arrow-corner-down-left-bold-cmy-green, .evo-icon-arrow-corner-down-left-black-cmy-green, .evo-icon-arrow-corner-down-left-ultra-cmy-green, .evo-icon-arrow-corner-up-left-thin-cmy-green, .evo-icon-arrow-corner-up-left-light-cmy-green, .evo-icon-arrow-corner-cmy-green,
+.evo-icon-arrow-corner-up-left-cmy-green,
+.evo-icon-arrow-corner-up-left-book-cmy-green, .evo-icon-arrow-corner-up-left-bold-cmy-green, .evo-icon-arrow-corner-up-left-black-cmy-green, .evo-icon-arrow-corner-up-left-ultra-cmy-green, .evo-icon-arrow-corner-up-right-thin-cmy-green, .evo-icon-arrow-corner-up-right-light-cmy-green, .evo-icon-arrow-corner-up-right-cmy-green,
+.evo-icon-arrow-corner-up-right-book-cmy-green, .evo-icon-arrow-corner-up-right-bold-cmy-green, .evo-icon-arrow-corner-up-right-black-cmy-green, .evo-icon-arrow-corner-up-right-ultra-cmy-green, .evo-icon-arrow-corner-down-right-thin-cmy-green, .evo-icon-arrow-corner-down-right-light-cmy-green, .evo-icon-arrow-corner-down-right-cmy-green,
+.evo-icon-arrow-corner-down-right-book-cmy-green, .evo-icon-arrow-corner-down-right-bold-cmy-green, .evo-icon-arrow-corner-down-right-black-cmy-green, .evo-icon-arrow-corner-down-right-ultra-cmy-green, .evo-icon-arrow-corner-full-down-left-thin-cmy-green, .evo-icon-arrow-corner-full-down-left-light-cmy-green, .evo-icon-arrow-corner-full-down-left-cmy-green,
+.evo-icon-arrow-corner-full-down-left-book-cmy-green, .evo-icon-arrow-corner-full-down-left-bold-cmy-green, .evo-icon-arrow-corner-full-down-left-black-cmy-green, .evo-icon-arrow-corner-full-down-left-ultra-cmy-green, .evo-icon-arrow-corner-full-up-left-thin-cmy-green, .evo-icon-arrow-corner-full-up-left-light-cmy-green, .evo-icon-arrow-corner-full-cmy-green,
+.evo-icon-arrow-corner-full-up-left-cmy-green,
+.evo-icon-arrow-corner-full-up-left-book-cmy-green, .evo-icon-arrow-corner-full-up-left-bold-cmy-green, .evo-icon-arrow-corner-full-up-left-black-cmy-green, .evo-icon-arrow-corner-full-up-left-ultra-cmy-green, .evo-icon-arrow-corner-full-up-right-thin-cmy-green, .evo-icon-arrow-corner-full-up-right-light-cmy-green, .evo-icon-arrow-corner-full-up-right-cmy-green,
+.evo-icon-arrow-corner-full-up-right-book-cmy-green, .evo-icon-arrow-corner-full-up-right-bold-cmy-green, .evo-icon-arrow-corner-full-up-right-black-cmy-green, .evo-icon-arrow-corner-full-up-right-ultra-cmy-green, .evo-icon-arrow-corner-full-down-right-thin-cmy-green, .evo-icon-arrow-corner-full-down-right-light-cmy-green, .evo-icon-arrow-corner-full-down-right-cmy-green,
+.evo-icon-arrow-corner-full-down-right-book-cmy-green, .evo-icon-arrow-corner-full-down-right-bold-cmy-green, .evo-icon-arrow-corner-full-down-right-black-cmy-green, .evo-icon-arrow-corner-full-down-right-ultra-cmy-green, .evo-icon-circle-chevron-left-thin-cmy-green, .evo-icon-circle-chevron-left-light-cmy-green, .evo-icon-circle-chevron-left-cmy-green,
+.evo-icon-circle-chevron-left-book-cmy-green, .evo-icon-circle-chevron-left-bold-cmy-green, .evo-icon-circle-chevron-left-black-cmy-green, .evo-icon-circle-chevron-left-ultra-cmy-green, .evo-icon-circle-chevron-up-thin-cmy-green, .evo-icon-circle-chevron-up-light-cmy-green, .evo-icon-circle-chevron-up-cmy-green,
+.evo-icon-circle-chevron-up-book-cmy-green, .evo-icon-circle-chevron-up-bold-cmy-green, .evo-icon-circle-chevron-up-black-cmy-green, .evo-icon-circle-chevron-up-ultra-cmy-green, .evo-icon-circle-chevron-right-thin-cmy-green, .evo-icon-circle-chevron-right-light-cmy-green, .evo-icon-circle-chevron-cmy-green,
+.evo-icon-circle-chevron-right-cmy-green,
+.evo-icon-circle-chevron-right-book-cmy-green, .evo-icon-circle-chevron-right-bold-cmy-green, .evo-icon-circle-chevron-right-black-cmy-green, .evo-icon-circle-chevron-right-ultra-cmy-green, .evo-icon-circle-chevron-down-thin-cmy-green, .evo-icon-circle-chevron-down-light-cmy-green, .evo-icon-circle-chevron-down-cmy-green,
+.evo-icon-circle-chevron-down-book-cmy-green, .evo-icon-circle-chevron-down-bold-cmy-green, .evo-icon-circle-chevron-down-black-cmy-green, .evo-icon-circle-chevron-down-ultra-cmy-green, .evo-icon-chevron-left-thin-cmy-green, .evo-icon-chevron-left-light-cmy-green, .evo-icon-chevron-left-cmy-green,
+.evo-icon-chevron-left-book-cmy-green, .evo-icon-chevron-left-bold-cmy-green, .evo-icon-chevron-left-black-cmy-green, .evo-icon-chevron-left-ultra-cmy-green, .evo-icon-chevron-up-thin-cmy-green, .evo-icon-chevron-up-light-cmy-green, .evo-icon-chevron-up-cmy-green,
+.evo-icon-chevron-up-book-cmy-green, .evo-icon-chevron-up-bold-cmy-green, .evo-icon-chevron-up-black-cmy-green, .evo-icon-chevron-up-ultra-cmy-green, .evo-icon-chevron-right-thin-cmy-green, .evo-icon-chevron-right-light-cmy-green, .evo-icon-chevron-cmy-green,
+.evo-icon-chevron-right-cmy-green,
+.evo-icon-chevron-right-book-cmy-green, .evo-icon-chevron-right-bold-cmy-green, .evo-icon-chevron-right-black-cmy-green, .evo-icon-chevron-right-ultra-cmy-green, .evo-icon-chevron-down-thin-cmy-green, .evo-icon-chevron-down-light-cmy-green, .evo-icon-chevron-down-cmy-green,
+.evo-icon-chevron-down-book-cmy-green, .evo-icon-chevron-down-bold-cmy-green, .evo-icon-chevron-down-black-cmy-green, .evo-icon-chevron-down-ultra-cmy-green, .evo-icon-double-chevron-left-thin-cmy-green, .evo-icon-double-chevron-left-light-cmy-green, .evo-icon-double-chevron-left-cmy-green,
+.evo-icon-double-chevron-left-book-cmy-green, .evo-icon-double-chevron-left-bold-cmy-green, .evo-icon-double-chevron-left-black-cmy-green, .evo-icon-double-chevron-left-ultra-cmy-green, .evo-icon-double-chevron-up-thin-cmy-green, .evo-icon-double-chevron-up-light-cmy-green, .evo-icon-double-chevron-up-cmy-green,
+.evo-icon-double-chevron-up-book-cmy-green, .evo-icon-double-chevron-up-bold-cmy-green, .evo-icon-double-chevron-up-black-cmy-green, .evo-icon-double-chevron-up-ultra-cmy-green, .evo-icon-double-chevron-right-thin-cmy-green, .evo-icon-double-chevron-right-light-cmy-green, .evo-icon-double-chevron-cmy-green,
+.evo-icon-double-chevron-right-cmy-green,
+.evo-icon-double-chevron-right-book-cmy-green, .evo-icon-double-chevron-right-bold-cmy-green, .evo-icon-double-chevron-right-black-cmy-green, .evo-icon-double-chevron-right-ultra-cmy-green, .evo-icon-double-chevron-down-thin-cmy-green, .evo-icon-double-chevron-down-light-cmy-green, .evo-icon-double-chevron-down-cmy-green,
+.evo-icon-double-chevron-down-book-cmy-green, .evo-icon-double-chevron-down-bold-cmy-green, .evo-icon-double-chevron-down-black-cmy-green, .evo-icon-double-chevron-down-ultra-cmy-green, .evo-icon-triangle-solid-left-thin-cmy-green, .evo-icon-triangle-solid-left-light-cmy-green, .evo-icon-triangle-solid-left-cmy-green,
+.evo-icon-triangle-solid-left-book-cmy-green, .evo-icon-triangle-solid-left-bold-cmy-green, .evo-icon-triangle-solid-left-black-cmy-green, .evo-icon-triangle-solid-left-ultra-cmy-green, .evo-icon-triangle-solid-up-thin-cmy-green, .evo-icon-triangle-solid-up-light-cmy-green, .evo-icon-triangle-solid-up-cmy-green,
+.evo-icon-triangle-solid-up-book-cmy-green, .evo-icon-triangle-solid-up-bold-cmy-green, .evo-icon-triangle-solid-up-black-cmy-green, .evo-icon-triangle-solid-up-ultra-cmy-green, .evo-icon-triangle-solid-right-thin-cmy-green, .evo-icon-triangle-solid-right-light-cmy-green, .evo-icon-triangle-solid-cmy-green,
+.evo-icon-triangle-solid-right-cmy-green,
+.evo-icon-triangle-solid-right-book-cmy-green, .evo-icon-triangle-solid-right-bold-cmy-green, .evo-icon-triangle-solid-right-black-cmy-green, .evo-icon-triangle-solid-right-ultra-cmy-green, .evo-icon-triangle-solid-down-thin-cmy-green, .evo-icon-triangle-solid-down-light-cmy-green, .evo-icon-triangle-solid-down-cmy-green,
+.evo-icon-triangle-solid-down-book-cmy-green, .evo-icon-triangle-solid-down-bold-cmy-green, .evo-icon-triangle-solid-down-black-cmy-green, .evo-icon-triangle-solid-down-ultra-cmy-green, .evo-icon-triangle-left-thin-cmy-green, .evo-icon-triangle-left-light-cmy-green, .evo-icon-triangle-left-cmy-green,
+.evo-icon-triangle-left-book-cmy-green, .evo-icon-triangle-left-bold-cmy-green, .evo-icon-triangle-left-black-cmy-green, .evo-icon-triangle-left-ultra-cmy-green, .evo-icon-triangle-up-thin-cmy-green, .evo-icon-triangle-up-light-cmy-green, .evo-icon-triangle-up-cmy-green,
+.evo-icon-triangle-up-book-cmy-green, .evo-icon-triangle-up-bold-cmy-green, .evo-icon-triangle-up-black-cmy-green, .evo-icon-triangle-up-ultra-cmy-green, .evo-icon-triangle-right-thin-cmy-green, .evo-icon-triangle-right-light-cmy-green, .evo-icon-triangle-cmy-green,
+.evo-icon-triangle-right-cmy-green,
+.evo-icon-triangle-right-book-cmy-green, .evo-icon-triangle-right-bold-cmy-green, .evo-icon-triangle-right-black-cmy-green, .evo-icon-triangle-right-ultra-cmy-green, .evo-icon-triangle-down-thin-cmy-green, .evo-icon-triangle-down-light-cmy-green, .evo-icon-triangle-down-cmy-green,
+.evo-icon-triangle-down-book-cmy-green, .evo-icon-triangle-down-bold-cmy-green, .evo-icon-triangle-down-black-cmy-green, .evo-icon-triangle-down-ultra-cmy-green, .evo-icon-circle-thin-cmy-green, .evo-icon-circle-light-cmy-green, .evo-icon-circle-cmy-green,
+.evo-icon-circle-book-cmy-green, .evo-icon-circle-bold-cmy-green, .evo-icon-circle-black-cmy-green, .evo-icon-circle-ultra-cmy-green, .evo-icon-circle-solid-thin-cmy-green, .evo-icon-circle-solid-light-cmy-green, .evo-icon-circle-solid-cmy-green,
+.evo-icon-circle-solid-book-cmy-green, .evo-icon-circle-solid-bold-cmy-green, .evo-icon-circle-solid-black-cmy-green, .evo-icon-circle-solid-ultra-cmy-green, .evo-icon-square-thin-cmy-green, .evo-icon-square-light-cmy-green, .evo-icon-square-cmy-green,
+.evo-icon-square-book-cmy-green, .evo-icon-square-bold-cmy-green, .evo-icon-square-black-cmy-green, .evo-icon-square-ultra-cmy-green, .evo-icon-square-solid-thin-cmy-green, .evo-icon-square-solid-light-cmy-green, .evo-icon-square-solid-cmy-green,
+.evo-icon-square-solid-book-cmy-green, .evo-icon-square-solid-bold-cmy-green, .evo-icon-square-solid-black-cmy-green, .evo-icon-square-solid-ultra-cmy-green, .evo-icon-slash-thin-cmy-green, .evo-icon-slash-light-cmy-green, .evo-icon-slash-cmy-green,
+.evo-icon-slash-book-cmy-green, .evo-icon-slash-bold-cmy-green, .evo-icon-slash-black-cmy-green, .evo-icon-slash-ultra-cmy-green, .evo-icon-menu-thin-cmy-green, .evo-icon-menu-light-cmy-green, .evo-icon-menu-cmy-green,
+.evo-icon-menu-book-cmy-green, .evo-icon-menu-bold-cmy-green, .evo-icon-menu-black-cmy-green, .evo-icon-menu-ultra-cmy-green, .evo-icon-close-thin-cmy-green, .evo-icon-close-light-cmy-green, .evo-icon-close-cmy-green,
+.evo-icon-close-book-cmy-green, .evo-icon-close-bold-cmy-green, .evo-icon-close-black-cmy-green, .evo-icon-close-ultra-cmy-green, .evo-icon-plus-thin-cmy-green, .evo-icon-plus-light-cmy-green, .evo-icon-plus-cmy-green,
+.evo-icon-plus-book-cmy-green, .evo-icon-plus-bold-cmy-green, .evo-icon-plus-black-cmy-green, .evo-icon-plus-ultra-cmy-green, .evo-icon-minus-thin-cmy-green, .evo-icon-minus-light-cmy-green, .evo-icon-minus-cmy-green,
+.evo-icon-minus-book-cmy-green, .evo-icon-minus-bold-cmy-green, .evo-icon-minus-black-cmy-green, .evo-icon-minus-ultra-cmy-green, .evo-icon-circle-minus-thin-cmy-green, .evo-icon-circle-minus-light-cmy-green, .evo-icon-circle-minus-cmy-green,
+.evo-icon-circle-minus-book-cmy-green, .evo-icon-circle-minus-bold-cmy-green, .evo-icon-circle-minus-black-cmy-green, .evo-icon-circle-minus-ultra-cmy-green, .evo-icon-circle-plus-thin-cmy-green, .evo-icon-circle-plus-light-cmy-green, .evo-icon-circle-plus-cmy-green,
+.evo-icon-circle-plus-book-cmy-green, .evo-icon-circle-plus-bold-cmy-green, .evo-icon-circle-plus-black-cmy-green, .evo-icon-circle-plus-ultra-cmy-green, .evo-icon-share-thin-cmy-green, .evo-icon-share-light-cmy-green, .evo-icon-share-cmy-green,
+.evo-icon-share-book-cmy-green, .evo-icon-share-bold-cmy-green, .evo-icon-share-black-cmy-green, .evo-icon-share-ultra-cmy-green, .evo-icon-link-thin-cmy-green, .evo-icon-link-light-cmy-green, .evo-icon-link-cmy-green,
+.evo-icon-link-book-cmy-green, .evo-icon-link-bold-cmy-green, .evo-icon-link-black-cmy-green, .evo-icon-link-ultra-cmy-green, .evo-icon-mail-thin-cmy-green, .evo-icon-mail-light-cmy-green, .evo-icon-mail-cmy-green,
+.evo-icon-mail-book-cmy-green, .evo-icon-mail-bold-cmy-green, .evo-icon-mail-black-cmy-green, .evo-icon-mail-ultra-cmy-green, .evo-icon-search-thin-cmy-green, .evo-icon-search-light-cmy-green, .evo-icon-search-cmy-green,
+.evo-icon-search-book-cmy-green, .evo-icon-search-bold-cmy-green, .evo-icon-search-black-cmy-green, .evo-icon-search-ultra-cmy-green, .evo-icon-check-thin-cmy-green, .evo-icon-check-light-cmy-green, .evo-icon-check-cmy-green,
+.evo-icon-check-book-cmy-green, .evo-icon-check-bold-cmy-green, .evo-icon-check-black-cmy-green, .evo-icon-check-ultra-cmy-green, .evo-icon-circle-slash-thin-cmy-green, .evo-icon-circle-slash-light-cmy-green, .evo-icon-circle-slash-cmy-green,
+.evo-icon-circle-slash-book-cmy-green, .evo-icon-circle-slash-bold-cmy-green, .evo-icon-circle-slash-black-cmy-green, .evo-icon-circle-slash-ultra-cmy-green, .evo-icon-eye-thin-cmy-green, .evo-icon-eye-light-cmy-green, .evo-icon-eye-cmy-green,
+.evo-icon-eye-book-cmy-green, .evo-icon-eye-bold-cmy-green, .evo-icon-eye-black-cmy-green, .evo-icon-eye-ultra-cmy-green, .evo-icon-eye-slash-thin-cmy-green, .evo-icon-eye-slash-light-cmy-green, .evo-icon-eye-slash-cmy-green,
+.evo-icon-eye-slash-book-cmy-green, .evo-icon-eye-slash-bold-cmy-green, .evo-icon-eye-slash-black-cmy-green, .evo-icon-eye-slash-ultra-cmy-green, .evo-icon-graph-thin-cmy-green, .evo-icon-graph-light-cmy-green, .evo-icon-graph-cmy-green,
+.evo-icon-graph-book-cmy-green, .evo-icon-graph-bold-cmy-green, .evo-icon-graph-black-cmy-green, .evo-icon-graph-ultra-cmy-green, .evo-icon-papers-thin-cmy-green, .evo-icon-papers-light-cmy-green, .evo-icon-papers-cmy-green,
+.evo-icon-papers-book-cmy-green, .evo-icon-papers-bold-cmy-green, .evo-icon-papers-black-cmy-green, .evo-icon-papers-ultra-cmy-green, .evo-icon-pencil-thin-cmy-green, .evo-icon-pencil-light-cmy-green, .evo-icon-pencil-cmy-green,
+.evo-icon-pencil-book-cmy-green, .evo-icon-pencil-bold-cmy-green, .evo-icon-pencil-black-cmy-green, .evo-icon-pencil-ultra-cmy-green, .evo-icon-trashcan-thin-cmy-green, .evo-icon-trashcan-light-cmy-green, .evo-icon-trashcan-cmy-green,
+.evo-icon-trashcan-book-cmy-green, .evo-icon-trashcan-bold-cmy-green, .evo-icon-trashcan-black-cmy-green, .evo-icon-trashcan-ultra-cmy-green {
+  display: inline-block;
+  line-height: 0;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+/* evo-icon-arrow-cmy-green */
+.evo-icon-arrow-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-thin-cmy-green.svg); }
+
+.evo-icon-arrow-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-light-cmy-green.svg); }
+
+.evo-icon-arrow-left-cmy-green,
+.evo-icon-arrow-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-book-cmy-green.svg); }
+
+.evo-icon-arrow-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-bold-cmy-green.svg); }
+
+.evo-icon-arrow-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-black-cmy-green.svg); }
+
+.evo-icon-arrow-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-up-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-thin-cmy-green.svg); }
+
+.evo-icon-arrow-up-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-light-cmy-green.svg); }
+
+.evo-icon-arrow-up-cmy-green,
+.evo-icon-arrow-up-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-book-cmy-green.svg); }
+
+.evo-icon-arrow-up-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-bold-cmy-green.svg); }
+
+.evo-icon-arrow-up-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-black-cmy-green.svg); }
+
+.evo-icon-arrow-up-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-thin-cmy-green.svg); }
+
+.evo-icon-arrow-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-light-cmy-green.svg); }
+
+.evo-icon-arrow-cmy-green,
+.evo-icon-arrow-right-cmy-green,
+.evo-icon-arrow-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-book-cmy-green.svg); }
+
+.evo-icon-arrow-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-bold-cmy-green.svg); }
+
+.evo-icon-arrow-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-black-cmy-green.svg); }
+
+.evo-icon-arrow-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-down-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-thin-cmy-green.svg); }
+
+.evo-icon-arrow-down-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-light-cmy-green.svg); }
+
+.evo-icon-arrow-down-cmy-green,
+.evo-icon-arrow-down-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-book-cmy-green.svg); }
+
+.evo-icon-arrow-down-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-bold-cmy-green.svg); }
+
+.evo-icon-arrow-down-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-black-cmy-green.svg); }
+
+.evo-icon-arrow-down-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-ultra-cmy-green.svg); }
+
+/* evo-icon-arrow-corner-cmy-green */
+.evo-icon-arrow-corner-down-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-left-cmy-green,
+.evo-icon-arrow-corner-down-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-cmy-green,
+.evo-icon-arrow-corner-up-left-cmy-green,
+.evo-icon-arrow-corner-up-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-right-cmy-green,
+.evo-icon-arrow-corner-up-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-up-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-right-cmy-green,
+.evo-icon-arrow-corner-down-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-down-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-ultra-cmy-green.svg); }
+
+/* evo-icon-arrow-corner-full-cmy-green */
+.evo-icon-arrow-corner-full-down-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-full-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-full-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-left-cmy-green,
+.evo-icon-arrow-corner-full-down-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-full-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-full-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-full-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-full-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-full-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-full-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-cmy-green,
+.evo-icon-arrow-corner-full-up-left-cmy-green,
+.evo-icon-arrow-corner-full-up-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-full-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-full-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-full-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-full-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-full-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-full-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-right-cmy-green,
+.evo-icon-arrow-corner-full-up-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-full-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-full-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-full-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-up-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-full-ultra-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/arrow-corner-full-thin-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/arrow-corner-full-light-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-right-cmy-green,
+.evo-icon-arrow-corner-full-down-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/arrow-corner-full-book-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/arrow-corner-full-bold-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/arrow-corner-full-black-cmy-green.svg); }
+
+.evo-icon-arrow-corner-full-down-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/arrow-corner-full-ultra-cmy-green.svg); }
+
+/* evo-icon-circle-chevron-cmy-green */
+.evo-icon-circle-chevron-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-chevron-thin-cmy-green.svg); }
+
+.evo-icon-circle-chevron-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-chevron-light-cmy-green.svg); }
+
+.evo-icon-circle-chevron-left-cmy-green,
+.evo-icon-circle-chevron-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-chevron-book-cmy-green.svg); }
+
+.evo-icon-circle-chevron-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-chevron-bold-cmy-green.svg); }
+
+.evo-icon-circle-chevron-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-chevron-black-cmy-green.svg); }
+
+.evo-icon-circle-chevron-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-chevron-ultra-cmy-green.svg); }
+
+.evo-icon-circle-chevron-up-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-chevron-thin-cmy-green.svg); }
+
+.evo-icon-circle-chevron-up-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-chevron-light-cmy-green.svg); }
+
+.evo-icon-circle-chevron-up-cmy-green,
+.evo-icon-circle-chevron-up-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-chevron-book-cmy-green.svg); }
+
+.evo-icon-circle-chevron-up-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-chevron-bold-cmy-green.svg); }
+
+.evo-icon-circle-chevron-up-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-chevron-black-cmy-green.svg); }
+
+.evo-icon-circle-chevron-up-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-chevron-ultra-cmy-green.svg); }
+
+.evo-icon-circle-chevron-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-chevron-thin-cmy-green.svg); }
+
+.evo-icon-circle-chevron-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-chevron-light-cmy-green.svg); }
+
+.evo-icon-circle-chevron-cmy-green,
+.evo-icon-circle-chevron-right-cmy-green,
+.evo-icon-circle-chevron-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-chevron-book-cmy-green.svg); }
+
+.evo-icon-circle-chevron-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-chevron-bold-cmy-green.svg); }
+
+.evo-icon-circle-chevron-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-chevron-black-cmy-green.svg); }
+
+.evo-icon-circle-chevron-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-chevron-ultra-cmy-green.svg); }
+
+.evo-icon-circle-chevron-down-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-chevron-thin-cmy-green.svg); }
+
+.evo-icon-circle-chevron-down-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-chevron-light-cmy-green.svg); }
+
+.evo-icon-circle-chevron-down-cmy-green,
+.evo-icon-circle-chevron-down-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-chevron-book-cmy-green.svg); }
+
+.evo-icon-circle-chevron-down-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-chevron-bold-cmy-green.svg); }
+
+.evo-icon-circle-chevron-down-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-chevron-black-cmy-green.svg); }
+
+.evo-icon-circle-chevron-down-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-chevron-ultra-cmy-green.svg); }
+
+/* evo-icon-chevron-cmy-green */
+.evo-icon-chevron-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/chevron-thin-cmy-green.svg); }
+
+.evo-icon-chevron-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/chevron-light-cmy-green.svg); }
+
+.evo-icon-chevron-left-cmy-green,
+.evo-icon-chevron-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/chevron-book-cmy-green.svg); }
+
+.evo-icon-chevron-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/chevron-bold-cmy-green.svg); }
+
+.evo-icon-chevron-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/chevron-black-cmy-green.svg); }
+
+.evo-icon-chevron-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/chevron-ultra-cmy-green.svg); }
+
+.evo-icon-chevron-up-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/chevron-thin-cmy-green.svg); }
+
+.evo-icon-chevron-up-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/chevron-light-cmy-green.svg); }
+
+.evo-icon-chevron-up-cmy-green,
+.evo-icon-chevron-up-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/chevron-book-cmy-green.svg); }
+
+.evo-icon-chevron-up-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/chevron-bold-cmy-green.svg); }
+
+.evo-icon-chevron-up-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/chevron-black-cmy-green.svg); }
+
+.evo-icon-chevron-up-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/chevron-ultra-cmy-green.svg); }
+
+.evo-icon-chevron-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/chevron-thin-cmy-green.svg); }
+
+.evo-icon-chevron-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/chevron-light-cmy-green.svg); }
+
+.evo-icon-chevron-cmy-green,
+.evo-icon-chevron-right-cmy-green,
+.evo-icon-chevron-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/chevron-book-cmy-green.svg); }
+
+.evo-icon-chevron-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/chevron-bold-cmy-green.svg); }
+
+.evo-icon-chevron-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/chevron-black-cmy-green.svg); }
+
+.evo-icon-chevron-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/chevron-ultra-cmy-green.svg); }
+
+.evo-icon-chevron-down-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/chevron-thin-cmy-green.svg); }
+
+.evo-icon-chevron-down-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/chevron-light-cmy-green.svg); }
+
+.evo-icon-chevron-down-cmy-green,
+.evo-icon-chevron-down-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/chevron-book-cmy-green.svg); }
+
+.evo-icon-chevron-down-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/chevron-bold-cmy-green.svg); }
+
+.evo-icon-chevron-down-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/chevron-black-cmy-green.svg); }
+
+.evo-icon-chevron-down-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/chevron-ultra-cmy-green.svg); }
+
+/* evo-icon-double-chevron-cmy-green */
+.evo-icon-double-chevron-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/double-chevron-thin-cmy-green.svg); }
+
+.evo-icon-double-chevron-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/double-chevron-light-cmy-green.svg); }
+
+.evo-icon-double-chevron-left-cmy-green,
+.evo-icon-double-chevron-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg); }
+
+.evo-icon-double-chevron-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/double-chevron-bold-cmy-green.svg); }
+
+.evo-icon-double-chevron-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/double-chevron-black-cmy-green.svg); }
+
+.evo-icon-double-chevron-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/double-chevron-ultra-cmy-green.svg); }
+
+.evo-icon-double-chevron-up-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/double-chevron-thin-cmy-green.svg); }
+
+.evo-icon-double-chevron-up-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/double-chevron-light-cmy-green.svg); }
+
+.evo-icon-double-chevron-up-cmy-green,
+.evo-icon-double-chevron-up-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg); }
+
+.evo-icon-double-chevron-up-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/double-chevron-bold-cmy-green.svg); }
+
+.evo-icon-double-chevron-up-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/double-chevron-black-cmy-green.svg); }
+
+.evo-icon-double-chevron-up-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/double-chevron-ultra-cmy-green.svg); }
+
+.evo-icon-double-chevron-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/double-chevron-thin-cmy-green.svg); }
+
+.evo-icon-double-chevron-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/double-chevron-light-cmy-green.svg); }
+
+.evo-icon-double-chevron-cmy-green,
+.evo-icon-double-chevron-right-cmy-green,
+.evo-icon-double-chevron-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg); }
+
+.evo-icon-double-chevron-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/double-chevron-bold-cmy-green.svg); }
+
+.evo-icon-double-chevron-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/double-chevron-black-cmy-green.svg); }
+
+.evo-icon-double-chevron-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/double-chevron-ultra-cmy-green.svg); }
+
+.evo-icon-double-chevron-down-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/double-chevron-thin-cmy-green.svg); }
+
+.evo-icon-double-chevron-down-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/double-chevron-light-cmy-green.svg); }
+
+.evo-icon-double-chevron-down-cmy-green,
+.evo-icon-double-chevron-down-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/double-chevron-book-cmy-green.svg); }
+
+.evo-icon-double-chevron-down-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/double-chevron-bold-cmy-green.svg); }
+
+.evo-icon-double-chevron-down-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/double-chevron-black-cmy-green.svg); }
+
+.evo-icon-double-chevron-down-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/double-chevron-ultra-cmy-green.svg); }
+
+/* evo-icon-triangle-solid-cmy-green */
+.evo-icon-triangle-solid-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-solid-thin-cmy-green.svg); }
+
+.evo-icon-triangle-solid-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-solid-light-cmy-green.svg); }
+
+.evo-icon-triangle-solid-left-cmy-green,
+.evo-icon-triangle-solid-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-solid-book-cmy-green.svg); }
+
+.evo-icon-triangle-solid-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-solid-bold-cmy-green.svg); }
+
+.evo-icon-triangle-solid-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-solid-black-cmy-green.svg); }
+
+.evo-icon-triangle-solid-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-solid-ultra-cmy-green.svg); }
+
+.evo-icon-triangle-solid-up-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-solid-thin-cmy-green.svg); }
+
+.evo-icon-triangle-solid-up-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-solid-light-cmy-green.svg); }
+
+.evo-icon-triangle-solid-up-cmy-green,
+.evo-icon-triangle-solid-up-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-solid-book-cmy-green.svg); }
+
+.evo-icon-triangle-solid-up-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-solid-bold-cmy-green.svg); }
+
+.evo-icon-triangle-solid-up-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-solid-black-cmy-green.svg); }
+
+.evo-icon-triangle-solid-up-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-solid-ultra-cmy-green.svg); }
+
+.evo-icon-triangle-solid-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-solid-thin-cmy-green.svg); }
+
+.evo-icon-triangle-solid-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-solid-light-cmy-green.svg); }
+
+.evo-icon-triangle-solid-cmy-green,
+.evo-icon-triangle-solid-right-cmy-green,
+.evo-icon-triangle-solid-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-solid-book-cmy-green.svg); }
+
+.evo-icon-triangle-solid-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-solid-bold-cmy-green.svg); }
+
+.evo-icon-triangle-solid-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-solid-black-cmy-green.svg); }
+
+.evo-icon-triangle-solid-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-solid-ultra-cmy-green.svg); }
+
+.evo-icon-triangle-solid-down-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-solid-thin-cmy-green.svg); }
+
+.evo-icon-triangle-solid-down-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-solid-light-cmy-green.svg); }
+
+.evo-icon-triangle-solid-down-cmy-green,
+.evo-icon-triangle-solid-down-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-solid-book-cmy-green.svg); }
+
+.evo-icon-triangle-solid-down-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-solid-bold-cmy-green.svg); }
+
+.evo-icon-triangle-solid-down-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-solid-black-cmy-green.svg); }
+
+.evo-icon-triangle-solid-down-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-solid-ultra-cmy-green.svg); }
+
+/* evo-icon-triangle-cmy-green */
+.evo-icon-triangle-left-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-thin-cmy-green.svg); }
+
+.evo-icon-triangle-left-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-light-cmy-green.svg); }
+
+.evo-icon-triangle-left-cmy-green,
+.evo-icon-triangle-left-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-book-cmy-green.svg); }
+
+.evo-icon-triangle-left-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-bold-cmy-green.svg); }
+
+.evo-icon-triangle-left-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-black-cmy-green.svg); }
+
+.evo-icon-triangle-left-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-ultra-cmy-green.svg); }
+
+.evo-icon-triangle-up-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-thin-cmy-green.svg); }
+
+.evo-icon-triangle-up-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-light-cmy-green.svg); }
+
+.evo-icon-triangle-up-cmy-green,
+.evo-icon-triangle-up-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-book-cmy-green.svg); }
+
+.evo-icon-triangle-up-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-bold-cmy-green.svg); }
+
+.evo-icon-triangle-up-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-black-cmy-green.svg); }
+
+.evo-icon-triangle-up-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-ultra-cmy-green.svg); }
+
+.evo-icon-triangle-right-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-thin-cmy-green.svg); }
+
+.evo-icon-triangle-right-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-light-cmy-green.svg); }
+
+.evo-icon-triangle-cmy-green,
+.evo-icon-triangle-right-cmy-green,
+.evo-icon-triangle-right-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-book-cmy-green.svg); }
+
+.evo-icon-triangle-right-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-bold-cmy-green.svg); }
+
+.evo-icon-triangle-right-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-black-cmy-green.svg); }
+
+.evo-icon-triangle-right-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-ultra-cmy-green.svg); }
+
+.evo-icon-triangle-down-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/triangle-thin-cmy-green.svg); }
+
+.evo-icon-triangle-down-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/triangle-light-cmy-green.svg); }
+
+.evo-icon-triangle-down-cmy-green,
+.evo-icon-triangle-down-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/triangle-book-cmy-green.svg); }
+
+.evo-icon-triangle-down-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/triangle-bold-cmy-green.svg); }
+
+.evo-icon-triangle-down-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/triangle-black-cmy-green.svg); }
+
+.evo-icon-triangle-down-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/triangle-ultra-cmy-green.svg); }
+
+/* evo-icon-circle-cmy-green */
+.evo-icon-circle-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-thin-cmy-green.svg); }
+
+.evo-icon-circle-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-light-cmy-green.svg); }
+
+.evo-icon-circle-cmy-green,
+.evo-icon-circle-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-book-cmy-green.svg); }
+
+.evo-icon-circle-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-bold-cmy-green.svg); }
+
+.evo-icon-circle-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-black-cmy-green.svg); }
+
+.evo-icon-circle-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-ultra-cmy-green.svg); }
+
+/* evo-icon-circle-cmy-green */
+.evo-icon-circle-solid-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-solid-thin-cmy-green.svg); }
+
+.evo-icon-circle-solid-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-solid-light-cmy-green.svg); }
+
+.evo-icon-circle-solid-cmy-green,
+.evo-icon-circle-solid-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-solid-book-cmy-green.svg); }
+
+.evo-icon-circle-solid-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-solid-bold-cmy-green.svg); }
+
+.evo-icon-circle-solid-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-solid-black-cmy-green.svg); }
+
+.evo-icon-circle-solid-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-solid-ultra-cmy-green.svg); }
+
+/* evo-icon-square-cmy-green */
+.evo-icon-square-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/square-thin-cmy-green.svg); }
+
+.evo-icon-square-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/square-light-cmy-green.svg); }
+
+.evo-icon-square-cmy-green,
+.evo-icon-square-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/square-book-cmy-green.svg); }
+
+.evo-icon-square-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/square-bold-cmy-green.svg); }
+
+.evo-icon-square-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/square-black-cmy-green.svg); }
+
+.evo-icon-square-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/square-ultra-cmy-green.svg); }
+
+/* evo-icon-square-cmy-green */
+.evo-icon-square-solid-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/square-solid-thin-cmy-green.svg); }
+
+.evo-icon-square-solid-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/square-solid-light-cmy-green.svg); }
+
+.evo-icon-square-solid-cmy-green,
+.evo-icon-square-solid-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/square-solid-book-cmy-green.svg); }
+
+.evo-icon-square-solid-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/square-solid-bold-cmy-green.svg); }
+
+.evo-icon-square-solid-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/square-solid-black-cmy-green.svg); }
+
+.evo-icon-square-solid-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/square-solid-ultra-cmy-green.svg); }
+
+/* evo-icon-slash-cmy-green */
+.evo-icon-slash-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/slash-thin-cmy-green.svg); }
+
+.evo-icon-slash-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/slash-light-cmy-green.svg); }
+
+.evo-icon-slash-cmy-green,
+.evo-icon-slash-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/slash-book-cmy-green.svg); }
+
+.evo-icon-slash-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/slash-bold-cmy-green.svg); }
+
+.evo-icon-slash-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/slash-black-cmy-green.svg); }
+
+.evo-icon-slash-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/slash-ultra-cmy-green.svg); }
+
+/* evo-icon-menu-cmy-green */
+.evo-icon-menu-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/menu-thin-cmy-green.svg); }
+
+.evo-icon-menu-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/menu-light-cmy-green.svg); }
+
+.evo-icon-menu-cmy-green,
+.evo-icon-menu-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/menu-book-cmy-green.svg); }
+
+.evo-icon-menu-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/menu-bold-cmy-green.svg); }
+
+.evo-icon-menu-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/menu-black-cmy-green.svg); }
+
+.evo-icon-menu-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/menu-ultra-cmy-green.svg); }
+
+/* evo-icon-close-cmy-green */
+.evo-icon-close-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/close-thin-cmy-green.svg); }
+
+.evo-icon-close-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/close-light-cmy-green.svg); }
+
+.evo-icon-close-cmy-green,
+.evo-icon-close-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/close-book-cmy-green.svg); }
+
+.evo-icon-close-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/close-bold-cmy-green.svg); }
+
+.evo-icon-close-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/close-black-cmy-green.svg); }
+
+.evo-icon-close-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/close-ultra-cmy-green.svg); }
+
+/* evo-icon-plus-cmy-green */
+.evo-icon-plus-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/plus-thin-cmy-green.svg); }
+
+.evo-icon-plus-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/plus-light-cmy-green.svg); }
+
+.evo-icon-plus-cmy-green,
+.evo-icon-plus-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/plus-book-cmy-green.svg); }
+
+.evo-icon-plus-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/plus-bold-cmy-green.svg); }
+
+.evo-icon-plus-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/plus-black-cmy-green.svg); }
+
+.evo-icon-plus-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/plus-ultra-cmy-green.svg); }
+
+/* evo-icon-minus-cmy-green */
+.evo-icon-minus-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/minus-thin-cmy-green.svg); }
+
+.evo-icon-minus-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/minus-light-cmy-green.svg); }
+
+.evo-icon-minus-cmy-green,
+.evo-icon-minus-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/minus-book-cmy-green.svg); }
+
+.evo-icon-minus-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/minus-bold-cmy-green.svg); }
+
+.evo-icon-minus-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/minus-black-cmy-green.svg); }
+
+.evo-icon-minus-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/minus-ultra-cmy-green.svg); }
+
+/* evo-icon-circle-minus-cmy-green */
+.evo-icon-circle-minus-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-minus-thin-cmy-green.svg); }
+
+.evo-icon-circle-minus-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-minus-light-cmy-green.svg); }
+
+.evo-icon-circle-minus-cmy-green,
+.evo-icon-circle-minus-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-minus-book-cmy-green.svg); }
+
+.evo-icon-circle-minus-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-minus-bold-cmy-green.svg); }
+
+.evo-icon-circle-minus-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-minus-black-cmy-green.svg); }
+
+.evo-icon-circle-minus-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-minus-ultra-cmy-green.svg); }
+
+/* evo-icon-circle-plus-cmy-green */
+.evo-icon-circle-plus-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-plus-thin-cmy-green.svg); }
+
+.evo-icon-circle-plus-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-plus-light-cmy-green.svg); }
+
+.evo-icon-circle-plus-cmy-green,
+.evo-icon-circle-plus-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-plus-book-cmy-green.svg); }
+
+.evo-icon-circle-plus-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-plus-bold-cmy-green.svg); }
+
+.evo-icon-circle-plus-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-plus-black-cmy-green.svg); }
+
+.evo-icon-circle-plus-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-plus-ultra-cmy-green.svg); }
+
+/* evo-icon-share-cmy-green */
+.evo-icon-share-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/share-thin-cmy-green.svg); }
+
+.evo-icon-share-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/share-light-cmy-green.svg); }
+
+.evo-icon-share-cmy-green,
+.evo-icon-share-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/share-book-cmy-green.svg); }
+
+.evo-icon-share-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/share-bold-cmy-green.svg); }
+
+.evo-icon-share-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/share-black-cmy-green.svg); }
+
+.evo-icon-share-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/share-ultra-cmy-green.svg); }
+
+/* evo-icon-link-cmy-green */
+.evo-icon-link-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/link-thin-cmy-green.svg); }
+
+.evo-icon-link-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/link-light-cmy-green.svg); }
+
+.evo-icon-link-cmy-green,
+.evo-icon-link-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/link-book-cmy-green.svg); }
+
+.evo-icon-link-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/link-bold-cmy-green.svg); }
+
+.evo-icon-link-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/link-black-cmy-green.svg); }
+
+.evo-icon-link-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/link-ultra-cmy-green.svg); }
+
+/* evo-icon-mail-cmy-green */
+.evo-icon-mail-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/mail-thin-cmy-green.svg); }
+
+.evo-icon-mail-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/mail-light-cmy-green.svg); }
+
+.evo-icon-mail-cmy-green,
+.evo-icon-mail-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/mail-book-cmy-green.svg); }
+
+.evo-icon-mail-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/mail-bold-cmy-green.svg); }
+
+.evo-icon-mail-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/mail-black-cmy-green.svg); }
+
+.evo-icon-mail-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/mail-ultra-cmy-green.svg); }
+
+/* evo-icon-search-cmy-green */
+.evo-icon-search-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/search-thin-cmy-green.svg); }
+
+.evo-icon-search-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/search-light-cmy-green.svg); }
+
+.evo-icon-search-cmy-green,
+.evo-icon-search-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/search-book-cmy-green.svg); }
+
+.evo-icon-search-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/search-bold-cmy-green.svg); }
+
+.evo-icon-search-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/search-black-cmy-green.svg); }
+
+.evo-icon-search-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/search-ultra-cmy-green.svg); }
+
+/* evo-icon-check-cmy-green */
+.evo-icon-check-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/check-thin-cmy-green.svg); }
+
+.evo-icon-check-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/check-light-cmy-green.svg); }
+
+.evo-icon-check-cmy-green,
+.evo-icon-check-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/check-book-cmy-green.svg); }
+
+.evo-icon-check-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/check-bold-cmy-green.svg); }
+
+.evo-icon-check-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/check-black-cmy-green.svg); }
+
+.evo-icon-check-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/check-ultra-cmy-green.svg); }
+
+/* evo-icon-circle-slash-cmy-green */
+.evo-icon-circle-slash-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/circle-slash-thin-cmy-green.svg); }
+
+.evo-icon-circle-slash-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/circle-slash-light-cmy-green.svg); }
+
+.evo-icon-circle-slash-cmy-green,
+.evo-icon-circle-slash-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/circle-slash-book-cmy-green.svg); }
+
+.evo-icon-circle-slash-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/circle-slash-bold-cmy-green.svg); }
+
+.evo-icon-circle-slash-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/circle-slash-black-cmy-green.svg); }
+
+.evo-icon-circle-slash-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/circle-slash-ultra-cmy-green.svg); }
+
+/* evo-icon-eye-cmy-green */
+.evo-icon-eye-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/eye-thin-cmy-green.svg); }
+
+.evo-icon-eye-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/eye-light-cmy-green.svg); }
+
+.evo-icon-eye-cmy-green,
+.evo-icon-eye-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/eye-book-cmy-green.svg); }
+
+.evo-icon-eye-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/eye-bold-cmy-green.svg); }
+
+.evo-icon-eye-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/eye-black-cmy-green.svg); }
+
+.evo-icon-eye-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/eye-ultra-cmy-green.svg); }
+
+/* evo-icon-eye-slash-cmy-green */
+.evo-icon-eye-slash-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/eye-slash-thin-cmy-green.svg); }
+
+.evo-icon-eye-slash-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/eye-slash-light-cmy-green.svg); }
+
+.evo-icon-eye-slash-cmy-green,
+.evo-icon-eye-slash-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/eye-slash-book-cmy-green.svg); }
+
+.evo-icon-eye-slash-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/eye-slash-bold-cmy-green.svg); }
+
+.evo-icon-eye-slash-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/eye-slash-black-cmy-green.svg); }
+
+.evo-icon-eye-slash-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/eye-slash-ultra-cmy-green.svg); }
+
+/* evo-icon-graph-cmy-green */
+.evo-icon-graph-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/graph-thin-cmy-green.svg); }
+
+.evo-icon-graph-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/graph-light-cmy-green.svg); }
+
+.evo-icon-graph-cmy-green,
+.evo-icon-graph-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/graph-book-cmy-green.svg); }
+
+.evo-icon-graph-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/graph-bold-cmy-green.svg); }
+
+.evo-icon-graph-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/graph-black-cmy-green.svg); }
+
+.evo-icon-graph-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/graph-ultra-cmy-green.svg); }
+
+/* evo-icon-papers-cmy-green */
+.evo-icon-papers-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/papers-thin-cmy-green.svg); }
+
+.evo-icon-papers-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/papers-light-cmy-green.svg); }
+
+.evo-icon-papers-cmy-green,
+.evo-icon-papers-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/papers-book-cmy-green.svg); }
+
+.evo-icon-papers-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/papers-bold-cmy-green.svg); }
+
+.evo-icon-papers-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/papers-black-cmy-green.svg); }
+
+.evo-icon-papers-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/papers-ultra-cmy-green.svg); }
+
+/* evo-icon-pencil-cmy-green */
+.evo-icon-pencil-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/pencil-thin-cmy-green.svg); }
+
+.evo-icon-pencil-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/pencil-light-cmy-green.svg); }
+
+.evo-icon-pencil-cmy-green,
+.evo-icon-pencil-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/pencil-book-cmy-green.svg); }
+
+.evo-icon-pencil-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/pencil-bold-cmy-green.svg); }
+
+.evo-icon-pencil-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/pencil-black-cmy-green.svg); }
+
+.evo-icon-pencil-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/pencil-ultra-cmy-green.svg); }
+
+/* evo-icon-trashcan-cmy-green */
+.evo-icon-trashcan-thin-cmy-green {
+  background-image: url(../../icons-cmy-green/thin-cmy-green/trashcan-thin-cmy-green.svg); }
+
+.evo-icon-trashcan-light-cmy-green {
+  background-image: url(../../icons-cmy-green/light-cmy-green/trashcan-light-cmy-green.svg); }
+
+.evo-icon-trashcan-cmy-green,
+.evo-icon-trashcan-book-cmy-green {
+  background-image: url(../../icons-cmy-green/book-cmy-green/trashcan-book-cmy-green.svg); }
+
+.evo-icon-trashcan-bold-cmy-green {
+  background-image: url(../../icons-cmy-green/bold-cmy-green/trashcan-bold-cmy-green.svg); }
+
+.evo-icon-trashcan-black-cmy-green {
+  background-image: url(../../icons-cmy-green/black-cmy-green/trashcan-black-cmy-green.svg); }
+
+.evo-icon-trashcan-ultra-cmy-green {
+  background-image: url(../../icons-cmy-green/ultra-cmy-green/trashcan-ultra-cmy-green.svg); }
