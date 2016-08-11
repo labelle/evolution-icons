@@ -430,9 +430,9 @@ Toggle lines above headers in templates/spacers.html file
   display: block;
   width: 100%;
   margin: 25px 0;
-  border: 1px solid #B2B2B2;
+  border: 1px solid #E5E5E5;
   padding: 25px;
-  background-color: #E5E5E5;
+  background-color: #F2F2F2;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
   word-wrap: break-word; }
