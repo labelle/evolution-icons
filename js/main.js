@@ -1,4 +1,6 @@
-
+          
+          // dropdown select option for icons weight
+          
             var prevWeight = "book";
             var weightToggle = document.getElementById('#weight_toggle');
             var col_xs_6 = document.getElementsByClassName('.col-xs-6');
@@ -75,6 +77,8 @@
 
 
 
+
+// make active link bold
 
   function highlightCurrentLink() {
       var arr = document.getElementsByTagName("a");
