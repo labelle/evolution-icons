@@ -31,9 +31,6 @@
               if(val == 5) {
                 weight = "ultra";
               }
-              if(val == null) {
-                display: none;
-              }
               // console.log(weight);
 
               $('.col-xs-6 img').each(function() {
@@ -74,9 +71,6 @@
               if(val == 5) {
                 prevWeight = "ultra";
               } 
-              if(val == null) {
-                display: none;
-              }
               // console.log(removeClassName);
               // console.log(addClassName)
 
