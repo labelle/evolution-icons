@@ -2,8 +2,9 @@
           // dropdown select option for icons weight
           
             var prevWeight = "book";
-            var weightToggle = document.getElementById('#weight_toggle');
+            var weightToggle = document.getElementById('weight_toggle');
             var col_xs_6 = document.getElementsByClassName('.col-xs-6');
+
 
             $('select').on('change', function() {
 
@@ -29,6 +30,9 @@
               }
               if(val == 5) {
                 weight = "ultra";
+              }
+              if(val == null) {
+                display: none;
               }
               // console.log(weight);
 
@@ -69,11 +73,16 @@
               }
               if(val == 5) {
                 prevWeight = "ultra";
+              } 
+              if(val == null) {
+                display: none;
               }
               // console.log(removeClassName);
               // console.log(addClassName)
 
             });
+
+
 
 
 
