@@ -55,6 +55,9 @@ NAVIGATION STYLES
     text-align: left;
     padding: 1em; }
 
+.main-nav li a:hover {
+    color: #7f7f7f; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -62,7 +65,6 @@ NAVIGATION STYLES
   margin-left: 28px; }
   .text-sidenav li {
     font-size: 0.80rem; }
-  
 
 /*********************
 BANNER
@@ -168,8 +170,27 @@ body.ng-pageslide-body-closed::before {
 /*********************
 MAIN NAVIGATION
 *********************/
-.menu > li > a:hover {
-  color: #00a651; }
+a:hover {
+  color: #7f7f7f;
+  cursor: pointer; }
+
+/*********************
+DEFAULT
+*********************/
+.default-hover {
+  color: #7f7f7f;
+}
+
+.default-highlight {
+  background-color: #7f7f7f;
+  color: #ffffff;
+}
+
+.default-solid {
+  color: #ffffff;
+  background-color: #7f7f7f;
+}
+
 
 /*********************
 MAIN PAGE
@@ -272,7 +293,6 @@ ELEMENTS LIBRARY
 .no-wrap {
   white-space: nowrap; }
 
-
 /*********************
 BRANDING
 *********************/
@@ -356,7 +376,7 @@ BRANDING
 .dash-box {
   border-style: dashed;
   border-width: 1px;
-  color: #00a651;
+  color: #7f7f7f;
   clear: both; }
 
 /*********************
@@ -428,16 +448,185 @@ Toggle lines above headers in templates/spacers.html file
 /********************************************************
 "code" boxes that show examples of programming language
 ********************************************************/
+.value {
+  color: #7f7f7f;
+  background-color: rgba(0, 166, 81, .04);
+}
+
 .code {
   display: block;
   width: 100%;
   margin: 25px 0;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #B2B2B2;
   padding: 25px;
   background-color: #F2F2F2;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
   word-wrap: break-word; }
+
+
+.input-focus>select,
+input[type="text"].text-focus {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.38rem;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline-color: rgba(59, 153, 252, 1);
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+.input-focus-inverse>select,
+input[type="text"].text-focus-inverse {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.38rem;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline-color: rgba(59, 153, 252, 1);
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+/*Disabled Form Input*/
+
+input[type="text"]:disabled {
+  border-color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0,0,0, .15);
+}
+
+
+/*Disabled Inverse Form Input*/
+
+input[type="text"].text-inverse-disabled {
+  border-color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+}
+input[type="text"].text-inverse-disabled::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255, .15);
+}
+input[type="text"].text-inverse-disabled::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255,255,255, .15);
+}
+input[type="text"].text-inverse-disabled:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255,255,255, .15);
+}
+input[type="text"].text-inverse-disabled:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255, .15);
+}
+
+
+
+
+/*Disabled Dropdown Input*/
+
+select:disabled {
+  border-color: rgba(0,0,0, .15);
+  color: rgba(0,0,0, .15);
+  background-color: rgba(0,0,0, .03);
+}
+
+
+/*Disabled Inverse Dropdown Input*/
+
+select.dropdown-inverse-disabled {
+  border-color: rgba(255,255,255, .15);
+  color: rgba(255,255,255, .15);
+  background-color: rgba(255,255,255, .03);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/*Disabled Checkbox Input*/
+
+input[type=checkbox]:disabled + label:before {
+  border-color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+input[type=checkbox]:disabled + label {
+  color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/*Disabled Inverse Checkbox Input*/
+
+input[type=checkbox].checkbox-inverse-disabled + label:before {
+  border-color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+
+}
+
+input[type=checkbox].checkbox-inverse-disabled + label {
+  color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+
+/*Disabled radio Input*/
+
+input[type=radio]:disabled + label:before {
+  border-color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+input[type=radio]:disabled + label {
+  color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/*Disabled Inverse radio Input*/
+
+input[type=radio].radio-inverse-disabled + label:before {
+  border-color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+
+}
+
+input[type=radio].radio-inverse-disabled + label {
+  color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+
 
 pre.code {
   border-radius: 0px; }
@@ -464,19 +653,16 @@ pre.code {
   margin-left: 70px; }
 
 .indent-80 {
-  margin-left: 80px; }
+  margin-left: 70px; }
 
 .indent-90 {
-  margin-left: 90px; }
-
-.indent-100 {
-  margin-left: 100px; }
+  margin-left: 70px; }
 
 .comment-color {
   color: #999; }
 
 .tag-color {
-  color: #00a651; }
+  color: #7f7f7f; }
 
 .attribute-color {
   color: #00aeef; }
@@ -581,14 +767,14 @@ ANNOTATIONS
 grid translating from touch.less file
 ****************************************/
 .bootstrap_info div {
-  outline: 1px solid #00a651;
+  outline: 1px solid #7f7f7f;
   box-sizing: border-box; }
 
 .bootstrap_info .inner {
   background-color: #FFFFFF;
   height: 50px;
   overflow: hidden;
-  outline: 1px solid #00a651; }
+  outline: 1px solid #7f7f7f; }
 
 .bootstrap_info .container {
   margin-top: 25px;
@@ -905,6 +1091,21 @@ RESPONSIVE NAV
   .breadcrumb-download {
     margin-left: 37px; } }
 
+  /*********************
+      INTERACTIONS
+*********************/
+.brand-color-button-disabled,
+.brand-color-solid-button-disabled,
+.brand-color-inverse-button-disabled,
+.brand-color-inverse-solid-button-disabled {
+  margin-bottom: 80px;
+}
+
+.mobile-space {
+  margin-bottom: 0;
+}
+
+
 /*********************
 LARGER MOBILE DEVICES
 *********************/
@@ -1129,8 +1330,6 @@ FOOTER
     margin-left: 25px; }
   .evo-text-7 .copy, .evo-text-07 .copy {
     margin-left: 25px; } }
-
-
 
 /*********************
 LARGE VIEWING SIZE
