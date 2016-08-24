@@ -4,6 +4,7 @@
             var prevWeight = "book";
             var weightToggle = document.getElementById('weight_toggle');
             var col_xs_6 = document.getElementsByClassName('.col-xs-6');
+            var solidToggle = document.getElementsByClassName('.toggle_solid');
 
 
             $('select').on('change', function() {
@@ -14,24 +15,40 @@
 
               if(val == 0) {
                 weight = "thin";
+                $(".toggle_regular").show();
+                $(".toggle_solid").hide();
               }
 
               if(val == 1) {
                 weight = "light";
+                $(".toggle_regular").show();
+                $(".toggle_solid").hide();
               }
               if(val == 2) {
                 weight = "book";
+                $(".toggle_regular").show();
+                $(".toggle_solid").hide();
               }
               if(val == 3) {
                 weight = "bold";
+                $(".toggle_regular").show();
+                $(".toggle_solid").hide();
               }
               if(val == 4) {
                 weight = "black";
+                $(".toggle_regular").show();
+                $(".toggle_solid").hide();
               }
               if(val == 5) {
                 weight = "ultra";
+                $(".toggle_regular").show();
+                $(".toggle_solid").hide();
               }
-              // console.log(weight);
+              if(val == 6) {
+                $(".toggle_solid").show();
+                $(".toggle_regular").hide();
+              }
+              console.log(prevWeight);
 
               $('.col-xs-6 img').each(function() {
                 var text = $(this).attr("src");
@@ -39,12 +56,14 @@
                   text = text.replace(prevWeight, weight);
                   $(this).attr("src", text);
               });
+
               $('.col-xs-6 div').each(function() {
                 var text = $(this).attr("class");
                 // console.log(text);
                   text = text.replace(prevWeight, weight);
                   $(this).attr("class", text);
               });
+
               $('.col-xs-6 p').each(function() {
                 var text = $(this).text();
                 // console.log(text);
