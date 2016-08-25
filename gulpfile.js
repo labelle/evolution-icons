@@ -9,7 +9,7 @@ npm install --global gulp
 npm install gulp gulp-util gulp-sass gulp-uglify gulp-rename gulp-minify-css gulp-notify gulp-concat gulp-plumber browser-sync --save-dev
 3. Move this file in your project folder
 4. Setup your vhosts or just use static server (see 'Prepare Browser-sync for localhost' below)
-5. Type 'Gulp' and ster developing
+5. Type 'Gulp' and start developing
 */
 
 /* Needed gulp config */
