@@ -48,8 +48,8 @@
                 $(".toggle_solid").show();
                 $(".toggle_regular").hide();
               }
-              console.log(prevWeight);
-
+              console.log(weight);
+            
               $('.col-xs-6 img').each(function() {
                 var text = $(this).attr("src");
                 // console.log(text);
