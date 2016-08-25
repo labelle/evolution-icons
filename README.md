@@ -1,6 +1,6 @@
 # Evolution Icons
 (Beta) A basic icon family designed for common website needs.
-To help match your website's look and feel, these SVG icons come in 30 sizes and six weights.
+To help match your website's look and feel, these SVG icons come in 30 sizes and seven weights.
 
 # Features
 
