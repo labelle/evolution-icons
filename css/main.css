@@ -653,10 +653,13 @@ pre.code {
   margin-left: 70px; }
 
 .indent-80 {
-  margin-left: 70px; }
+  margin-left: 80px; }
 
 .indent-90 {
-  margin-left: 70px; }
+  margin-left: 90px; }
+
+.indent-100 {
+  margin-left: 100px; }
 
 .comment-color {
   color: #999; }
