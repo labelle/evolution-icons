@@ -1,13 +1,71 @@
-/*******************************************************************************
-*
-* evo-icons.css
-*
-*
-*******************************************************************************/
 /* ================================================================================ */
-/* ----------------------------------- ICONS -------------------------------------- */
+/*                                  EVOLUTION ICONS                                 */
 /* ================================================================================ */
-/* Icon Sizes */
+/* version_text version version_url */
+/* --- Icon Base Structure --- */
+.evo-icon-base, .evo-icon-arrow-left-thin, .evo-icon-arrow-left-light, .evo-icon-arrow-left,
+.evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-left-black, .evo-icon-arrow-left-ultra, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
+.evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-up-black, .evo-icon-arrow-up-ultra, .evo-icon-arrow-right-thin, .evo-icon-arrow-right-light, .evo-icon-arrow,
+.evo-icon-arrow-right,
+.evo-icon-arrow-right-book, .evo-icon-arrow-right-bold, .evo-icon-arrow-right-black, .evo-icon-arrow-right-ultra, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
+.evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-down-black, .evo-icon-arrow-down-ultra, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
+.evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-arrow-corner-down-left-black, .evo-icon-arrow-corner-down-left-ultra, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
+.evo-icon-arrow-corner-up-left,
+.evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-arrow-corner-up-left-black, .evo-icon-arrow-corner-up-left-ultra, .evo-icon-arrow-corner-up-right-thin, .evo-icon-arrow-corner-up-right-light, .evo-icon-arrow-corner-up-right,
+.evo-icon-arrow-corner-up-right-book, .evo-icon-arrow-corner-up-right-bold, .evo-icon-arrow-corner-up-right-black, .evo-icon-arrow-corner-up-right-ultra, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
+.evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-arrow-corner-down-right-black, .evo-icon-arrow-corner-down-right-ultra, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
+.evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-circle-chevron-left-black, .evo-icon-circle-chevron-left-ultra, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
+.evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-circle-chevron-up-black, .evo-icon-circle-chevron-up-ultra, .evo-icon-circle-chevron-right-thin, .evo-icon-circle-chevron-right-light, .evo-icon-circle-chevron,
+.evo-icon-circle-chevron-right,
+.evo-icon-circle-chevron-right-book, .evo-icon-circle-chevron-right-bold, .evo-icon-circle-chevron-right-black, .evo-icon-circle-chevron-right-ultra, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
+.evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-circle-chevron-down-black, .evo-icon-circle-chevron-down-ultra, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
+.evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-chevron-left-black, .evo-icon-chevron-left-ultra, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
+.evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-chevron-up-black, .evo-icon-chevron-up-ultra, .evo-icon-chevron-right-thin, .evo-icon-chevron-right-light, .evo-icon-chevron,
+.evo-icon-chevron-right,
+.evo-icon-chevron-right-book, .evo-icon-chevron-right-bold, .evo-icon-chevron-right-black, .evo-icon-chevron-right-ultra, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
+.evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-chevron-down-black, .evo-icon-chevron-down-ultra, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
+.evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-double-chevron-left-black, .evo-icon-double-chevron-left-ultra, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
+.evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-double-chevron-up-black, .evo-icon-double-chevron-up-ultra, .evo-icon-double-chevron-right-thin, .evo-icon-double-chevron-right-light, .evo-icon-double-chevron,
+.evo-icon-double-chevron-right,
+.evo-icon-double-chevron-right-book, .evo-icon-double-chevron-right-bold, .evo-icon-double-chevron-right-black, .evo-icon-double-chevron-right-ultra, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
+.evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-double-chevron-down-black, .evo-icon-double-chevron-down-ultra, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
+.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-left-black, .evo-icon-triangle-left-ultra, .evo-icon-triangle-up-thin, .evo-icon-triangle-up-light, .evo-icon-triangle-up,
+.evo-icon-triangle-up-book, .evo-icon-triangle-up-bold, .evo-icon-triangle-up-black, .evo-icon-triangle-up-ultra, .evo-icon-triangle-right-thin, .evo-icon-triangle-right-light, .evo-icon-triangle,
+.evo-icon-triangle-right,
+.evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-right-black, .evo-icon-triangle-right-ultra, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
+.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-triangle-down-black, .evo-icon-triangle-down-ultra, .evo-icon-circle-thin, .evo-icon-circle-light, .evo-icon-circle,
+.evo-icon-circle-book, .evo-icon-circle-bold, .evo-icon-circle-black, .evo-icon-circle-ultra, .evo-icon-square-thin, .evo-icon-square-light, .evo-icon-square,
+.evo-icon-square-book, .evo-icon-square-bold, .evo-icon-square-black, .evo-icon-square-ultra, .evo-icon-slash-thin, .evo-icon-slash-light, .evo-icon-slash,
+.evo-icon-slash-book, .evo-icon-slash-bold, .evo-icon-slash-black, .evo-icon-slash-ultra, .evo-icon-menu-thin, .evo-icon-menu-light, .evo-icon-menu,
+.evo-icon-menu-book, .evo-icon-menu-bold, .evo-icon-menu-black, .evo-icon-menu-ultra, .evo-icon-close-thin, .evo-icon-close-light, .evo-icon-close,
+.evo-icon-close-book, .evo-icon-close-bold, .evo-icon-close-black, .evo-icon-close-ultra, .evo-icon-plus-thin, .evo-icon-plus-light, .evo-icon-plus,
+.evo-icon-plus-book, .evo-icon-plus-bold, .evo-icon-plus-black, .evo-icon-plus-ultra, .evo-icon-minus-thin, .evo-icon-minus-light, .evo-icon-minus,
+.evo-icon-minus-book, .evo-icon-minus-bold, .evo-icon-minus-black, .evo-icon-minus-ultra, .evo-icon-circle-minus-thin, .evo-icon-circle-minus-light, .evo-icon-circle-minus,
+.evo-icon-circle-minus-book, .evo-icon-circle-minus-bold, .evo-icon-circle-minus-black, .evo-icon-circle-minus-ultra, .evo-icon-circle-plus-thin, .evo-icon-circle-plus-light, .evo-icon-circle-plus,
+.evo-icon-circle-plus-book, .evo-icon-circle-plus-bold, .evo-icon-circle-plus-black, .evo-icon-circle-plus-ultra, .evo-icon-share-thin, .evo-icon-share-light, .evo-icon-share,
+.evo-icon-share-book, .evo-icon-share-bold, .evo-icon-share-black, .evo-icon-share-ultra, .evo-icon-link-thin, .evo-icon-link-light, .evo-icon-link,
+.evo-icon-link-book, .evo-icon-link-bold, .evo-icon-link-black, .evo-icon-link-ultra, .evo-icon-mail-thin, .evo-icon-mail-light, .evo-icon-mail,
+.evo-icon-mail-book, .evo-icon-mail-bold, .evo-icon-mail-black, .evo-icon-mail-ultra, .evo-icon-search-thin, .evo-icon-search-light, .evo-icon-search,
+.evo-icon-search-book, .evo-icon-search-bold, .evo-icon-search-black, .evo-icon-search-ultra, .evo-icon-check-thin, .evo-icon-check-light, .evo-icon-check,
+.evo-icon-check-book, .evo-icon-check-bold, .evo-icon-check-black, .evo-icon-check-ultra, .evo-icon-circle-slash-thin, .evo-icon-circle-slash-light, .evo-icon-circle-slash,
+.evo-icon-circle-slash-book, .evo-icon-circle-slash-bold, .evo-icon-circle-slash-black, .evo-icon-circle-slash-ultra, .evo-icon-eye-thin, .evo-icon-eye-light, .evo-icon-eye,
+.evo-icon-eye-book, .evo-icon-eye-bold, .evo-icon-eye-black, .evo-icon-eye-ultra, .evo-icon-eye-slash-thin, .evo-icon-eye-slash-light, .evo-icon-eye-slash,
+.evo-icon-eye-slash-book, .evo-icon-eye-slash-bold, .evo-icon-eye-slash-black, .evo-icon-eye-slash-ultra, .evo-icon-graph-thin, .evo-icon-graph-light, .evo-icon-graph,
+.evo-icon-graph-book, .evo-icon-graph-bold, .evo-icon-graph-black, .evo-icon-graph-ultra, .evo-icon-papers-thin, .evo-icon-papers-light, .evo-icon-papers,
+.evo-icon-papers-book, .evo-icon-papers-bold, .evo-icon-papers-black, .evo-icon-papers-ultra, .evo-icon-pencil-thin, .evo-icon-pencil-light, .evo-icon-pencil,
+.evo-icon-pencil-book, .evo-icon-pencil-bold, .evo-icon-pencil-black, .evo-icon-pencil-ultra, .evo-icon-trashcan-thin, .evo-icon-trashcan-light, .evo-icon-trashcan,
+.evo-icon-trashcan-book, .evo-icon-trashcan-bold, .evo-icon-trashcan-black, .evo-icon-trashcan-ultra, .evo-icon-triangle-solid-left, .evo-icon-triangle-solid-up, .evo-icon-triangle-solid,
+.evo-icon-triangle-solid-right, .evo-icon-triangle-solid-down, .evo-icon-circle-solid, .evo-icon-square-solid, .evo-icon-circle-chevron-solid-left, .evo-icon-circle-chevron-solid-up, .evo-icon-circle-chevron-solid,
+.evo-icon-circle-chevron-solid-right, .evo-icon-circle-chevron-solid-down, .evo-icon-circle-plus-solid, .evo-icon-circle-minus-solid, .evo-icon-circle-menu-solid {
+  display: inline-block;
+  line-height: 0;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+img {
+  border-style: none; }
+
+/* --- Icon Sizes --- */
 .evo-icon-0 {
   width: 0.3rem;
   height: 0.3rem; }
@@ -132,8 +190,129 @@
   width: 3rem;
   height: 3rem; }
 
-/* Icon Rotation */
-.evo-icon-transform-90, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
+.evo-icon-31 {
+  width: 1.11rem;
+  height: 3.09rem; }
+
+.evo-icon-32 {
+  width: 1.2rem;
+  height: 3.18rem; }
+
+.evo-icon-33 {
+  width: 1.29rem;
+  height: 3.27rem; }
+
+.evo-icon-34 {
+  width: 1.38rem;
+  height: 3.36rem; }
+
+.evo-icon-35 {
+  width: 1.47rem;
+  height: 3.45rem; }
+
+.evo-icon-36 {
+  width: 1.56rem;
+  height: 3.54rem; }
+
+.evo-icon-37 {
+  width: 1.65rem;
+  height: 3.63rem; }
+
+.evo-icon-38 {
+  width: 1.74rem;
+  height: 3.72rem; }
+
+.evo-icon-39 {
+  width: 1.83rem;
+  height: 3.81rem; }
+
+.evo-icon-40 {
+  width: 1.92rem;
+  height: 3.9rem; }
+
+.evo-icon-41 {
+  width: 2.01rem;
+  height: 3.99rem; }
+
+.evo-icon-42 {
+  width: 2.1rem;
+  height: 4.08rem; }
+
+.evo-icon-43 {
+  width: 2.19rem;
+  height: 4.17rem; }
+
+.evo-icon-44 {
+  width: 2.28rem;
+  height: 4.26rem; }
+
+.evo-icon-45 {
+  width: 2.37rem;
+  height: 4.35rem; }
+
+.evo-icon-46 {
+  width: 2.46rem;
+  height: 4.44rem; }
+
+.evo-icon-47 {
+  width: 2.55rem;
+  height: 4.53rem; }
+
+.evo-icon-48 {
+  width: 2.64rem;
+  height: 4.62rem; }
+
+.evo-icon-49 {
+  width: 2.73rem;
+  height: 4.71rem; }
+
+.evo-icon-50 {
+  width: 2.82rem;
+  height: 4.8rem; }
+
+.evo-icon-51 {
+  width: 2.01rem;
+  height: 4.89rem; }
+
+.evo-icon-52 {
+  width: 2.1rem;
+  height: 4.98rem; }
+
+.evo-icon-53 {
+  width: 2.19rem;
+  height: 5.07rem; }
+
+.evo-icon-54 {
+  width: 2.28rem;
+  height: 5.16rem; }
+
+.evo-icon-55 {
+  width: 2.37rem;
+  height: 5.25rem; }
+
+.evo-icon-56 {
+  width: 2.46rem;
+  height: 5.34rem; }
+
+.evo-icon-57 {
+  width: 2.55rem;
+  height: 5.43rem; }
+
+.evo-icon-58 {
+  width: 2.64rem;
+  height: 5.52rem; }
+
+.evo-icon-59 {
+  width: 2.73rem;
+  height: 5.61rem; }
+
+.evo-icon-60 {
+  width: 2.82rem;
+  height: 5.7rem; }
+
+/* --- Icon Helpers --- */
+/* If an icon points right, rotate it to point down */
+.evo-icon-rotate-90, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
 .evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-down-black, .evo-icon-arrow-down-ultra, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
 .evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-arrow-corner-down-right-black, .evo-icon-arrow-corner-down-right-ultra, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
 .evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-circle-chevron-down-black, .evo-icon-circle-chevron-down-ultra, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
@@ -141,98 +320,37 @@
 .evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-double-chevron-down-black, .evo-icon-double-chevron-down-ultra, .evo-icon-triangle-right-thin, .evo-icon-triangle-right-light, .evo-icon-triangle,
 .evo-icon-triangle-right,
 .evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-right-black, .evo-icon-triangle-right-ultra, .evo-icon-triangle-solid,
-.evo-icon-triangle-solid-right {
+.evo-icon-triangle-solid-right, .evo-icon-circle-chevron-solid-down {
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-.evo-icon-transform-180, .evo-icon-arrow-left-thin, .evo-icon-arrow-left-light, .evo-icon-arrow-left,
+/* If an icon points right, rotate it to point left */
+.evo-icon-rotate-180, .evo-icon-arrow-left-thin, .evo-icon-arrow-left-light, .evo-icon-arrow-left,
 .evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-left-black, .evo-icon-arrow-left-ultra, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
 .evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-arrow-corner-down-left-black, .evo-icon-arrow-corner-down-left-ultra, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
 .evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-circle-chevron-left-black, .evo-icon-circle-chevron-left-ultra, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
 .evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-chevron-left-black, .evo-icon-chevron-left-ultra, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
 .evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-double-chevron-left-black, .evo-icon-double-chevron-left-ultra, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
-.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-triangle-down-black, .evo-icon-triangle-down-ultra, .evo-icon-triangle-solid-down {
+.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-triangle-down-black, .evo-icon-triangle-down-ultra, .evo-icon-triangle-solid-down, .evo-icon-circle-chevron-solid-left {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
 
-.evo-icon-transform-270, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
+/* If an icon points right, rotate it to point up */
+.evo-icon-rotate-270, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
 .evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-up-black, .evo-icon-arrow-up-ultra, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
 .evo-icon-arrow-corner-up-left,
 .evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-arrow-corner-up-left-black, .evo-icon-arrow-corner-up-left-ultra, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
 .evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-circle-chevron-up-black, .evo-icon-circle-chevron-up-ultra, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
 .evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-chevron-up-black, .evo-icon-chevron-up-ultra, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
 .evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-double-chevron-up-black, .evo-icon-double-chevron-up-ultra, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
-.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-left-black, .evo-icon-triangle-left-ultra, .evo-icon-triangle-solid-left {
+.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-left-black, .evo-icon-triangle-left-ultra, .evo-icon-triangle-solid-left, .evo-icon-circle-chevron-solid-up {
   -ms-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg); }
 
-.evo-icon-transform-360 {
-  -ms-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg); }
-
-/* --- Icon structure and SVG sources --- */
-.evo-icon-base, .evo-icon-arrow-left-thin, .evo-icon-arrow-left-light, .evo-icon-arrow-left,
-.evo-icon-arrow-left-book, .evo-icon-arrow-left-bold, .evo-icon-arrow-left-black, .evo-icon-arrow-left-ultra, .evo-icon-arrow-up-thin, .evo-icon-arrow-up-light, .evo-icon-arrow-up,
-.evo-icon-arrow-up-book, .evo-icon-arrow-up-bold, .evo-icon-arrow-up-black, .evo-icon-arrow-up-ultra, .evo-icon-arrow-right-thin, .evo-icon-arrow-right-light, .evo-icon-arrow,
-.evo-icon-arrow-right,
-.evo-icon-arrow-right-book, .evo-icon-arrow-right-bold, .evo-icon-arrow-right-black, .evo-icon-arrow-right-ultra, .evo-icon-arrow-down-thin, .evo-icon-arrow-down-light, .evo-icon-arrow-down,
-.evo-icon-arrow-down-book, .evo-icon-arrow-down-bold, .evo-icon-arrow-down-black, .evo-icon-arrow-down-ultra, .evo-icon-arrow-corner-down-left-thin, .evo-icon-arrow-corner-down-left-light, .evo-icon-arrow-corner-down-left,
-.evo-icon-arrow-corner-down-left-book, .evo-icon-arrow-corner-down-left-bold, .evo-icon-arrow-corner-down-left-black, .evo-icon-arrow-corner-down-left-ultra, .evo-icon-arrow-corner-up-left-thin, .evo-icon-arrow-corner-up-left-light, .evo-icon-arrow-corner,
-.evo-icon-arrow-corner-up-left,
-.evo-icon-arrow-corner-up-left-book, .evo-icon-arrow-corner-up-left-bold, .evo-icon-arrow-corner-up-left-black, .evo-icon-arrow-corner-up-left-ultra, .evo-icon-arrow-corner-up-right-thin, .evo-icon-arrow-corner-up-right-light, .evo-icon-arrow-corner-up-right,
-.evo-icon-arrow-corner-up-right-book, .evo-icon-arrow-corner-up-right-bold, .evo-icon-arrow-corner-up-right-black, .evo-icon-arrow-corner-up-right-ultra, .evo-icon-arrow-corner-down-right-thin, .evo-icon-arrow-corner-down-right-light, .evo-icon-arrow-corner-down-right,
-.evo-icon-arrow-corner-down-right-book, .evo-icon-arrow-corner-down-right-bold, .evo-icon-arrow-corner-down-right-black, .evo-icon-arrow-corner-down-right-ultra, .evo-icon-circle-chevron-left-thin, .evo-icon-circle-chevron-left-light, .evo-icon-circle-chevron-left,
-.evo-icon-circle-chevron-left-book, .evo-icon-circle-chevron-left-bold, .evo-icon-circle-chevron-left-black, .evo-icon-circle-chevron-left-ultra, .evo-icon-circle-chevron-up-thin, .evo-icon-circle-chevron-up-light, .evo-icon-circle-chevron-up,
-.evo-icon-circle-chevron-up-book, .evo-icon-circle-chevron-up-bold, .evo-icon-circle-chevron-up-black, .evo-icon-circle-chevron-up-ultra, .evo-icon-circle-chevron-right-thin, .evo-icon-circle-chevron-right-light, .evo-icon-circle-chevron,
-.evo-icon-circle-chevron-right,
-.evo-icon-circle-chevron-right-book, .evo-icon-circle-chevron-right-bold, .evo-icon-circle-chevron-right-black, .evo-icon-circle-chevron-right-ultra, .evo-icon-circle-chevron-down-thin, .evo-icon-circle-chevron-down-light, .evo-icon-circle-chevron-down,
-.evo-icon-circle-chevron-down-book, .evo-icon-circle-chevron-down-bold, .evo-icon-circle-chevron-down-black, .evo-icon-circle-chevron-down-ultra, .evo-icon-chevron-left-thin, .evo-icon-chevron-left-light, .evo-icon-chevron-left,
-.evo-icon-chevron-left-book, .evo-icon-chevron-left-bold, .evo-icon-chevron-left-black, .evo-icon-chevron-left-ultra, .evo-icon-chevron-up-thin, .evo-icon-chevron-up-light, .evo-icon-chevron-up,
-.evo-icon-chevron-up-book, .evo-icon-chevron-up-bold, .evo-icon-chevron-up-black, .evo-icon-chevron-up-ultra, .evo-icon-chevron-right-thin, .evo-icon-chevron-right-light, .evo-icon-chevron,
-.evo-icon-chevron-right,
-.evo-icon-chevron-right-book, .evo-icon-chevron-right-bold, .evo-icon-chevron-right-black, .evo-icon-chevron-right-ultra, .evo-icon-chevron-down-thin, .evo-icon-chevron-down-light, .evo-icon-chevron-down,
-.evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-chevron-down-black, .evo-icon-chevron-down-ultra, .evo-icon-double-chevron-left-thin, .evo-icon-double-chevron-left-light, .evo-icon-double-chevron-left,
-.evo-icon-double-chevron-left-book, .evo-icon-double-chevron-left-bold, .evo-icon-double-chevron-left-black, .evo-icon-double-chevron-left-ultra, .evo-icon-double-chevron-up-thin, .evo-icon-double-chevron-up-light, .evo-icon-double-chevron-up,
-.evo-icon-double-chevron-up-book, .evo-icon-double-chevron-up-bold, .evo-icon-double-chevron-up-black, .evo-icon-double-chevron-up-ultra, .evo-icon-double-chevron-right-thin, .evo-icon-double-chevron-right-light, .evo-icon-double-chevron,
-.evo-icon-double-chevron-right,
-.evo-icon-double-chevron-right-book, .evo-icon-double-chevron-right-bold, .evo-icon-double-chevron-right-black, .evo-icon-double-chevron-right-ultra, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
-.evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-double-chevron-down-black, .evo-icon-double-chevron-down-ultra, .evo-icon-triangle-left-thin, .evo-icon-triangle-left-light, .evo-icon-triangle-left,
-.evo-icon-triangle-left-book, .evo-icon-triangle-left-bold, .evo-icon-triangle-left-black, .evo-icon-triangle-left-ultra, .evo-icon-triangle-up-thin, .evo-icon-triangle-up-light, .evo-icon-triangle-up,
-.evo-icon-triangle-up-book, .evo-icon-triangle-up-bold, .evo-icon-triangle-up-black, .evo-icon-triangle-up-ultra, .evo-icon-triangle-right-thin, .evo-icon-triangle-right-light, .evo-icon-triangle,
-.evo-icon-triangle-right,
-.evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-right-black, .evo-icon-triangle-right-ultra, .evo-icon-triangle-down-thin, .evo-icon-triangle-down-light, .evo-icon-triangle-down,
-.evo-icon-triangle-down-book, .evo-icon-triangle-down-bold, .evo-icon-triangle-down-black, .evo-icon-triangle-down-ultra, .evo-icon-circle-thin, .evo-icon-circle-light, .evo-icon-circle,
-.evo-icon-circle-book, .evo-icon-circle-bold, .evo-icon-circle-black, .evo-icon-circle-ultra, .evo-icon-square-thin, .evo-icon-square-light, .evo-icon-square,
-.evo-icon-square-book, .evo-icon-square-bold, .evo-icon-square-black, .evo-icon-square-ultra, .evo-icon-slash-thin, .evo-icon-slash-light, .evo-icon-slash,
-.evo-icon-slash-book, .evo-icon-slash-bold, .evo-icon-slash-black, .evo-icon-slash-ultra, .evo-icon-menu-thin, .evo-icon-menu-light, .evo-icon-menu,
-.evo-icon-menu-book, .evo-icon-menu-bold, .evo-icon-menu-black, .evo-icon-menu-ultra, .evo-icon-close-thin, .evo-icon-close-light, .evo-icon-close,
-.evo-icon-close-book, .evo-icon-close-bold, .evo-icon-close-black, .evo-icon-close-ultra, .evo-icon-plus-thin, .evo-icon-plus-light, .evo-icon-plus,
-.evo-icon-plus-book, .evo-icon-plus-bold, .evo-icon-plus-black, .evo-icon-plus-ultra, .evo-icon-minus-thin, .evo-icon-minus-light, .evo-icon-minus,
-.evo-icon-minus-book, .evo-icon-minus-bold, .evo-icon-minus-black, .evo-icon-minus-ultra, .evo-icon-circle-minus-thin, .evo-icon-circle-minus-light, .evo-icon-circle-minus,
-.evo-icon-circle-minus-book, .evo-icon-circle-minus-bold, .evo-icon-circle-minus-black, .evo-icon-circle-minus-ultra, .evo-icon-circle-plus-thin, .evo-icon-circle-plus-light, .evo-icon-circle-plus,
-.evo-icon-circle-plus-book, .evo-icon-circle-plus-bold, .evo-icon-circle-plus-black, .evo-icon-circle-plus-ultra, .evo-icon-share-thin, .evo-icon-share-light, .evo-icon-share,
-.evo-icon-share-book, .evo-icon-share-bold, .evo-icon-share-black, .evo-icon-share-ultra, .evo-icon-link-thin, .evo-icon-link-light, .evo-icon-link,
-.evo-icon-link-book, .evo-icon-link-bold, .evo-icon-link-black, .evo-icon-link-ultra, .evo-icon-mail-thin, .evo-icon-mail-light, .evo-icon-mail,
-.evo-icon-mail-book, .evo-icon-mail-bold, .evo-icon-mail-black, .evo-icon-mail-ultra, .evo-icon-search-thin, .evo-icon-search-light, .evo-icon-search,
-.evo-icon-search-book, .evo-icon-search-bold, .evo-icon-search-black, .evo-icon-search-ultra, .evo-icon-check-thin, .evo-icon-check-light, .evo-icon-check,
-.evo-icon-check-book, .evo-icon-check-bold, .evo-icon-check-black, .evo-icon-check-ultra, .evo-icon-circle-slash-thin, .evo-icon-circle-slash-light, .evo-icon-circle-slash,
-.evo-icon-circle-slash-book, .evo-icon-circle-slash-bold, .evo-icon-circle-slash-black, .evo-icon-circle-slash-ultra, .evo-icon-eye-thin, .evo-icon-eye-light, .evo-icon-eye,
-.evo-icon-eye-book, .evo-icon-eye-bold, .evo-icon-eye-black, .evo-icon-eye-ultra, .evo-icon-eye-slash-thin, .evo-icon-eye-slash-light, .evo-icon-eye-slash,
-.evo-icon-eye-slash-book, .evo-icon-eye-slash-bold, .evo-icon-eye-slash-black, .evo-icon-eye-slash-ultra, .evo-icon-graph-thin, .evo-icon-graph-light, .evo-icon-graph,
-.evo-icon-graph-book, .evo-icon-graph-bold, .evo-icon-graph-black, .evo-icon-graph-ultra, .evo-icon-papers-thin, .evo-icon-papers-light, .evo-icon-papers,
-.evo-icon-papers-book, .evo-icon-papers-bold, .evo-icon-papers-black, .evo-icon-papers-ultra, .evo-icon-pencil-thin, .evo-icon-pencil-light, .evo-icon-pencil,
-.evo-icon-pencil-book, .evo-icon-pencil-bold, .evo-icon-pencil-black, .evo-icon-pencil-ultra, .evo-icon-trashcan-thin, .evo-icon-trashcan-light, .evo-icon-trashcan,
-.evo-icon-trashcan-book, .evo-icon-trashcan-bold, .evo-icon-trashcan-black, .evo-icon-trashcan-ultra, .evo-icon-triangle-solid-left, .evo-icon-triangle-solid-up, .evo-icon-triangle-solid,
-.evo-icon-triangle-solid-right, .evo-icon-triangle-solid-down, .evo-icon-circle-solid, .evo-icon-square-solid, .evo-icon-circle-chevron-solid, .evo-icon-circle-plus-solid, .evo-icon-circle-minus-solid, .evo-icon-circle-menu-solid {
-  display: inline-block;
-  line-height: 0;
-  background-repeat: no-repeat;
-  background-size: contain; }
-
+/* --- Multi-weight Icons --- */
 /* evo-icon-arrow */
 .evo-icon-arrow-left-thin {
   background-image: url(../img/icons/thin/arrow-thin.svg); }
@@ -1121,9 +1239,7 @@
 .evo-icon-trashcan-ultra {
   background-image: url(../img/icons/ultra/trashcan-ultra.svg); }
 
-/* ================================================================================ */
-/* -------------------------------- SOLID ICONS ---------------------------------- */
-/* ================================================================================ */
+/* --- Solid Icons --- */
 /* evo-icon-triangle-solid */
 .evo-icon-triangle-solid-left {
   background-image: url(../img/icons/solid/triangle-solid.svg); }
@@ -1147,7 +1263,17 @@
   background-image: url(../img/icons/solid/square-solid.svg); }
 
 /* evo-icon-circle-chevron-solid */
-.evo-icon-circle-chevron-solid {
+.evo-icon-circle-chevron-solid-left {
+  background-image: url(../img/icons/solid/circle-chevron-solid.svg); }
+
+.evo-icon-circle-chevron-solid-up {
+  background-image: url(../img/icons/solid/circle-chevron-solid.svg); }
+
+.evo-icon-circle-chevron-solid,
+.evo-icon-circle-chevron-solid-right {
+  background-image: url(../img/icons/solid/circle-chevron-solid.svg); }
+
+.evo-icon-circle-chevron-solid-down {
   background-image: url(../img/icons/solid/circle-chevron-solid.svg); }
 
 /* evo-icon-circle-plus-solid */

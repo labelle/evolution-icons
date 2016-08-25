@@ -1,99 +1,11 @@
-///* ================================================================================ */
-
-///*                           ICONS EVOLUTION ELEMENTS v2.0.1                        */
-
-///* ================================================================================ */
 
 
 
-$text_font_size_increment:          .09;
-$text_font_size:                    .3;
+/* --- Multi-weight Icons --- */
 
-
-/* ================================================================================ */
-/* ----------------------------------- ICONS -------------------------------------- */
-/* ================================================================================ */
-
-
-/* Icon Sizes */
-
-.evo-icon-0         { width: $text_font_size+$text_font_size_increment*0rem; height: $text_font_size+$text_font_size_increment*0rem; } // Do we need to start with a zero?
-.evo-icon-1         { width: $text_font_size+$text_font_size_increment*1rem; height: $text_font_size+$text_font_size_increment*1rem; }
-.evo-icon-2         { width: $text_font_size+$text_font_size_increment*2rem; height: $text_font_size+$text_font_size_increment*2rem; }
-.evo-icon-3         { width: $text_font_size+$text_font_size_increment*3rem; height: $text_font_size+$text_font_size_increment*3rem; }
-.evo-icon-4         { width: $text_font_size+$text_font_size_increment*4rem; height: $text_font_size+$text_font_size_increment*4rem; }
-.evo-icon-5         { width: $text_font_size+$text_font_size_increment*5rem; height: $text_font_size+$text_font_size_increment*5rem; }
-.evo-icon-6         { width: $text_font_size+$text_font_size_increment*6rem; height: $text_font_size+$text_font_size_increment*6rem; }
-.evo-icon-7         { width: $text_font_size+$text_font_size_increment*7rem; height: $text_font_size+$text_font_size_increment*7rem; }
-.evo-icon-8         { width: $text_font_size+$text_font_size_increment*8rem; height: $text_font_size+$text_font_size_increment*8rem; }
-.evo-icon-9         { width: $text_font_size+$text_font_size_increment*9rem; height: $text_font_size+$text_font_size_increment*9rem; }
-.evo-icon-10        { width: $text_font_size+$text_font_size_increment*10rem; height: $text_font_size+$text_font_size_increment*10rem; }
-.evo-icon-11        { width: $text_font_size+$text_font_size_increment*11rem; height: $text_font_size+$text_font_size_increment*11rem; }
-.evo-icon-12        { width: $text_font_size+$text_font_size_increment*12rem; height: $text_font_size+$text_font_size_increment*12rem; }
-.evo-icon-13        { width: $text_font_size+$text_font_size_increment*13rem; height: $text_font_size+$text_font_size_increment*13rem; }
-.evo-icon-14        { width: $text_font_size+$text_font_size_increment*14rem; height: $text_font_size+$text_font_size_increment*14rem; }
-.evo-icon-15        { width: $text_font_size+$text_font_size_increment*15rem; height: $text_font_size+$text_font_size_increment*15rem; }
-.evo-icon-16        { width: $text_font_size+$text_font_size_increment*16rem; height: $text_font_size+$text_font_size_increment*16rem; }
-.evo-icon-17        { width: $text_font_size+$text_font_size_increment*17rem; height: $text_font_size+$text_font_size_increment*17rem; }
-.evo-icon-18        { width: $text_font_size+$text_font_size_increment*18rem; height: $text_font_size+$text_font_size_increment*18rem; }
-.evo-icon-19        { width: $text_font_size+$text_font_size_increment*19rem; height: $text_font_size+$text_font_size_increment*19rem; }
-.evo-icon-20        { width: $text_font_size+$text_font_size_increment*20rem; height: $text_font_size+$text_font_size_increment*20rem; }
-.evo-icon-21        { width: $text_font_size+$text_font_size_increment*21rem; height: $text_font_size+$text_font_size_increment*21rem; }
-.evo-icon-22        { width: $text_font_size+$text_font_size_increment*22rem; height: $text_font_size+$text_font_size_increment*22rem; }
-.evo-icon-23        { width: $text_font_size+$text_font_size_increment*23rem; height: $text_font_size+$text_font_size_increment*23rem; }
-.evo-icon-24        { width: $text_font_size+$text_font_size_increment*24rem; height: $text_font_size+$text_font_size_increment*24rem; }
-.evo-icon-25        { width: $text_font_size+$text_font_size_increment*25rem; height: $text_font_size+$text_font_size_increment*25rem; }
-.evo-icon-26        { width: $text_font_size+$text_font_size_increment*26rem; height: $text_font_size+$text_font_size_increment*26rem; }
-.evo-icon-27        { width: $text_font_size+$text_font_size_increment*27rem; height: $text_font_size+$text_font_size_increment*27rem; }
-.evo-icon-28        { width: $text_font_size+$text_font_size_increment*28rem; height: $text_font_size+$text_font_size_increment*28rem; }
-.evo-icon-29        { width: $text_font_size+$text_font_size_increment*29rem; height: $text_font_size+$text_font_size_increment*29rem; }
-.evo-icon-30        { width: $text_font_size+$text_font_size_increment*30rem; height: $text_font_size+$text_font_size_increment*30rem; }
-
-
-/* Icon Rotation */
-
-// If an icon points right, rotate it to point down
-.evo-icon-transform-90 {
-    -ms-transform: rotate(90deg); ///* IE 9 */
-    -webkit-transform: rotate(90deg); ///* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-}
-
-// If an icon points right, rotate it to point left
-.evo-icon-transform-180 {
-    -ms-transform: rotate(180deg); ///* IE 9 */
-    -webkit-transform: rotate(180deg); ///* Chrome, Safari, Opera */
-    transform: rotate(180deg);
-}
-
-// If an icon points right, rotate it to point up
-.evo-icon-transform-270 {
-    -ms-transform: rotate(270deg); ///* IE 9 */
-    -webkit-transform: rotate(270deg); ///* Chrome, Safari, Opera */
-    transform: rotate(270deg);
-}
-
-// If an icon points right, rotate it to point right
-.evo-icon-transform-360 {
-    -ms-transform: rotate(360deg); ///* IE 9 */
-    -webkit-transform: rotate(360deg); ///* Chrome, Safari, Opera */
-    transform: rotate(360deg);
-}
-
-/* --- Icon structure and SVG sources --- */
-
-// Base structure common to all icons
-.evo-icon-base {
-    display: inline-block;
-    line-height: 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    // cursor: pointer;
-}
 
 /* evo-icon-arrow */
 
-//fixed
 
 $arrow_thin:        url(../img/icons/thin/arrow-thin.svg);
 $arrow_light:       url(../img/icons/light/arrow-light.svg);
@@ -103,21 +15,21 @@ $arrow_black:       url(../img/icons/black/arrow-black.svg);
 $arrow_ultra:       url(../img/icons/ultra/arrow-ultra.svg);
 
 
-.evo-icon-arrow-left-thin              { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_thin; }
-.evo-icon-arrow-left-light             { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_light; }
+.evo-icon-arrow-left-thin              { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_thin; }
+.evo-icon-arrow-left-light             { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_light; }
 .evo-icon-arrow-left,
-.evo-icon-arrow-left-book              { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_book;  }
-.evo-icon-arrow-left-bold              { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_bold;  }
-.evo-icon-arrow-left-black             { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_black;  }
-.evo-icon-arrow-left-ultra             { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_ultra;  }
+.evo-icon-arrow-left-book              { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_book;  }
+.evo-icon-arrow-left-bold              { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_bold;  }
+.evo-icon-arrow-left-black             { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_black;  }
+.evo-icon-arrow-left-ultra             { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_ultra;  }
 
-.evo-icon-arrow-up-thin                { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_thin; }
-.evo-icon-arrow-up-light               { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_light; }
+.evo-icon-arrow-up-thin                { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_thin; }
+.evo-icon-arrow-up-light               { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_light; }
 .evo-icon-arrow-up,
-.evo-icon-arrow-up-book                { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_book; }
-.evo-icon-arrow-up-bold                { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_bold; }
-.evo-icon-arrow-up-black               { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_black; }
-.evo-icon-arrow-up-ultra               { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_ultra; }
+.evo-icon-arrow-up-book                { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_book; }
+.evo-icon-arrow-up-bold                { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_bold; }
+.evo-icon-arrow-up-black               { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_black; }
+.evo-icon-arrow-up-ultra               { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_ultra; }
 
 .evo-icon-arrow-right-thin             { @extend .evo-icon-base; background-image: $arrow_thin; }
 .evo-icon-arrow-right-light            { @extend .evo-icon-base; background-image: $arrow_light; }
@@ -128,19 +40,18 @@ $arrow_ultra:       url(../img/icons/ultra/arrow-ultra.svg);
 .evo-icon-arrow-right-black            { @extend .evo-icon-base; background-image: $arrow_black; }
 .evo-icon-arrow-right-ultra            { @extend .evo-icon-base; background-image: $arrow_ultra; }
 
-.evo-icon-arrow-down-thin              { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_thin; }
-.evo-icon-arrow-down-light             { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_light; }
+.evo-icon-arrow-down-thin              { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_thin; }
+.evo-icon-arrow-down-light             { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_light; }
 .evo-icon-arrow-down,
-.evo-icon-arrow-down-book              { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_book; }
-.evo-icon-arrow-down-bold              { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_bold; }
-.evo-icon-arrow-down-black             { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_black; }
-.evo-icon-arrow-down-ultra             { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_ultra; }
+.evo-icon-arrow-down-book              { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_book; }
+.evo-icon-arrow-down-bold              { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_bold; }
+.evo-icon-arrow-down-black             { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_black; }
+.evo-icon-arrow-down-ultra             { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_ultra; }
 
 
 
 /* evo-icon-arrow-corner */
 
-//fixed
 
 
 $arrow_corner_thin:     url(../img/icons/thin/arrow-corner-thin.svg);
@@ -151,22 +62,22 @@ $arrow_corner_black:    url(../img/icons/black/arrow-corner-black.svg);
 $arrow_corner_ultra:    url(../img/icons/ultra/arrow-corner-ultra.svg);
 
 
-.evo-icon-arrow-corner-down-left-thin   { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_thin; }
-.evo-icon-arrow-corner-down-left-light  { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_light; }
+.evo-icon-arrow-corner-down-left-thin   { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_corner_thin; }
+.evo-icon-arrow-corner-down-left-light  { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_corner_light; }
 .evo-icon-arrow-corner-down-left,
-.evo-icon-arrow-corner-down-left-book   { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_book; }
-.evo-icon-arrow-corner-down-left-bold   { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_bold; }
-.evo-icon-arrow-corner-down-left-black  { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_black; }
-.evo-icon-arrow-corner-down-left-ultra  { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
+.evo-icon-arrow-corner-down-left-book   { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_corner_book; }
+.evo-icon-arrow-corner-down-left-bold   { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_corner_bold; }
+.evo-icon-arrow-corner-down-left-black  { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_corner_black; }
+.evo-icon-arrow-corner-down-left-ultra  { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
 
-.evo-icon-arrow-corner-up-left-thin     { @extend .evo-icon-transform-270; @extend .evo-icon-base;  background-image: $arrow_corner_thin; }
-.evo-icon-arrow-corner-up-left-light    { @extend .evo-icon-transform-270; @extend .evo-icon-base;  background-image: $arrow_corner_light; }
+.evo-icon-arrow-corner-up-left-thin     { @extend .evo-icon-rotate-270; @extend .evo-icon-base;  background-image: $arrow_corner_thin; }
+.evo-icon-arrow-corner-up-left-light    { @extend .evo-icon-rotate-270; @extend .evo-icon-base;  background-image: $arrow_corner_light; }
 .evo-icon-arrow-corner,
 .evo-icon-arrow-corner-up-left,
-.evo-icon-arrow-corner-up-left-book     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_book; }
-.evo-icon-arrow-corner-up-left-bold     { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_bold; }
-.evo-icon-arrow-corner-up-left-black    { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_black; }
-.evo-icon-arrow-corner-up-left-ultra    { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
+.evo-icon-arrow-corner-up-left-book     { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_corner_book; }
+.evo-icon-arrow-corner-up-left-bold     { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_corner_bold; }
+.evo-icon-arrow-corner-up-left-black    { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_corner_black; }
+.evo-icon-arrow-corner-up-left-ultra    { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
 
 .evo-icon-arrow-corner-up-right-thin    { @extend .evo-icon-base; background-image: $arrow_corner_thin; }
 .evo-icon-arrow-corner-up-right-light   { @extend .evo-icon-base; background-image: $arrow_corner_light; }
@@ -176,19 +87,18 @@ $arrow_corner_ultra:    url(../img/icons/ultra/arrow-corner-ultra.svg);
 .evo-icon-arrow-corner-up-right-black   { @extend .evo-icon-base; background-image: $arrow_corner_black; }
 .evo-icon-arrow-corner-up-right-ultra   { @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
 
-.evo-icon-arrow-corner-down-right-thin  { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_thin; }
-.evo-icon-arrow-corner-down-right-light { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_light; }
+.evo-icon-arrow-corner-down-right-thin  { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_corner_thin; }
+.evo-icon-arrow-corner-down-right-light { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_corner_light; }
 .evo-icon-arrow-corner-down-right,
-.evo-icon-arrow-corner-down-right-book  { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_book; }
-.evo-icon-arrow-corner-down-right-bold  { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_bold; }
-.evo-icon-arrow-corner-down-right-black { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_black; }
-.evo-icon-arrow-corner-down-right-ultra { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
+.evo-icon-arrow-corner-down-right-book  { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_corner_book; }
+.evo-icon-arrow-corner-down-right-bold  { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_corner_bold; }
+.evo-icon-arrow-corner-down-right-black { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_corner_black; }
+.evo-icon-arrow-corner-down-right-ultra { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $arrow_corner_ultra; }
 
 
 
 /* evo-icon-circle-chevron */
 
-//fixed
 
 $circle_chevron_thin:      url(../img/icons/thin/circle-chevron-thin.svg);
 $circle_chevron_light:     url(../img/icons/light/circle-chevron-light.svg);
@@ -198,21 +108,21 @@ $circle_chevron_black:     url(../img/icons/black/circle-chevron-black.svg);
 $circle_chevron_ultra:     url(../img/icons/ultra/circle-chevron-ultra.svg);
 
 
-.evo-icon-circle-chevron-left-thin     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $circle_chevron_thin; }
-.evo-icon-circle-chevron-left-light    { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $circle_chevron_light; }
+.evo-icon-circle-chevron-left-thin     { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_thin; }
+.evo-icon-circle-chevron-left-light    { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_light; }
 .evo-icon-circle-chevron-left,
-.evo-icon-circle-chevron-left-book     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $circle_chevron_book; }
-.evo-icon-circle-chevron-left-bold     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $circle_chevron_bold; }
-.evo-icon-circle-chevron-left-black    { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $circle_chevron_black; }
-.evo-icon-circle-chevron-left-ultra    { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
+.evo-icon-circle-chevron-left-book     { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_book; }
+.evo-icon-circle-chevron-left-bold     { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_bold; }
+.evo-icon-circle-chevron-left-black    { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_black; }
+.evo-icon-circle-chevron-left-ultra    { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
 
-.evo-icon-circle-chevron-up-thin       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $circle_chevron_thin; }
-.evo-icon-circle-chevron-up-light      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $circle_chevron_light; }
+.evo-icon-circle-chevron-up-thin       { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_thin; }
+.evo-icon-circle-chevron-up-light      { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_light; }
 .evo-icon-circle-chevron-up,
-.evo-icon-circle-chevron-up-book       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $circle_chevron_book; }
-.evo-icon-circle-chevron-up-bold       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $circle_chevron_bold; }
-.evo-icon-circle-chevron-up-black      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $circle_chevron_black; }
-.evo-icon-circle-chevron-up-ultra      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
+.evo-icon-circle-chevron-up-book       { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_book; }
+.evo-icon-circle-chevron-up-bold       { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_bold; }
+.evo-icon-circle-chevron-up-black      { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_black; }
+.evo-icon-circle-chevron-up-ultra      { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
 
 .evo-icon-circle-chevron-right-thin    { @extend .evo-icon-base; background-image: $circle_chevron_thin; }
 .evo-icon-circle-chevron-right-light   { @extend .evo-icon-base; background-image: $circle_chevron_light; }
@@ -223,19 +133,18 @@ $circle_chevron_ultra:     url(../img/icons/ultra/circle-chevron-ultra.svg);
 .evo-icon-circle-chevron-right-black   { @extend .evo-icon-base; background-image: $circle_chevron_black; }
 .evo-icon-circle-chevron-right-ultra   { @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
 
-.evo-icon-circle-chevron-down-thin     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $circle_chevron_thin; }
-.evo-icon-circle-chevron-down-light    { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $circle_chevron_light; }
+.evo-icon-circle-chevron-down-thin     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_thin; }
+.evo-icon-circle-chevron-down-light    { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_light; }
 .evo-icon-circle-chevron-down,
-.evo-icon-circle-chevron-down-book     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $circle_chevron_book; }
-.evo-icon-circle-chevron-down-bold     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $circle_chevron_bold; }
-.evo-icon-circle-chevron-down-black    { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $circle_chevron_black; }
-.evo-icon-circle-chevron-down-ultra    { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
+.evo-icon-circle-chevron-down-book     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_book; }
+.evo-icon-circle-chevron-down-bold     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_bold; }
+.evo-icon-circle-chevron-down-black    { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_black; }
+.evo-icon-circle-chevron-down-ultra    { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_ultra; }
 
 
 
 /* evo-icon-chevron */
 
-//fixed
 
 $chevron_thin:          url(../img/icons/thin/chevron-thin.svg);
 $chevron_light:         url(../img/icons/light/chevron-light.svg);
@@ -245,21 +154,21 @@ $chevron_black:         url(../img/icons/black/chevron-black.svg);
 $chevron_ultra:         url(../img/icons/ultra/chevron-ultra.svg);
 
 
-.evo-icon-chevron-left-thin             { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $chevron_thin; }
-.evo-icon-chevron-left-light            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $chevron_light; }
+.evo-icon-chevron-left-thin             { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $chevron_thin; }
+.evo-icon-chevron-left-light            { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $chevron_light; }
 .evo-icon-chevron-left,
-.evo-icon-chevron-left-book             { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $chevron_book; }
-.evo-icon-chevron-left-bold             { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $chevron_bold; }
-.evo-icon-chevron-left-black            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $chevron_black; }
-.evo-icon-chevron-left-ultra            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $chevron_ultra; }
+.evo-icon-chevron-left-book             { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $chevron_book; }
+.evo-icon-chevron-left-bold             { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $chevron_bold; }
+.evo-icon-chevron-left-black            { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $chevron_black; }
+.evo-icon-chevron-left-ultra            { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $chevron_ultra; }
 
-.evo-icon-chevron-up-thin               { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $chevron_thin; }
-.evo-icon-chevron-up-light              { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $chevron_light; }
+.evo-icon-chevron-up-thin               { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $chevron_thin; }
+.evo-icon-chevron-up-light              { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $chevron_light; }
 .evo-icon-chevron-up,
-.evo-icon-chevron-up-book               { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $chevron_book; }
-.evo-icon-chevron-up-bold               { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $chevron_bold; }
-.evo-icon-chevron-up-black              { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $chevron_black; }
-.evo-icon-chevron-up-ultra              { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $chevron_ultra; }
+.evo-icon-chevron-up-book               { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $chevron_book; }
+.evo-icon-chevron-up-bold               { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $chevron_bold; }
+.evo-icon-chevron-up-black              { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $chevron_black; }
+.evo-icon-chevron-up-ultra              { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $chevron_ultra; }
 
 .evo-icon-chevron-right-thin            { @extend .evo-icon-base; background-image: $chevron_thin; }
 .evo-icon-chevron-right-light           { @extend .evo-icon-base; background-image: $chevron_light; }
@@ -270,19 +179,18 @@ $chevron_ultra:         url(../img/icons/ultra/chevron-ultra.svg);
 .evo-icon-chevron-right-black           { @extend .evo-icon-base; background-image: $chevron_black; }
 .evo-icon-chevron-right-ultra           { @extend .evo-icon-base; background-image: $chevron_ultra; }
 
-.evo-icon-chevron-down-thin             { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $chevron_thin; }
-.evo-icon-chevron-down-light            { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $chevron_light; }
+.evo-icon-chevron-down-thin             { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $chevron_thin; }
+.evo-icon-chevron-down-light            { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $chevron_light; }
 .evo-icon-chevron-down,
-.evo-icon-chevron-down-book             { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $chevron_book; }
-.evo-icon-chevron-down-bold             { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $chevron_bold; }
-.evo-icon-chevron-down-black            { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $chevron_black; }
-.evo-icon-chevron-down-ultra            { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $chevron_ultra; }
+.evo-icon-chevron-down-book             { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $chevron_book; }
+.evo-icon-chevron-down-bold             { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $chevron_bold; }
+.evo-icon-chevron-down-black            { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $chevron_black; }
+.evo-icon-chevron-down-ultra            { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $chevron_ultra; }
 
 
 
 /* evo-icon-double-chevron */
 
-//fixed
 
 $double_chevron_thin:      url(../img/icons/thin/double-chevron-thin.svg);
 $double_chevron_light:     url(../img/icons/light/double-chevron-light.svg);
@@ -292,21 +200,21 @@ $double_chevron_black:     url(../img/icons/black/double-chevron-black.svg);
 $double_chevron_ultra:     url(../img/icons/ultra/double-chevron-ultra.svg);
 
 
-.evo-icon-double-chevron-left-thin      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $double_chevron_thin; }
-.evo-icon-double-chevron-left-light     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $double_chevron_light; }
+.evo-icon-double-chevron-left-thin      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $double_chevron_thin; }
+.evo-icon-double-chevron-left-light     { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $double_chevron_light; }
 .evo-icon-double-chevron-left,
-.evo-icon-double-chevron-left-book      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $double_chevron_book; }
-.evo-icon-double-chevron-left-bold      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $double_chevron_bold; }
-.evo-icon-double-chevron-left-black     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $double_chevron_black; }
-.evo-icon-double-chevron-left-ultra     { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $double_chevron_ultra; }
+.evo-icon-double-chevron-left-book      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $double_chevron_book; }
+.evo-icon-double-chevron-left-bold      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $double_chevron_bold; }
+.evo-icon-double-chevron-left-black     { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $double_chevron_black; }
+.evo-icon-double-chevron-left-ultra     { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $double_chevron_ultra; }
 
-.evo-icon-double-chevron-up-thin        { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $double_chevron_thin; }
-.evo-icon-double-chevron-up-light       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $double_chevron_light; }
+.evo-icon-double-chevron-up-thin        { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $double_chevron_thin; }
+.evo-icon-double-chevron-up-light       { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $double_chevron_light; }
 .evo-icon-double-chevron-up,
-.evo-icon-double-chevron-up-book        { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $double_chevron_book; }
-.evo-icon-double-chevron-up-bold        { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $double_chevron_bold; }
-.evo-icon-double-chevron-up-black       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $double_chevron_black; }
-.evo-icon-double-chevron-up-ultra       { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $double_chevron_ultra; }
+.evo-icon-double-chevron-up-book        { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $double_chevron_book; }
+.evo-icon-double-chevron-up-bold        { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $double_chevron_bold; }
+.evo-icon-double-chevron-up-black       { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $double_chevron_black; }
+.evo-icon-double-chevron-up-ultra       { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $double_chevron_ultra; }
 
 .evo-icon-double-chevron-right-thin     { @extend .evo-icon-base; background-image: $double_chevron_thin; }
 .evo-icon-double-chevron-right-light    { @extend .evo-icon-base; background-image: $double_chevron_light; }
@@ -317,19 +225,18 @@ $double_chevron_ultra:     url(../img/icons/ultra/double-chevron-ultra.svg);
 .evo-icon-double-chevron-right-black    { @extend .evo-icon-base; background-image: $double_chevron_black; }
 .evo-icon-double-chevron-right-ultra    { @extend .evo-icon-base; background-image: $double_chevron_ultra; }
 
-.evo-icon-double-chevron-down-thin      { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $double_chevron_thin; }
-.evo-icon-double-chevron-down-light     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $double_chevron_light; }
+.evo-icon-double-chevron-down-thin      { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $double_chevron_thin; }
+.evo-icon-double-chevron-down-light     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $double_chevron_light; }
 .evo-icon-double-chevron-down,
-.evo-icon-double-chevron-down-book      { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $double_chevron_book; }
-.evo-icon-double-chevron-down-bold      { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $double_chevron_bold; }
-.evo-icon-double-chevron-down-black     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $double_chevron_black; }
-.evo-icon-double-chevron-down-ultra     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $double_chevron_ultra; }
+.evo-icon-double-chevron-down-book      { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $double_chevron_book; }
+.evo-icon-double-chevron-down-bold      { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $double_chevron_bold; }
+.evo-icon-double-chevron-down-black     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $double_chevron_black; }
+.evo-icon-double-chevron-down-ultra     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $double_chevron_ultra; }
 
 
 
 /* evo-icon-triangle */
 
-//fixed
 
 $triangle_thin:     url(../img/icons/thin/triangle-thin.svg);
 $triangle_light:    url(../img/icons/light/triangle-light.svg);
@@ -339,13 +246,13 @@ $triangle_black:    url(../img/icons/black/triangle-black.svg);
 $triangle_ultra:    url(../img/icons/ultra/triangle-ultra.svg);
 
 
-.evo-icon-triangle-left-thin            { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-left-light           { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-left-thin            { @extend .evo-icon-rotate-270; @extend.evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-left-light           { @extend .evo-icon-rotate-270; @extend.evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle-left,
-.evo-icon-triangle-left-book            { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-left-bold            { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-left-black           { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-left-ultra           { @extend .evo-icon-transform-270; @extend.evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-left-book            { @extend .evo-icon-rotate-270; @extend.evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-left-bold            { @extend .evo-icon-rotate-270; @extend.evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-left-black           { @extend .evo-icon-rotate-270; @extend.evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-left-ultra           { @extend .evo-icon-rotate-270; @extend.evo-icon-base; background-image: $triangle_ultra; }
 
 .evo-icon-triangle-up-thin              { @extend .evo-icon-base; background-image: $triangle_thin; }
 .evo-icon-triangle-up-light             { @extend .evo-icon-base; background-image: $triangle_light; }
@@ -355,22 +262,22 @@ $triangle_ultra:    url(../img/icons/ultra/triangle-ultra.svg);
 .evo-icon-triangle-up-black             { @extend .evo-icon-base; background-image: $triangle_black; }
 .evo-icon-triangle-up-ultra             { @extend .evo-icon-base; background-image: $triangle_ultra; }
 
-.evo-icon-triangle-right-thin           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-right-light          { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-right-thin           { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-right-light          { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle,
 .evo-icon-triangle-right,
-.evo-icon-triangle-right-book           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-right-bold           { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-right-black          { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-right-ultra          { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-right-book           { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-right-bold           { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-right-black          { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-right-ultra          { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_ultra; }
 
-.evo-icon-triangle-down-thin            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_thin; }
-.evo-icon-triangle-down-light           { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_light; }
+.evo-icon-triangle-down-thin            { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_thin; }
+.evo-icon-triangle-down-light           { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_light; }
 .evo-icon-triangle-down,
-.evo-icon-triangle-down-book            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_book; }
-.evo-icon-triangle-down-bold            { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_bold; }
-.evo-icon-triangle-down-black           { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_black; }
-.evo-icon-triangle-down-ultra           { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_ultra; }
+.evo-icon-triangle-down-book            { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_book; }
+.evo-icon-triangle-down-bold            { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_bold; }
+.evo-icon-triangle-down-black           { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_black; }
+.evo-icon-triangle-down-ultra           { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_ultra; }
 
 
 /* evo-icon-circle */
@@ -775,98 +682,4 @@ $trashcan_ultra:    url(../img/icons/ultra/trashcan-ultra.svg);
 .evo-icon-trashcan-bold             { @extend .evo-icon-base; background-image: $trashcan_bold; }
 .evo-icon-trashcan-black            { @extend .evo-icon-base; background-image: $trashcan_black; }
 .evo-icon-trashcan-ultra            { @extend .evo-icon-base; background-image: $trashcan_ultra; }
-
-
-
-
-/* ================================================================================ */
-/* -------------------------------- SOLID ICONS ---------------------------------- */
-/* ================================================================================ */
-
-
-
-/* evo-icon-triangle-solid */
-
-//fixed
-
-$triangle_solid:      url(../img/icons/solid/triangle-solid.svg);
-
-
-
-.evo-icon-triangle-solid-left      { @extend .evo-icon-transform-270; @extend .evo-icon-base; background-image: $triangle_solid; }
-
-.evo-icon-triangle-solid-up        { @extend .evo-icon-base; background-image: $triangle_solid; }
-
-
-.evo-icon-triangle-solid,
-.evo-icon-triangle-solid-right     { @extend .evo-icon-base; background-image: $triangle_solid; }
-
-
-
-.evo-icon-triangle-solid-down      { @extend .evo-icon-transform-180; @extend .evo-icon-base; background-image: $triangle_solid; }
-
-
-
-
-/* evo-icon-circle-solid */
-
-$circle_solid:     url(../img/icons/solid/circle-solid.svg);
-
-
-
-.evo-icon-circle-solid     { @extend .evo-icon-base; background-image: $circle_solid; }
-
-
-
-
-/* evo-icon-square-solid */
-
-$square_solid:     url(../img/icons/solid/square-solid.svg);
-
-
-.evo-icon-square-solid      { @extend .evo-icon-base; background-image: $square_solid; }
-
-
-
-
-/* evo-icon-circle-chevron-solid */
-
-$circle_chevron_solid:     url(../img/icons/solid/circle-chevron-solid.svg);
-
-
-
-.evo-icon-circle-chevron-solid     { @extend .evo-icon-base; background-image: $circle_chevron_solid; }
-
-
-
-/* evo-icon-circle-plus-solid */
-
-$circle_plus_solid:     url(../img/icons/solid/circle-plus-solid.svg);
-
-
-
-.evo-icon-circle-plus-solid     { @extend .evo-icon-base; background-image: $circle_plus_solid; }
-
-
-
-/* evo-icon-circle-minus-solid */
-
-$circle_minus_solid:     url(../img/icons/solid/circle-minus-solid.svg);
-
-
-
-.evo-icon-circle-minus-solid     { @extend .evo-icon-base; background-image: $circle_minus_solid; }
-
-
-
-/* evo-icon-circle-menu-solid */
-
-$circle_menu_solid:     url(../img/icons/solid/circle-menu-solid.svg);
-
-
-
-.evo-icon-circle-menu-solid     { @extend .evo-icon-base; background-image: $circle_menu_solid; }
-
-
-
 

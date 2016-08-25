@@ -799,7 +799,7 @@ $triangle_solid:      url(../img/icons/solid/triangle-solid.svg);
 
 
 .evo-icon-triangle-solid,
-.evo-icon-triangle-solid-right     { @extend .evo-icon-base; background-image: $triangle_solid; }
+.evo-icon-triangle-solid-right     { @extend .evo-icon-transform-90; @extend .evo-icon-base; background-image: $triangle_solid; }
 
 
 

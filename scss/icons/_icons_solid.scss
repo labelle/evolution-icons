@@ -1,0 +1,83 @@
+
+
+
+/* --- Solid Icons --- */
+
+
+/* evo-icon-triangle-solid */
+
+
+$triangle_solid:      url(../img/icons/solid/triangle-solid.svg);
+
+.evo-icon-triangle-solid-left      { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $triangle_solid; }
+.evo-icon-triangle-solid-up        { @extend .evo-icon-base; background-image: $triangle_solid; }
+.evo-icon-triangle-solid,
+.evo-icon-triangle-solid-right     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_solid; }
+.evo-icon-triangle-solid-down      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_solid; }
+
+
+
+/* evo-icon-circle-solid */
+
+
+$circle_solid:     url(../img/icons/solid/circle-solid.svg);
+
+.evo-icon-circle-solid     { @extend .evo-icon-base; background-image: $circle_solid; }
+
+
+
+
+/* evo-icon-square-solid */
+
+
+$square_solid:     url(../img/icons/solid/square-solid.svg);
+
+.evo-icon-square-solid      { @extend .evo-icon-base; background-image: $square_solid; }
+
+
+
+
+/* evo-icon-circle-chevron-solid */
+
+
+$circle_chevron_solid:     url(../img/icons/solid/circle-chevron-solid.svg);
+
+.evo-icon-circle-chevron-solid-left      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_solid; }
+.evo-icon-circle-chevron-solid-up        { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_solid; }
+.evo-icon-circle-chevron-solid,
+.evo-icon-circle-chevron-solid-right     { @extend .evo-icon-base; background-image: $circle_chevron_solid; }
+.evo-icon-circle-chevron-solid-down      { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_solid; }
+
+
+
+
+/* evo-icon-circle-plus-solid */
+
+
+$circle_plus_solid:     url(../img/icons/solid/circle-plus-solid.svg);
+
+.evo-icon-circle-plus-solid     { @extend .evo-icon-base; background-image: $circle_plus_solid; }
+
+
+
+
+/* evo-icon-circle-minus-solid */
+
+
+$circle_minus_solid:     url(../img/icons/solid/circle-minus-solid.svg);
+
+.evo-icon-circle-minus-solid     { @extend .evo-icon-base; background-image: $circle_minus_solid; }
+
+
+
+
+/* evo-icon-circle-menu-solid */
+
+
+$circle_menu_solid:     url(../img/icons/solid/circle-menu-solid.svg);
+
+.evo-icon-circle-menu-solid     { @extend .evo-icon-base; background-image: $circle_menu_solid; }
+
+
+
+
