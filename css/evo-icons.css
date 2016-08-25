@@ -140,7 +140,8 @@
 .evo-icon-chevron-down-book, .evo-icon-chevron-down-bold, .evo-icon-chevron-down-black, .evo-icon-chevron-down-ultra, .evo-icon-double-chevron-down-thin, .evo-icon-double-chevron-down-light, .evo-icon-double-chevron-down,
 .evo-icon-double-chevron-down-book, .evo-icon-double-chevron-down-bold, .evo-icon-double-chevron-down-black, .evo-icon-double-chevron-down-ultra, .evo-icon-triangle-right-thin, .evo-icon-triangle-right-light, .evo-icon-triangle,
 .evo-icon-triangle-right,
-.evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-right-black, .evo-icon-triangle-right-ultra {
+.evo-icon-triangle-right-book, .evo-icon-triangle-right-bold, .evo-icon-triangle-right-black, .evo-icon-triangle-right-ultra, .evo-icon-triangle-solid,
+.evo-icon-triangle-solid-right {
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
