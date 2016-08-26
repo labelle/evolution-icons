@@ -1,0 +1,27 @@
+/* ================================================================================ */
+/*                                  EVOLUTION ICONS                                 */
+/* ================================================================================ */
+
+/* #{$version_text} #{$version} #{$version_url} */
+
+
+
+/* --- Icon Base Structure --- */
+
+
+// Base structure common to all icons
+
+.#{$pre}icon-base {
+    display: inline-block;
+    line-height: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // cursor: pointer;
+}
+
+// Turn off border on linked images
+// Note: should this go in evo-normalize?
+
+img {
+	border-style: none;
+}

@@ -13,7 +13,7 @@ To help match your website's look and feel, these SVG icons come in 30 sizes and
 ## Download
 
 ```bash
-https://github.com/labelle/evolution-icons/tree/source-code
+https://github.com/labelle/evolution-icons/tree/master
 ```
 
 ## 1. Install Gulp
