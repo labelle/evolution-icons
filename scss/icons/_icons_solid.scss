@@ -9,11 +9,11 @@
 
 $triangle_solid:      url(../img/icons/solid/triangle-solid.svg);
 
-.evo-icon-triangle-solid-left      { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $triangle_solid; }
-.evo-icon-triangle-solid-up        { @extend .evo-icon-base; background-image: $triangle_solid; }
-.evo-icon-triangle-solid,
-.evo-icon-triangle-solid-right     { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $triangle_solid; }
-.evo-icon-triangle-solid-down      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $triangle_solid; }
+.#{$pre}icon-triangle-solid-left      { @extend .#{$pre}icon-rotate-270; @extend .#{$pre}icon-base; background-image: $triangle_solid; }
+.#{$pre}icon-triangle-solid-up        { @extend .#{$pre}icon-base; background-image: $triangle_solid; }
+.#{$pre}icon-triangle-solid,
+.#{$pre}icon-triangle-solid-right     { @extend .#{$pre}icon-rotate-90; @extend .#{$pre}icon-base; background-image: $triangle_solid; }
+.#{$pre}icon-triangle-solid-down      { @extend .#{$pre}icon-rotate-180; @extend .#{$pre}icon-base; background-image: $triangle_solid; }
 
 
 
@@ -22,7 +22,7 @@ $triangle_solid:      url(../img/icons/solid/triangle-solid.svg);
 
 $circle_solid:     url(../img/icons/solid/circle-solid.svg);
 
-.evo-icon-circle-solid     { @extend .evo-icon-base; background-image: $circle_solid; }
+.#{$pre}icon-circle-solid     { @extend .#{$pre}icon-base; background-image: $circle_solid; }
 
 
 
@@ -32,7 +32,7 @@ $circle_solid:     url(../img/icons/solid/circle-solid.svg);
 
 $square_solid:     url(../img/icons/solid/square-solid.svg);
 
-.evo-icon-square-solid      { @extend .evo-icon-base; background-image: $square_solid; }
+.#{$pre}icon-square-solid      { @extend .#{$pre}icon-base; background-image: $square_solid; }
 
 
 
@@ -42,11 +42,11 @@ $square_solid:     url(../img/icons/solid/square-solid.svg);
 
 $circle_chevron_solid:     url(../img/icons/solid/circle-chevron-solid.svg);
 
-.evo-icon-circle-chevron-solid-left      { @extend .evo-icon-rotate-180; @extend .evo-icon-base; background-image: $circle_chevron_solid; }
-.evo-icon-circle-chevron-solid-up        { @extend .evo-icon-rotate-270; @extend .evo-icon-base; background-image: $circle_chevron_solid; }
-.evo-icon-circle-chevron-solid,
-.evo-icon-circle-chevron-solid-right     { @extend .evo-icon-base; background-image: $circle_chevron_solid; }
-.evo-icon-circle-chevron-solid-down      { @extend .evo-icon-rotate-90; @extend .evo-icon-base; background-image: $circle_chevron_solid; }
+.#{$pre}icon-circle-chevron-solid-left      { @extend .#{$pre}icon-rotate-180; @extend .#{$pre}icon-base; background-image: $circle_chevron_solid; }
+.#{$pre}icon-circle-chevron-solid-up        { @extend .#{$pre}icon-rotate-270; @extend .#{$pre}icon-base; background-image: $circle_chevron_solid; }
+.#{$pre}icon-circle-chevron-solid,
+.#{$pre}icon-circle-chevron-solid-right     { @extend .#{$pre}icon-base; background-image: $circle_chevron_solid; }
+.#{$pre}icon-circle-chevron-solid-down      { @extend .#{$pre}icon-rotate-90; @extend .#{$pre}icon-base; background-image: $circle_chevron_solid; }
 
 
 
@@ -56,7 +56,7 @@ $circle_chevron_solid:     url(../img/icons/solid/circle-chevron-solid.svg);
 
 $circle_plus_solid:     url(../img/icons/solid/circle-plus-solid.svg);
 
-.evo-icon-circle-plus-solid     { @extend .evo-icon-base; background-image: $circle_plus_solid; }
+.#{$pre}icon-circle-plus-solid     { @extend .#{$pre}icon-base; background-image: $circle_plus_solid; }
 
 
 
@@ -66,7 +66,7 @@ $circle_plus_solid:     url(../img/icons/solid/circle-plus-solid.svg);
 
 $circle_minus_solid:     url(../img/icons/solid/circle-minus-solid.svg);
 
-.evo-icon-circle-minus-solid     { @extend .evo-icon-base; background-image: $circle_minus_solid; }
+.#{$pre}icon-circle-minus-solid     { @extend .#{$pre}icon-base; background-image: $circle_minus_solid; }
 
 
 
@@ -76,7 +76,7 @@ $circle_minus_solid:     url(../img/icons/solid/circle-minus-solid.svg);
 
 $circle_menu_solid:     url(../img/icons/solid/circle-menu-solid.svg);
 
-.evo-icon-circle-menu-solid     { @extend .evo-icon-base; background-image: $circle_menu_solid; }
+.#{$pre}icon-circle-menu-solid     { @extend .#{$pre}icon-base; background-image: $circle_menu_solid; }
 
 
 
