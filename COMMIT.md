@@ -1,6 +1,7 @@
 # Commit Methodology
 Follow this process when committing changes to the evolution-icons repository.
 
+Note: Do not commit to the extras branch.
 
 ## Commit Order
 
