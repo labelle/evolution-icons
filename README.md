@@ -6,29 +6,14 @@ To help match your website's look and feel, these SVG icons come in 30 sizes and
 
 * SVG Icons
 * Compiled and minified CSS
-* SASS
-* Gulp including Browser-Sync
-* HTML Template
+
 
 ## Download
 
 ```bash
-https://github.com/labelle/evolution-icons/tree/master
+https://github.com/labelle/evolution-icons/tree/gh-pages
 ```
 
-## 1. Install Gulp
-
-
-```bash
-npm install gulp
-```
-
-
-## 2. Run Gulp
-```bash
-gulp
-```
-- all SCSS/HTML will be watched for changes and injected into browser thanks to BrowserSync
 
 
 ## Contact
